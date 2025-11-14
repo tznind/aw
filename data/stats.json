@@ -1,22 +1,22 @@
 [
   {
-    "id": "mettle",
-    "title": "METTLE"
+    "id": "aggro",
+    "title": "AGGRO"
   },
   {
-    "id": "physique",
-    "title": "PHYSIQUE"
+    "id": "cool",
+    "title": "COOL"
   },
   {
-    "id": "influence",
-    "title": "INFLUENCE"
+    "id": "hard",
+    "title": "HARD"
   },
   {
-    "id": "expertise",
-    "title": "EXPERTISE"
+    "id": "sharp",
+    "title": "SHARP"
   },
   {
-    "id": "conviction",
-    "title": "CONVICTION"
+    "id": "weird",
+    "title": "WEIRD"
   }
 ]

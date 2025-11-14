@@ -1,0 +1,13 @@
+[
+  {
+    "id": "xearther001",
+    "title": "Placeholder Move",
+    "description": "This is a placeholder move that does nothing.",
+    "outcomes": [
+      {
+        "range": "",
+        "text": "This move does nothing yet."
+      }
+    ]
+  }
+]
