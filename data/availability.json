@@ -1,19 +1,19 @@
 {
-  "THE VOLATILE": {
+  "The Volatile": {
     "_movesFile": "data/moves/the-volatile.json",
-    "description": "Unpredictable and explosive.",
+    "description": "When they set fire to the world, they burned away every nuance, every subtlety in creation. They reduced the world to the flammable and the flame.\n\nWhen you play the Volatile, you always have violence at your ready disposal.",
     "cards": [],
     "volatile001": true
   },
-  "THE WEAPONIZED": {
+  "The Weaponized": {
     "_movesFile": "data/moves/the-weaponized.json",
-    "description": "Built for combat and destruction.",
+    "description": "Sift through the ashes of the world and you find burnt records, broken technology, opaque data, the leavings of an age now gone forever. But the world is still burning. Sometimes you find a hot coal, banked in the ashes. Breathe on it and set it ablaze. When you play the Weaponized, you’re a combat cyborg of a past time, trying to make your way now in a transformed world.",
     "cards": [],
     "weaponized001": true
   },
-  "THE X-EARTHER": {
+  "The X-Earther": {
     "_movesFile": "data/moves/the-x-earther.json",
-    "description": "From beyond known space.",
+    "description": "The world was burning. Cities spasmed,shattered, and fell. Wind, fire, plague, and famine lashed the earth. It’s inconceivable: billions died. There were a few who could take shelter at a remove above the burning earth. From there, they could only watch, unconceiving. When you play the X-Earther, you’re a person from an orbital station, trying to maintain your tenuous connection with a hostile earth.",
     "cards": [],
     "xearther001": true
   },
