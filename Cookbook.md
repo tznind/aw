@@ -5,6 +5,11 @@ This comprehensive guide covers creating roles, moves, and cards for the Rogue T
 ## Table of Contents
 - [Help Buttons](#help-buttons)
 - [Customizing Stats](#customizing-stats)
+<<<<<<< HEAD
+=======
+  - [Stat Track Counters](#stat-track-counters)
+  - [Clock Stats](#clock-stats)
+>>>>>>> upstream/main
 - [Creating Roles](#creating-roles)
 - [Basic Moves](#basic-moves)
 - [Advanced Move Types](#advanced-move-types)
@@ -65,6 +70,121 @@ Stats are defined in [stats.json](./data/stats.json). Each stat has an `id` (use
 ]
 ```
 
+<<<<<<< HEAD
+=======
+### Stat Track Counters
+
+**When to use:** For stats that have associated resources that need tracking (like Armor, Wounds, Focus, etc.).
+
+Stats can include track counters that appear below the stat hexagon. These work identically to move track counters and support multiple shapes.
+
+```json
+[
+  {
+    "id": "mettle",
+    "title": "METTLE",
+    "tracks": [
+      {
+        "name": "Armor",
+        "max": 3,
+        "shape": "hexagon"
+      }
+    ]
+  },
+  {
+    "id": "physique",
+    "title": "PHYSIQUE",
+    "tracks": [
+      {
+        "name": "Wounds",
+        "max": 6,
+        "shape": "circle"
+      }
+    ]
+  }
+]
+```
+
+**Key Features:**
+- `tracks` array supports multiple counters per stat
+- `shape` options: "square" (default), "circle", "triangle", "hexagon"
+- `name` is optional - omit it to show just the shapes without a label
+- `max` defaults to 5 if not specified
+- Click shapes to increment/decrement current value
+- Values persist in URL automatically
+- Appears centered below the stat title
+
+**Example without labels:**
+```json
+{
+  "id": "expertise",
+  "title": "EXPERTISE",
+  "tracks": [
+    {
+      "max": 4,
+      "shape": "circle"
+    }
+  ]
+}
+```
+
+### Clock Stats
+
+**When to use:** For stats that track progress or countdowns using visual clock faces (like prophecies, doom tracks, project completion, etc.).
+
+Clocks display SVG images that advance when clicked, cycling through different visual states. They're perfect for tracking progress that doesn't fit a simple number.
+
+```json
+{
+  "id": "prophecy",
+  "title": "PROPHECY",
+  "shape": "clock",
+  "clock": {
+    "type": "quarter_twelfths",
+    "faces": 6
+  },
+  "tracks": [
+    {
+      "name": "Signs",
+      "max": 3,
+      "shape": "circle"
+    }
+  ]
+}
+```
+
+**Key Features:**
+- `shape: "clock"` designates this as a clock stat
+- `clock.type` specifies the folder name in `clocks/` containing the SVG images
+- `clock.faces` defines how many faces (0 through N) the clock has
+- Click the clock to advance it (cycles back to 0 after the last face)
+- `title` is optional - can be omitted for clocks without labels
+- Can still include `tracks` for additional counters below the clock
+- Values persist in URL automatically (e.g., `prophecy-value=4`)
+- Fully keyboard accessible (Tab to focus, Space/Enter to advance)
+- Responsive sizing on mobile devices
+
+**Creating Custom Clock Types:**
+
+1. Create a folder in `clocks/` (e.g., `clocks/my-clock-type/`)
+2. Add numbered SVG files: `0.svg`, `1.svg`, `2.svg`, etc.
+3. Reference it in stats.json:
+
+```json
+{
+  "id": "doom",
+  "title": "DOOM",
+  "shape": "clock",
+  "clock": {
+    "type": "my-clock-type",
+    "faces": 4
+  }
+}
+```
+
+The clock will load `clocks/my-clock-type/0.svg` through `clocks/my-clock-type/4.svg`.
+
+>>>>>>> upstream/main
 ---
 
 ## Creating Roles
