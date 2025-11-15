@@ -5,11 +5,8 @@ This comprehensive guide covers creating roles, moves, and cards for the Rogue T
 ## Table of Contents
 - [Help Buttons](#help-buttons)
 - [Customizing Stats](#customizing-stats)
-<<<<<<< HEAD
-=======
   - [Stat Track Counters](#stat-track-counters)
   - [Clock Stats](#clock-stats)
->>>>>>> upstream/main
 - [Creating Roles](#creating-roles)
 - [Basic Moves](#basic-moves)
 - [Advanced Move Types](#advanced-move-types)
@@ -70,8 +67,6 @@ Stats are defined in [stats.json](./data/stats.json). Each stat has an `id` (use
 ]
 ```
 
-<<<<<<< HEAD
-=======
 ### Stat Track Counters
 
 **When to use:** For stats that have associated resources that need tracking (like Armor, Wounds, Focus, etc.).
@@ -184,7 +179,6 @@ Clocks display SVG images that advance when clicked, cycling through different v
 
 The clock will load `clocks/my-clock-type/0.svg` through `clocks/my-clock-type/4.svg`.
 
->>>>>>> upstream/main
 ---
 
 ## Creating Roles

@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> upstream/main
 // Render hex stats inside a container
 window.renderStats = function(containerSelector, hexStats) {
   const container = document.querySelector(containerSelector);
@@ -17,17 +13,11 @@ window.renderStats = function(containerSelector, hexStats) {
 
   const hexRow = document.createElement("div");
   hexRow.className = "hex-row";
-<<<<<<< HEAD
-
-  hexStats.forEach(stat => {
-    if (!stat || !stat.id || !stat.title) {
-=======
   
   const urlParams = new URLSearchParams(location.search);
 
   hexStats.forEach(stat => {
     if (!stat) {
->>>>>>> upstream/main
       console.warn('Invalid stat data:', stat);
       return;
     }
@@ -35,27 +25,6 @@ window.renderStats = function(containerSelector, hexStats) {
     const hexContainer = document.createElement("div");
     hexContainer.className = "hex-container";
 
-<<<<<<< HEAD
-    const wrapper = document.createElement("div");
-    wrapper.className = "hex-input-wrapper";
-
-    const input = document.createElement("input");
-    input.type = "text";
-    input.id = stat.id;
-    input.name = stat.id;
-    input.placeholder = stat.title;
-    input.setAttribute('aria-label', stat.title);
-    
-    // Note: persistence.js will handle loading/saving values
-
-    wrapper.appendChild(input);
-    hexContainer.appendChild(wrapper);
-
-    const title = document.createElement("div");
-    title.className = "hex-title";
-    title.textContent = stat.title;
-    hexContainer.appendChild(title);
-=======
     // Apply shape class if specified (default to hexagon)
     const shape = stat.shape || "hexagon";
 
@@ -132,17 +101,12 @@ window.renderStats = function(containerSelector, hexStats) {
         hexContainer.appendChild(trackDisplay);
       }
     }
->>>>>>> upstream/main
 
     hexRow.appendChild(hexContainer);
   });
 
   container.appendChild(hexRow);
 
-<<<<<<< HEAD
-  return hexRow;
-};
-=======
   // Initialize any clocks that were just added
   if (window.Clock) {
     const newClocks = hexRow.querySelectorAll('.clock');
@@ -320,4 +284,3 @@ function updateStatTrackValueInURL(trackId, value) {
   const newUrl = params.toString() ? '?' + params.toString() : location.pathname;
   history.replaceState({}, '', newUrl);
 }
->>>>>>> upstream/main

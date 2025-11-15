@@ -1,22 +1,78 @@
 [
   {
     "id": "aggro",
-    "title": "AGGRO"
+    "title": "AGGRO",
+    "shape": "square",
+    "tracks": [
+      {
+        "max": 4,
+        "shape": "circle",
+        "endLabel":"»Xp"
+      }
+    ]
   },
   {
     "id": "cool",
-    "title": "COOL"
+    "title": "COOL",
+    "shape": "square",
+    "tracks": [
+      {
+        "max": 4,
+        "shape": "circle",
+        "endLabel":"»Xp"
+      }
+    ]
   },
   {
     "id": "hard",
-    "title": "HARD"
+    "title": "HARD",
+    "shape": "square",
+    "tracks": [
+      {
+        "max": 4,
+        "shape": "circle",
+        "endLabel":"»Xp"
+      }
+    ]
   },
   {
     "id": "sharp",
-    "title": "SHARP"
+    "title": "SHARP",
+    "shape": "square",
+    "tracks": [
+      {
+        "max": 4,
+        "shape": "circle",
+        "endLabel":"»Xp"
+      }
+    ]
   },
   {
     "id": "weird",
-    "title": "WEIRD"
+    "title": "WEIRD",
+    "shape": "square",
+    "tracks": [
+      {
+        "max": 4,
+        "shape": "circle",
+        "endLabel":"»Xp"
+      }
+    ]
+  },
+  {
+    "id":"harm",
+    "title":"HARM",
+    "shape":"clock",
+    "clock": {
+      "type": "quarter_twelfths",
+      "faces": 6
+    },
+    "tracks":[
+      {
+        "max":1,
+        "shape":"circle",
+        "endLabel":"Stabilized"
+      }
+    ]
   }
 ]

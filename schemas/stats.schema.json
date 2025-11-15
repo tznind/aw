@@ -16,8 +16,6 @@
         "type": "string",
         "description": "Display title of the stat (usually uppercase)"
       },
-<<<<<<< HEAD
-=======
       "shape": {
         "type": "string",
         "description": "Visual shape for the stat input container",
@@ -43,7 +41,6 @@
         "required": ["type", "faces"],
         "additionalProperties": false
       },
->>>>>>> upstream/main
       "max": {
         "type": "integer",
         "description": "Maximum value for this stat",
@@ -57,11 +54,6 @@
         "minimum": -3,
         "maximum": 0,
         "default": -2
-<<<<<<< HEAD
-      }
-    },
-    "required": ["id", "title"],
-=======
       },
       "tracks": {
         "type": "array",
@@ -97,7 +89,6 @@
       }
     },
     "required": ["id"],
->>>>>>> upstream/main
     "additionalProperties": false
   }
 }

@@ -418,8 +418,6 @@ button:focus {
   gap: 10px;
 }
 
-<<<<<<< HEAD
-=======
 /* Push square containers down to align with hexagons */
 .hex-container:has(.shape-square) {
   margin-top: 20px;
@@ -430,7 +428,6 @@ button:focus {
   margin-top: 15px;
 }
 
->>>>>>> upstream/main
 .hex-input-wrapper {
   width: 120px;
   aspect-ratio: 1;
@@ -449,8 +446,6 @@ button:focus {
   background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><polygon points="50,1 95,25 95,75 50,99 5,75 5,25" stroke="%23007bff" stroke-width="2" fill="white"/></svg>') no-repeat center/contain;
 }
 
-<<<<<<< HEAD
-=======
 /* Square shape variant */
 .hex-input-wrapper.shape-square {
   width: 100px;
@@ -517,7 +512,6 @@ button:focus {
   border-color: #007bff;
 }
 
->>>>>>> upstream/main
 .hex-input-wrapper input {
   width: 100%;
   height: 100%;
@@ -543,8 +537,6 @@ button:focus {
   word-wrap: break-word;
 }
 
-<<<<<<< HEAD
-=======
 /* Less restrictive placeholder for square */
 .hex-input-wrapper.shape-square input::placeholder {
   font-size: clamp(7px, 1.2vw, 9px);
@@ -552,7 +544,6 @@ button:focus {
   letter-spacing: 0.2px;
 }
 
->>>>>>> upstream/main
 /* Remove focus outline specifically for hex inputs */
 .hex-input-wrapper input:focus {
   outline: none;
@@ -569,8 +560,6 @@ button:focus {
   letter-spacing: 0.5px;
 }
 
-<<<<<<< HEAD
-=======
 /* === CLOCK STYLES === */
 .stat-clock {
   width: 130px;
@@ -626,7 +615,6 @@ button:focus {
 /* Reuse track-shapes and track-shape styles from move tracks */
 /* The .track-shapes and .track-shape classes are already defined below */
 
->>>>>>> upstream/main
 .hex-row {
   display: flex;
   justify-content: center;
@@ -1384,8 +1372,6 @@ hr {
     width: 100px;
   }
   
-<<<<<<< HEAD
-=======
   .hex-input-wrapper.shape-square {
     width: 83px;
     height: 83px;
@@ -1404,7 +1390,6 @@ hr {
     height: 110px;
   }
   
->>>>>>> upstream/main
   .move {
     padding: 15px;
   }
@@ -1474,8 +1459,6 @@ hr {
     width: 85px;
   }
   
-<<<<<<< HEAD
-=======
   .hex-input-wrapper.shape-square {
     width: 70px;
     height: 70px;
@@ -1489,19 +1472,15 @@ hr {
     margin-top: 10px;
   }
   
->>>>>>> upstream/main
   .hex-title {
     font-size: 11px;
   }
   
-<<<<<<< HEAD
-=======
   .stat-clock {
     width: 90px;
     height: 90px;
   }
   
->>>>>>> upstream/main
   /* Reduce various section margins */
   .card-section {
     margin-bottom: 15px;
