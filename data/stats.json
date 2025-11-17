@@ -64,8 +64,8 @@
     "title":"HARM",
     "shape":"clock",
     "clock": {
-      "type": "twelfths",
-      "faces": 12
+      "type": "quarter_twelfths",
+      "faces": 6
     },
     "tracks":[
       {
