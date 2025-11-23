@@ -331,6 +331,34 @@
             });
         }
 
+        // Stats help button
+        const statsHelpButton = document.getElementById('stats-help-button');
+        if (statsHelpButton) {
+            statsHelpButton.addEventListener('click', function() {
+                const selectedRoles = window.Utils.getCurrentRoles();
+                if (selectedRoles.length === 0) {
+                    showHelpModal('Stat Distributions', 'Please select a role first.');
+                    return;
+                }
+                
+                // Get stat distributions for the first selected role
+                const roleName = selectedRoles[0];
+                const roleData = window.availableMap[roleName];
+                
+                if (!roleData || !roleData.statDistributions) {
+                    showHelpModal('Stat Distributions', 'No stat distributions available for this role.');
+                    return;
+                }
+                
+                // Format distributions as a list
+                const distributionsList = roleData.statDistributions
+                    .map(dist => `• ${dist}`)
+                    .join('\n');
+                
+                showHelpModal('Stat Distributions', `**Choose a set:**\n\n${distributionsList}`);
+            });
+        }
+        
         // Generic help button handler - automatically handles any .help-icon with data attributes
         // Usage: <button class="help-icon" data-help-title="Title" data-help-text="Description">?</button>
         document.addEventListener('click', function(e) {
