@@ -60,7 +60,7 @@
   {
     "id": "a5",
     "title": "Refuge",
-    "description": "You gain a refuge (you detail).",
+    "description": "You gain a refuge.",
     "details": true
   },
   {
@@ -91,8 +91,8 @@
   },
   {
     "id": "a7",
-    "title": "Supplier†",
-    "description": "You have a supplier, an NPC who somehow has a line on medical supplies. At the beginning of the session, restore 1 of your angel kit's spent stock. Tell the MC to create this person as a reliable, your choice of a confidante, a friend, a lover, or a right hand.",
+    "title": "Supplier (Requires Angel Kit)",
+    "description": "You have a supplier, an NPC who somehow has a line on medical supplies. At the beginning of the session, restore 1 of your angel kit's spent stock. Tell the MC to create this person as a **reliable**, your choice of:",
     "pickOne": [
       "A confidante",
       "A friend",
