@@ -1,13 +1,103 @@
 [
   {
     "id": "a1",
-    "title": "",
-    "description": "",
+    "title": "Ambulance",
+    "description": "You gain an ambulance, a cagey ride.",
     "outcomes": [
       {
         "range": "",
-        "text": ""
+        "text": "Frame: truck, massive=3, 2-armor. Impression: flashing, wailing, armored, impatient. Impulse: protect what it carries. Defiance: pick its own path."
+      },
+      {
+        "range": "",
+        "text": "You also get **behind the wheel.**"
       }
+    ]
+  },
+  {
+    "id": "a2",
+    "title": "Guardian Angel",
+    "description": "When you kneel over someone who has fallen, you and they both get +2armor."
+  },
+  {
+    "id": "a3",
+    "title": "Healing Touch (+Weird)",
+    "description": "Put your hands on someone injured and roll+Weird.",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "Choose 3:",
+        "bullets": [
+          "Your touch takes their pain away.",
+          "Your touch heals their tissue damage and stops their bleeding.",
+          "Your touch knits their bones back together.",
+          "Your touch removes their disease or purges their infection."
+        ]
+      },
+      {
+        "range": "7–9",
+        "text": "Choose 2 …and ask the MC whether they heal 1-harm or 2-harm.",
+        "bullets": []
+      },
+      {
+        "range": "≤ 6",
+        "text": "You take their pain away, but they heal 0-harm."
+      }
+    ]
+  },
+  {
+    "id": "a4",
+    "title": "Morbid Curiosity (Highly Interruptible)",
+    "outcomes": [{
+      "range": "",
+      "text": "When someone is unconscious in your care, you can use them as a psychic antenna for **augury**."
+    },
+    {
+      "range": "",
+      "text": "When someone dies in your care, you can use their body as a psychic antenna for **augury**."
+    }]
+  },
+  {
+    "id": "a5",
+    "title": "Refuge",
+    "description": "You gain a refuge (you detail).",
+    "details": true
+  },
+  {
+    "id": "a6",
+    "title": "Sixth Sense (+Sharp)",
+    "description": "At the beginning of the session, roll+Sharp.",
+    "tracks": [
+      {
+        "name": "Hold",
+        "max": 3,
+        "shape": "circle"
+      }
+    ],
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "Hold 3. Any time during the session, spend 1 of your hold to ask the MC what your sixth sense is telling you. The MC should answer with a warning, an assurance, a clue, or an insight of some kind."
+      },
+      {
+        "range": "7–9",
+        "text": "Hold 1."
+      },
+      {
+        "range": "≤ 6",
+        "text": "Your sixth sense makes you paranoid and mistrustful. Choose another player's character and take -1 to your Hx with them."
+      }
+    ]
+  },
+  {
+    "id": "a7",
+    "title": "Supplier (Requires Angel Kit)",
+    "description": "You have a supplier, an NPC who somehow has a line on medical supplies. At the beginning of the session, restore 1 of your angel kit's spent stock. Tell the MC to create this person as a reliable, your choice of a confidante, a friend, a lover, or a right hand.",
+    "pickOne": [
+      "A confidante",
+      "A friend",
+      "A lover",
+      "A right hand"
     ]
   }
 ]

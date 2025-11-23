@@ -1,9 +1,15 @@
 {
   "The Angel": {
     "_movesFile": "data/moves/the-angel.json",
-    "description": "**When you're lying in the ashes,** burned and smashed and spilt, what do you hope for? More time, revenge, restitution, to finish what you started, to undo what you did, to do what you didn't? A second chance? Friend, here it is.\n\n*When you play the Angel, you represent life and hope in the ashes of the world. You can help who needs it most*.",
+    "description": "When you're lying in the ashes, burned and smashed and spilt, what do you hope for? More time, revenge, restitution, to finish what you started, to undo what you did, to do what you didn't? A second chance? Friend, here it is.\n\nWhen you play the Angel, you represent life and hope in the ashes of the world. You can help who needs it most.",
     "cards": [],
-    "a1": true
+    "a1": false,
+    "a2": false,
+    "a3": false,
+    "a4": false,
+    "a5": false,
+    "a6": false,
+    "a7": false
   },
   "The Brain-picker": {
     "_movesFile": "data/moves/the-brain-picker.json",
