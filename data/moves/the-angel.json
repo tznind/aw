@@ -102,6 +102,33 @@
   },
   {
     "id": "a8",
+    "title": "Angel Kit",
+    "category": "Kit",
+    "description": "Before you begin play, mark 20 of the above stock as *spent*.\n\n**To use your angel kit,** spend it's stock: choose 0-3 suitable supplies and mark them *spent*.  Roll + Stock spent.",
+    "tracks": [
+      {"name": "Scissors", "max": 1, "shape": "circle"},
+      {"name": "Rags", "max": 3, "shape": "circle"},
+      {"name": "Tape", "max": 3, "shape": "circle"},
+      {"name": "Clamps", "max": 3, "shape": "circle"},
+      {"name": "Alcohol", "max": 3, "shape": "circle"},
+      {"name": "Wipes", "max": 3, "shape": "circle"},
+      {"name": "Gloves", "max": 3, "shape": "circle"},
+      {"name": "Saline", "max": 3, "shape": "circle"},
+      {"name": "Biostabs", "max": 3, "shape": "circle"},
+      {"name": "Chemostabs", "max": 3, "shape": "circle"},
+      {"name": "Chem chill coils", "max": 3, "shape": "circle"},
+      {"name": "Injectable tourniquets", "max": 3, "shape": "circle"},
+      {"name": "Injectable bloodslower", "max": 3, "shape": "circle"},
+      {"name": "Chem heat packets", "max": 3, "shape": "circle"},
+      {"name": "Needles & sutures", "max": 3, "shape": "circle"},
+      {"name": "Bonepins & site injectors", "max": 3, "shape": "circle"},
+      {"name": "Heart jumpshock patches", "max": 3, "shape": "circle"},
+      {"name": "Narcostabs (chillstabs)", "max": 3, "shape": "circle"},
+      {"name": "Instant blood replacer packets (coffee reddener)", "max": 3, "shape": "circle"}
+    ]
+  },
+  {
+    "id": "a9",
     "title": "Mark 6 XP",
     "category": "Improvement",
     "tracks": [
