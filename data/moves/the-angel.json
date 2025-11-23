@@ -128,6 +128,73 @@
     ]
   },
   {
+    "id": "a10",
+    "title": "In the field (+Stock Spent)",
+    "category": "Kit",
+    "hideCheckbox": true,
+    "description": "When someone's suffered harm, it doesn't matter how much, even if their life is untenable, you might be able to help. Roll+stock spent.",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "Choose 1:",
+        "bullets": [
+          "You stabilize them and put them under. You can transport them and take them into your care.",
+          "You get them back on their feet. You haven't helped them, just put them back into the action."
+        ]
+      },
+      {
+        "range": "7–9",
+        "text": "You can't get them back on their feet, but you can stabilize them, as above."
+      },
+      {
+        "range": "≤ 6",
+        "text": "There's not much you can do. Choose 1:",
+        "bullets": [
+          "You ready them for transport, but you can't stabilize them and they suffer 1-harm more.",
+          "You do your best for them, break it to them compassionately, and stay with them.",
+          "You walk away."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a11",
+    "title": "In your care (+Stock Spent)",
+    "category": "Kit",
+    "description": "To treat a PC who's past 6:00, or an NPC who's suffered more than 1-harm, roll+stock spent. On any hit, you stabilize them (if they weren't) and heal them — to 6:00 for a PC, outright for an NPC.\n\nHowever:",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "Choose 2:",
+        "bullets": [
+          "They fight you and you have to chillstab them to hell. You choose: how long will they be out?",
+          "The pain and drugs make them babble the truth to you. Ask their player what they spill.",
+          "They respond very well to treatment. They heal to 3:00 instead of to 6:00.",
+          "They don't need as much care as you expected. Restore 1 spent stock, if you spent any.",
+          "They're at your complete mercy. What do you do to them?",
+          "The course of their treatment and recovery teaches you something about your craft. Mark XP.",
+          "They owe you for your time, attention, and supplies, and you're going to hold it over them."
+        ]
+      },
+      {
+        "range": "7–9",
+        "text": "Choose 1:",
+        "bullets": []
+      },
+      {
+        "range": "≤ 6",
+        "text": "No matter what you hoped to do for them, they take 1-harm instead."
+      }
+    ]
+  },
+  {
+    "id": "a12",
+    "title": "Restock your angel kit",
+    "category": "Kit",
+    "hideCheckbox": true,
+    "description": " you must restock it supply by supply: by **dropping jingle** in a marketplace, if the supply you need is available there; when you **live day to day**, if the supply you need is free or easy for you to come by; or by scavenging, scrounging, or looting, at the MC's discretion."
+  },
+  {
     "id": "a9",
     "title": "Mark 6 XP",
     "category": "Improvement",
