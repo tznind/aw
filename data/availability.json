@@ -20,7 +20,8 @@
     "a9": false,
     "a10": true,
     "a11": true,
-    "a12": true
+    "a12": true,
+    "a13": true
   },
   "The Brain-picker": {
     "_movesFile": "data/moves/the-brain-picker.json",
