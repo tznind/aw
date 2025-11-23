@@ -1,0 +1,11 @@
+{
+  "id": "when-life-becomes-untenable",
+  "title": "When Life Becomes Untenable",
+  "path": "data/cards/when-life-becomes-untenable",
+  "description": "Death and rebirth options",
+  "version": "1.0.0",
+  "author": "AW System",
+  "files": {
+    "html": "card.html"
+  }
+}

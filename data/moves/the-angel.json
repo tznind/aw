@@ -91,13 +91,31 @@
   },
   {
     "id": "a7",
-    "title": "Supplier (Requires Angel Kit)",
+    "title": "Supplier†",
     "description": "You have a supplier, an NPC who somehow has a line on medical supplies. At the beginning of the session, restore 1 of your angel kit's spent stock. Tell the MC to create this person as a reliable, your choice of a confidante, a friend, a lover, or a right hand.",
     "pickOne": [
       "A confidante",
       "A friend",
       "A lover",
       "A right hand"
+    ]
+  },
+  {
+    "id": "a8",
+    "title": "Mark 6 XP",
+    "category": "Improvement",
+    "tracks": [
+      {
+        "name": "» Improve",
+        "max": 6,
+        "shape": "circle"
+      }
+    ],
+    "pick": [
+      "Get +1Aggro (max Aggro+3)",
+      "Get +1Cool (max Cool+3)",
+      "Get +1Hard (max Hard+3)",
+      "Get +1Weird (max Weird+3)"
     ]
   }
 ]

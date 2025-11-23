@@ -9,7 +9,8 @@
     "a4": false,
     "a5": false,
     "a6": false,
-    "a7": false
+    "a7": false,
+    "a8": false
   },
   "The Brain-picker": {
     "_movesFile": "data/moves/the-brain-picker.json",
@@ -26,7 +27,7 @@
   "Everyone": {
     "_movesFile": "data/moves/everyone.json",
     "description": "Universal moves available to all characters.",
-    "cards": [],
+    "cards": ["when-life-becomes-untenable"],
     "universal": true
   }
 }
