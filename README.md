@@ -43,4 +43,4 @@ Then visit `http://localhost:8000/cs.html`
 
 Character sheet code is licensed under the [MIT license](./LICENSE).
 
-Apocalypse World content by **Meguey and Vincent Baker** - used with kind permission.
+Apocalypse World content by **Meguey and D. Vincent Baker** - used with kind permission.

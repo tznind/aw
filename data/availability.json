@@ -17,11 +17,12 @@
     "a6": false,
     "a7": false,
     "a8": true,
-    "a9": false,
+    "a9": true,
     "a10": true,
     "a11": true,
     "a12": true,
-    "a13": true
+    "a13": true,
+    "a14": true
   },
   "The Brain-picker": {
     "_movesFile": "data/moves/the-brain-picker.json",
