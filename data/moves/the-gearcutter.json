@@ -34,7 +34,9 @@
   {
     "id": "g3",
     "title": "The mind's fraying edge",
-    "description": "You have one piece of Brain-picker gear. Get with the MC to choose what it is. You also get +1Ψ (max 3-Ψ)."
+    "description": "You have one piece of Brain-picker gear. Get with the MC to choose what it is. You also get +1Ψ (max 3-Ψ).",
+    "takeFrom": ["The Brain-picker"],
+    "takeCategory": ["Brainpicker Gear"]
   },
   {
     "id": "g4",
@@ -65,7 +67,7 @@
       },
       {
         "range": "≤ 6",
-        "text": "Treat a miss as though you've opened your brain to the world's psychic maelstrom and missed the roll."
+        "text": "Treat a miss as though you've **opened your brain to the world's psychic maelstrom** and missed the roll."
       }
     ]
   }
