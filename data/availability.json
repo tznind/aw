@@ -27,8 +27,27 @@
   "The Brain-picker": {
     "_movesFile": "data/moves/the-brain-picker.json",
     "description": "**When they burned the world down,** they didn't know what would grow in its ashes. They didn't know that we would be born, we with our eager, hungry brains, our unblinkered eyes, our whispering, dangerous voices.\n\n*When you play the Brain-picker, you have psychic powers and weird interests, and they go together…*",
+    "statDistributions": [
+      "Aggro-2, Cool+1, Hard+1, Sharp+1, Weird+2",
+      "Aggro+1, Cool+0, Hard+0, Sharp+0, Weird+2",
+      "Aggro-1, Cool-2, Hard+1, Sharp+2, Weird+2",
+      "Aggro+2, Cool-1, Hard-1, Sharp+0, Weird+2"
+    ],
     "cards": [],
-    "b1": true
+    "b1": false,
+    "b2": false,
+    "b3": false,
+    "b4": false,
+    "b5": false,
+    "b6": false,
+    "b7": false,
+    "b8": false,
+    "b9": false,
+    "b10": false,
+    "b11": false,
+    "b12": false,
+    "b13": false,
+    "b14": false
   },
   "The Gearcutter": {
     "_movesFile": "data/moves/the-gearcutter.json",
