@@ -9,5 +9,13 @@
         "text": "This move is always available to demonstrate how the Everyone system works."
       }
     ]
+  },
+  {
+    "id": "e1",
+    "title": "Get a move from an unused playbook",
+    "category": "Improvement",
+    "description": "Take a move from an unused role",
+    "multiple": 2,
+    "takeFrom": ["*"]
   }
 ]
