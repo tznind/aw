@@ -266,5 +266,41 @@
       "Retire your character to safety.",
       "Get with the MC for a custom improvement"
     ]
+  },
+  {
+    "id": "a16",
+    "title": "Defensive Weapons",
+    "description": "Choose one:",
+    "hideCheckbox": true,
+    "tracks": [
+      {
+        "name": "Pistol Ammo",
+        "max": 2,
+        "shape": "circle"
+      }
+    ],
+    "category": "Gear",
+    "pickOne": [
+      "Big knife (2-harm, hand)",
+      "Crude handmade pistol (3-harm, close, loud, ammo)",
+      "Stun gun (s-harm, hand, reload)"
+    ]
+  },
+  {
+    "id": "a17",
+    "title":"Other",
+    "category": "Gear",
+    "hideCheckbox": true,
+    "outcomes": [
+      {
+        "text": "You get (detail below):",
+        "bullets": [
+          "Clothing you detail, including at your option a piece worth 1-armor.",
+          "A prosthesis or aid, if you choose.",
+          "Living space and incidentals you detail, suitable to your personal needs, scavenge, hard zone, and moves."
+        ]
+      }
+    ],
+    "details": true
   }
 ]

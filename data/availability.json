@@ -23,7 +23,9 @@
     "a11": true,
     "a12": true,
     "a13": true,
-    "a14": true
+    "a14": true,
+    "a16": true,
+    "a17": true
   },
   "The Brain-picker": {
     "_movesFile": "data/moves/the-brain-picker.json",
