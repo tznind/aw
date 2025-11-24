@@ -117,18 +117,6 @@
     function addHx() {
       console.log('Adding Hx entry, current count:', hxCount);
       
-      if (hxCount === 0) {
-        // Add headers
-          const headers = document.createElement('div');
-          headers.className = 'hx-headers';
-          headers.innerHTML = `
-            <div>Character Name</div>
-            <div style="text-align: center;">Hx</div>
-            <div class="remove-spacer"></div>
-          `;
-        hxContainer.appendChild(headers);
-      }
-      
       const row = createHxRow(hxCount);
       hxContainer.appendChild(row);
       
@@ -150,10 +138,8 @@
       params.delete(`hx${index}n`);
       params.delete(`hx${index}v`);
       
-      // If no entries left, remove headers and reset count
+      // If no entries left, reset count
       if (hxContainer.querySelectorAll('.hx-row').length === 0) {
-        const headers = hxContainer.querySelector('.hx-headers');
-        if (headers) headers.remove();
         hxCount = 0;
         params.delete('hx_cnt');
       }
@@ -174,18 +160,6 @@
     
     // Load existing Hx entries from URL
     for (let i = 0; i < hxCount; i++) {
-      if (i === 0) {
-        // Add headers
-        const headers = document.createElement('div');
-        headers.className = 'hx-headers';
-        headers.innerHTML = `
-          <div>Character Name</div>
-          <div style="text-align: center;">Hx</div>
-          <div class="remove-spacer"></div>
-        `;
-        hxContainer.appendChild(headers);
-      }
-      
       const row = createHxRow(i);
       hxContainer.appendChild(row);
       
