@@ -16,6 +16,7 @@
     "category": "Improvement",
     "description": "Take a move from an unused role",
     "multiple": 2,
-    "takeFrom": ["*"]
+    "takeFrom": ["*"],
+    "takeCategory": ["Moves"]
   }
 ]

@@ -1,13 +1,142 @@
 [
   {
     "id": "b1",
-    "title": "",
-    "description": "",
+    "title": "Deep Brain Scan (+Weird, Highly Interruptible)",
+    "description": "When you have time to study someone, you can read them more deeply than usual. Roll+Weird.",
     "outcomes": [
       {
-        "range": "",
-        "text": ""
+        "range": "≥ 10",
+        "text": "Ask their player 2 questions:",
+        "bullets": [
+          "What was your lowest moment?",
+          "What unfinished business do you have, and with whom?",
+          "What is your deepest secret fear?",
+          "How could I really get my hooks into you?"
+        ]
+      },
+      {
+        "range": "7–9",
+        "text": "Ask 1. They have to answer frankly, from their character's point of view.",
+        "bullets": []
+      },
+      {
+        "range": "≤ 6",
+        "text": "Their brain freaks out and they suffer Ψ-harm instead."
       }
     ]
+  },
+  {
+    "id": "b2",
+    "title": "Eerie Presence (+Weird)",
+    "description": "When you enter into a nonviolent situation, roll+Weird.",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "Choose both:",
+        "bullets": [
+          "If anyone here is keeping a dangerous or troubling secret, their brain buzzes in your perception like an overheating light bulb. Ask the MC if anyone's does.",
+          "If anyone here is connected more deeply to the world's psychic maelstrom than normal, you can hear it whispering through them. Ask the MC if you can."
+        ]
+      },
+      {
+        "range": "7–9",
+        "text": "Choose 1:",
+        "bullets": []
+      },
+      {
+        "range": "≤ 6",
+        "text": "If anyone here is afraid of me, their brain is a threat to me and I must **act under fire** to remain here. Ask the MC if anyone's is."
+      }
+    ]
+  },
+  {
+    "id": "b3",
+    "title": "Embrace the Maelstrom",
+    "description": "You get +1Weird (max Weird+3). You get +1Ψ (max 3-Ψ)."
+  },
+  {
+    "id": "b4",
+    "title": "In-brain Puppet Strings (+Weird, Highly Interruptible)",
+    "description": "When you have the time and opportunity to work on someone, you can put psychic puppet strings into their brain. Roll+Weird.",
+    "tracks": [
+      {
+        "name": "Hold",
+        "max": 3,
+        "shape": "circle"
+      }
+    ],
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "Hold 3 against them. From then on, whenever you want, you can spend 1 of your hold to whisper an order directly into their brain. If they follow it, good. If they resist, they suffer Ψ-harm, but they don't need to obey and your hold is still spent."
+      },
+      {
+        "range": "7–9",
+        "text": "Hold 1."
+      },
+      {
+        "range": "≤ 6",
+        "text": "Their brain freaks out and they suffer Ψ-harm instead."
+      }
+    ]
+  },
+  {
+    "id": "b5",
+    "title": "The Maelstrom, Manifest",
+    "description": "You can unleash the world's psychic maelstrom as a destructive physical force: environ=Ψ, close-far, can't be brought to bear on a specific target."
+  },
+  {
+    "id": "b6",
+    "title": "Autonomous Eye-spider Drone (hi-tech, valuable)",
+    "category": "Brainpicker Gear",
+    "description": "Whenever you choose, you can ask the MC where your autonomous eye-spider drone is, and what sights and sounds it's currently projecting into your console. You have no control over it other than to forget about it when you're not interested."
+  },
+  {
+    "id": "b7",
+    "title": "Babble Prism (hi-tech, valuable)",
+    "category": "Brainpicker Gear",
+    "description": "A glass device that allows you to converse with a strange unliving entity, a perpetual nonperson who is eager to help you, but has a vacant, unlearning point of view. It's an advisor, and gives you insight, but remind the MC to create it as a pinpoint threat."
+  },
+  {
+    "id": "b8",
+    "title": "Brain Frequency Resonator (hi-tech, worn)",
+    "category": "Brainpicker Gear",
+    "description": "Gives the wearer +1Ψ (max 3-Ψ)."
+  },
+  {
+    "id": "b9",
+    "title": "Deep Earplugs (hi-tech, worn)",
+    "category": "Brainpicker Gear",
+    "description": "Protects the wearer from all Brain-picker moves and gear, and from many other sources of Ψ-harm."
+  },
+  {
+    "id": "b10",
+    "title": "Engineered Nerve Parasite (hi-tech, touch)",
+    "category": "Brainpicker Gear",
+    "description": "Apply to someone's skin. Embeds itself into their nerve pathways. From now on, simple proximity to them counts as the time and opportunity to work on them. (Applies to in-brain puppet strings and potentially to other moves and effects.)"
+  },
+  {
+    "id": "b11",
+    "title": "In-eye Brain-lenses (hi-tech, worn)",
+    "category": "Brainpicker Gear",
+    "description": "For the wearer, casually watching someone for a moment counts as taking the time to study them. (Applies to deep brain scan and potentially to other moves and effects.)"
+  },
+  {
+    "id": "b12",
+    "title": "Pain-wave Projector (1-harm ap, area, hi-tech, loud, reset)",
+    "category": "Brainpicker Gear",
+    "description": "Goes off like a reusable grenade. Hits everyone but you."
+  },
+  {
+    "id": "b13",
+    "title": "Psychic Crash Rig (hi-tech, valuable)",
+    "category": "Brainpicker Gear",
+    "description": "Wire someone up to it and you can induce them to open their brain to the world's psychic maelstrom. If a PC, they make the move; if an NPC, ask the MC what happens. While their brain's open, the crash rig acts as a technical source on their experience, and gives you research."
+  },
+  {
+    "id": "b14",
+    "title": "Psychic Overload Chamber (hi-tech, valuable)",
+    "category": "Brainpicker Gear",
+    "description": "You have an enclosed chamber that acts as a psychic antenna, giving you access to augury."
   }
 ]
