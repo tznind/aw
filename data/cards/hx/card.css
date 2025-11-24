@@ -28,7 +28,7 @@
 /* Player history rows */
 .hx-row {
   display: grid;
-  grid-template-columns: 1fr 110px 30px;
+  grid-template-columns: 2fr auto 30px;
   gap: 8px;
   align-items: center;
   margin-bottom: 6px;
@@ -92,7 +92,7 @@
 
 .hx-headers {
   display: grid;
-  grid-template-columns: 1fr 110px 30px;
+  grid-template-columns: 2fr auto 30px;
   gap: 8px;
   margin-bottom: 4px;
   font-size: 11px;
