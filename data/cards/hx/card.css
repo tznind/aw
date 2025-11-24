@@ -1,0 +1,232 @@
+/* Hx Card Styling */
+.hx-card {
+  /* Uses default .card styling from styles.css */
+}
+
+.hx-card .card-title {
+  /* Uses default .card-title styling */
+}
+
+.hx-card .form-field {
+  /* Uses default .card .form-field styling */
+}
+
+.hx-card .form-field strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+  font-weight: 700;
+}
+
+.hx-description {
+  margin: 0;
+  color: #555;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Player history rows */
+.hx-row {
+  display: grid;
+  grid-template-columns: 1fr 110px 30px;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 6px;
+  padding: 8px;
+  background: #f8f9fa;
+  border-radius: 4px;
+  border: 1px solid #dee2e6;
+}
+
+.hx-row input[type="text"] {
+  border: 2px solid #e1e5e9;
+  padding: 6px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  background: white;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.hx-row input[type="text"]:focus {
+  border-color: #0ea5e9;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.1);
+}
+
+.hx-row input[type="number"] {
+  border: 2px solid #e1e5e9;
+  padding: 6px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  background: white;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: bold;
+}
+
+.hx-row input[type="number"]:focus {
+  border-color: #0ea5e9;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.1);
+}
+
+.hx-row .remove-hx {
+  background: #C62828;
+  color: white;
+  border: none;
+  padding: 6px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  min-width: 30px;
+  transition: all 0.2s ease;
+}
+
+.hx-row .remove-hx:hover {
+  background: #B71C1C;
+  transform: scale(1.05);
+}
+
+.hx-headers {
+  display: grid;
+  grid-template-columns: 1fr 110px 30px;
+  gap: 8px;
+  margin-bottom: 4px;
+  font-size: 11px;
+  font-weight: bold;
+  color: #495057;
+  padding: 0 8px;
+}
+
+.hx-headers .remove-spacer {
+  min-width: 30px;
+}
+
+/* Add Character Button */
+.add-hx {
+  background: #0ea5e9;
+  color: white;
+  border: 1px solid #0284c7;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 8px;
+  margin-left: auto;
+  transition: all 0.2s ease;
+  display: block;
+  width: auto;
+}
+
+.add-hx:hover {
+  background: #0284c7;
+  border-color: #0369a1;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(14, 165, 233, 0.3);
+}
+
+.hx-section {
+  margin-top: 8px;
+}
+
+/* XP Note */
+.hx-note {
+  background: #fef3c7;
+  border: 1px solid #fbbf24;
+  border-radius: 4px;
+  padding: 10px 12px;
+  margin-top: 15px;
+  font-size: 13px;
+  color: #78350f;
+}
+
+.hx-note strong {
+  color: #92400e;
+}
+
+/* +/- Buttons */
+.hx-controls {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.hx-btn {
+  background: #e2e8f0;
+  border: 1px solid #cbd5e0;
+  color: #2d3748;
+  padding: 4px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: all 0.2s ease;
+  min-width: 32px;
+  text-align: center;
+}
+
+.hx-btn:hover {
+  background: #cbd5e0;
+  border-color: #a0aec0;
+}
+
+.hx-btn:active {
+  transform: scale(0.95);
+}
+
+.hx-value {
+  font-weight: bold;
+  color: #2d3748;
+  min-width: 24px;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* Responsive design for narrow screens */
+@media (max-width: 480px) {
+  .hx-card .form-field {
+    margin-bottom: 12px;
+    padding: 10px;
+  }
+  
+  .hx-row {
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .hx-row > * {
+    display: block;
+    margin-bottom: 6px;
+    width: 100% !important;
+  }
+  
+  .hx-row .remove-hx {
+    display: inline-block;
+    width: auto !important;
+    margin: 4px 0 0 0;
+  }
+  
+  /* Hide headers on narrow screens since we're stacking */
+  .hx-headers {
+    display: none;
+  }
+  
+  .hx-section {
+    margin-top: 8px;
+  }
+  
+  .add-hx {
+    padding: 8px 14px;
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  
+  .hx-card .card-title {
+    font-size: 20px;
+  }
+}

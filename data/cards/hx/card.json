@@ -1,0 +1,13 @@
+{
+  "id": "hx",
+  "title": "Hx (History)",
+  "path": "data/cards/hx",
+  "description": "Track your history with other players",
+  "version": "1.0.0",
+  "author": "Apocalypse World",
+  "files": {
+    "html": "card.html",
+    "css": "card.css",
+    "js": "card.js"
+  }
+}
