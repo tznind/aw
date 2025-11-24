@@ -1,12 +1,71 @@
 [
   {
     "id": "g1",
-    "title": "",
-    "description": "",
+    "title": "Bonefeel (+Weird)",
+    "description": "At the beginning of the session, roll+Weird.",
+    "tracks": [
+      {
+        "name": "Hold",
+        "max": 1,
+        "shape": "circle"
+      }
+    ],
     "outcomes": [
       {
-        "range": "",
-        "text": ""
+        "range": "≥ 10",
+        "text": "Hold 1 (+1). At any time, either you or the MC can spend your hold to have you already be there, with the proper tools and knowledge, with or without any clear explanation why. **You also take +1 forward**."
+      },
+      {
+        "range": "7–9",
+        "text": "As above but do not take +1 forward."
+      },
+      {
+        "range": "≤ 6",
+        "text": "The MC holds 1, and can spend it to have you be there already, but somehow pinned, caught or trapped."
+      }
+    ]
+  },
+  {
+    "id": "g2",
+    "title": "Custom ride",
+    "description": "You get a car. You made it yourself, or had it made to your own specs (you detail). You also get **behind the wheel**.",
+    "details": true
+  },
+  {
+    "id": "g3",
+    "title": "The mind's fraying edge",
+    "description": "You have one piece of Brain-picker gear. Get with the MC to choose what it is. You also get +1Ψ (max 3-Ψ)."
+  },
+  {
+    "id": "g4",
+    "title": "Oftener right",
+    "description": "When another player's character comes to you for advice, tell them what you honestly think the best course is. If they do it, they take +1 to any rolls they make in the doing, and you mark 1Xp."
+  },
+  {
+    "id": "g5",
+    "title": "Things speak (+Weird)",
+    "description": "Whenever you handle or examine something interesting (your call), roll+weird.",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "Ask the MC 3 questions:",
+        "bullets": [
+          "Who handled this last before me?",
+          "Who made this?",
+          "What strong emotions have been most recently nearby this?",
+          "What words have been said most recently nearby this?",
+          "What has been done most recently with this, or to this?",
+          "What's wrong with this, and how might I fix it?"
+        ]
+      },
+      {
+        "range": "7–9",
+        "text": "Ask 1 question:",
+        "bullets": []
+      },
+      {
+        "range": "≤ 6",
+        "text": "Treat a miss as though you've opened your brain to the world's psychic maelstrom and missed the roll."
       }
     ]
   }

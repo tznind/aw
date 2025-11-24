@@ -53,7 +53,11 @@
     "_movesFile": "data/moves/the-gearcutter.json",
     "description": "**Before they set fire to the world,** they knew everything. They knew the workings of light, of time, of human life, of space and of atoms. Everything.\n\nWhen you know everything, will you set fire to the world too?\n\n*When you play the Gearcutter, you have salvage grounds and a workspace, and you can fix almost everything that's broken.*",
     "cards": [],
-    "g1": true
+    "g1": false,
+    "g2": false,
+    "g3": false,
+    "g4": false,
+    "g5": false
   },
   "Everyone": {
     "_movesFile": "data/moves/everyone.json",
