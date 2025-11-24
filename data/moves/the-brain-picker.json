@@ -1,7 +1,7 @@
 [
   {
     "id": "b1",
-    "title": "Deep Brain Scan (+Weird)",
+    "title": "Deep Brain Scan (+Weird, Highly Interruptible)",
     "description": "When you have time to study someone, you can read them more deeply than usual. Roll+Weird.",
     "outcomes": [
       {
@@ -45,7 +45,7 @@
       },
       {
         "range": "≤ 6",
-        "text": "If anyone here is afraid of me, their brain is a threat to me and I must act under fire to remain here. Ask the MC if anyone's is."
+        "text": "If anyone here is afraid of me, their brain is a threat to me and I must **act under fire** to remain here. Ask the MC if anyone's is."
       }
     ]
   },
@@ -56,7 +56,7 @@
   },
   {
     "id": "b4",
-    "title": "In-brain Puppet Strings (+Weird)",
+    "title": "In-brain Puppet Strings (+Weird, Highly Interruptible)",
     "description": "When you have the time and opportunity to work on someone, you can put psychic puppet strings into their brain. Roll+Weird.",
     "tracks": [
       {
