@@ -87,5 +87,27 @@
       "A skilled assistant or two (*maybe Carna, Thuy, or Pamming, eg; detail with the MC*)."
     ],
     "details": true
+  },
+   {
+    "id": "g8",
+    "title": "Repurposed Weapon",
+    "description": "Choose one:",
+    "hideCheckbox": true,
+    "tracks": [
+      {
+        "name": "Single Use",
+        "max": 3,
+        "dynamic": true,
+        "shape": "circle"
+      }
+    ],
+    "category": "Gear",
+    "pickOne": [
+      "Blowtorch (*2-harm, fire, hand*)",
+      "CO 2 Spike gun (*2-harm, close, reload*)",
+      "Demolition hammer (*2-harm, hand, brutal*)",
+      "Nailgun, safety disabled (*1-harm, close, autofire, burstfire, loud*)",
+      "Pipe grenade (*1-environ, thrown, single use: 3*)"
+    ]
   }
 ]

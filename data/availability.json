@@ -72,7 +72,9 @@
     "g3": false,
     "g4": false,
     "g5": false,
-    "g6": true
+    "g6": true,
+    "g8": true,
+    "a17": true
   },
   "Everyone": {
     "_movesFile": "data/moves/everyone.json",
