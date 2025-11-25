@@ -6,8 +6,39 @@
   
   let hxCount = 0;
   
+  function updateHxHelpText() {
+    // Get the help icon button
+    const helpBtn = document.querySelector('.hx-card .help-icon');
+    if (!helpBtn) {
+      console.log('Hx help icon not found');
+      return;
+    }
+    
+    // Get current roles
+    const roles = window.Utils ? window.Utils.getCurrentRoles() : [];
+    if (roles.length === 0) {
+      console.log('No roles selected, using default Hx instructions');
+      return;
+    }
+    
+    // Get the first role's hxInstructions from availableMap
+    const primaryRole = roles[0];
+    if (window.availableMap && window.availableMap[primaryRole]) {
+      const hxInstructions = window.availableMap[primaryRole].hxInstructions;
+      if (hxInstructions) {
+        helpBtn.setAttribute('data-help-text', hxInstructions);
+        console.log(`Updated Hx instructions for ${primaryRole}`);
+      } else {
+        console.log(`No hxInstructions found for ${primaryRole}`);
+      }
+    }
+  }
+  
   function initializeHx() {
     console.log('Initializing Hx card...');
+    
+    // Update help text based on current role's hxInstructions
+    updateHxHelpText();
     
     const addHxBtn = document.getElementById('add-hx');
     const hxContainer = document.getElementById('hx-players');

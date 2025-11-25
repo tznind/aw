@@ -8,6 +8,7 @@
       "Aggro+0, Cool-1, Hard+1, Sharp+2, Weird+1",
       "Aggro-1, Cool+2, Hard-1, Sharp+2, Weird+0"
     ],
+    "hxInstructions": "List the other characters' names.\nGo around again for Hx. On your turn, ask 1, 2 or all 3:\n• Do I figure that any of you are doomed to self-destruction? For those characters, write Hx-2.\n• Have any of you ever put a hand in when it mattered, and helped me save lives? For those characters, write Hx+2.\n• Have any of you been beside me all along, and seen everything I've seen? For those characters, write Hx+3.\nFor everyone else, or if no one volunteers at all, write Hx+1. You keep your eyes open.\nOn the others' turns, volunteer if you like.\nWhen your Hx with someone rolls over from +3 to +1 or from -2 to -1, get 1Xp.",
     "cards": [],
     "a1": false,
     "a2": false,
