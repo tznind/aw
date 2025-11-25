@@ -62,6 +62,7 @@ label {
   align-items: center;
   gap: 12px;
   flex-wrap: wrap;
+  grid-column: 1 / -1; /* Span all columns to stay on own line */
 }
 
 .role-controls label {
