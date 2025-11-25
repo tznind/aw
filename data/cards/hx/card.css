@@ -57,11 +57,7 @@
   cursor: pointer;
   font-size: 13px;
   font-weight: 600;
-  margin-top: 8px;
-  margin-left: auto;
   transition: all 0.2s ease;
-  display: block;
-  width: auto;
 }
 
 .add-hx:hover {
@@ -71,30 +67,12 @@
   box-shadow: 0 2px 4px rgba(14, 165, 233, 0.3);
 }
 
-.hx-section {
-  margin-top: 0px;
-}
-
 .hx-button-row {
   display: flex;
   gap: 8px;
   justify-content: flex-end;
   align-items: center;
-}
-
-/* XP Note */
-.hx-note {
-  background: #fef3c7;
-  border: 1px solid #fbbf24;
-  border-radius: 4px;
-  padding: 10px 12px;
-  margin-top: 15px;
-  font-size: 13px;
-  color: #78350f;
-}
-
-.hx-note strong {
-  color: #92400e;
+  margin-top: 8px;
 }
 
 /* +/- Buttons */
@@ -137,14 +115,10 @@
 
 /* Responsive design for narrow screens */
 @media (max-width: 480px) {
-  .hx-card .form-field {
-    margin-bottom: 12px;
-    padding: 10px;
-  }
-  
   .hx-row {
     display: block;
     padding: 8px;
+    margin-bottom: 8px;
   }
   
   .hx-row > * {
@@ -157,24 +131,5 @@
     display: inline-block;
     width: auto !important;
     margin: 4px 0 0 0;
-  }
-  
-  /* Hide headers on narrow screens since we're stacking */
-  .hx-headers {
-    display: none;
-  }
-  
-  .hx-section {
-    margin-top: 8px;
-  }
-  
-  .add-hx {
-    padding: 8px 14px;
-    font-size: 13px;
-    margin-bottom: 10px;
-  }
-  
-  .hx-card .card-title {
-    font-size: 20px;
   }
 }
