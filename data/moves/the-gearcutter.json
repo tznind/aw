@@ -70,5 +70,22 @@
         "text": "Treat a miss as though you've **opened your brain to the world's psychic maelstrom** and missed the roll."
       }
     ]
+  },
+  {
+    "id": "g6",
+    "title": "Your Workspace",
+    "category": "Workspace & Salvage Grounds",
+    "description": "You have a workshop full of tools, old machines, parts, salvage, and scrap (workspace: machinery). You get **tinkering**.\n\nYour workshop also includes (choose 3):",
+    "hideCheckbox": true,
+    "pick": [
+       "A controlled growing environment, a lab, a still (workspace: *chems*).",
+      "An observatory, telescopes, instruments for measuring the stars and the weather, ancient books and documents (workspace: *cosmology*).",
+      " Fine milling tools, a safe production setup, lead stock, used brass, chemical supplies, a testing range (workspace: *ordnance*).",
+      "A van (frame: van, massive=3, 0-armor. Impression: loud, grumbling, workhorse. A cagey brute. Impulse: protect what it carries. Defiance: stupidly resist). You get **behind the wheel**.",
+      "A garage and a junkyard of wrecked vehicles (workspace: *vehicles*).",
+      "Weird-ass electronica, an isolation tank, probes and bizarre brain monitors (workspace: Ψ).",
+      "A skilled assistant or two (*maybe Carna, Thuy, or Pamming, eg; detail with the MC*)."
+    ],
+    "details": true
   }
 ]
