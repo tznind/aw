@@ -2,5 +2,12 @@
   {
     "id": "s1",
     "title": "Coming soon..."
+  },
+  {
+    "id": "s9",
+    "title": "Improvements",
+    "description": "You don’t mark Xp for rolling your stats, track Hx with the other characters, or get Xp when it rolls over. Instead, change this character to another playbook whenever you choose.\n\nAt the end of each session, if you’ve survived, you can choose whether to keep playing this character, create a new character, or what.\n\nIf you keep playing this character, you should change to another playbook sooner or later, or else create a new custom playbook for them with the MC.",
+    "category": "Improvement",
+    "hideCheckbox": true
   }
 ]

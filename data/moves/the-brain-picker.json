@@ -164,7 +164,7 @@
   {
     "id": "b16",
     "title": "Improvements",
-    "description": "Choose 2 Brainpicker moves. At 6Xp, choose an improvement and erase.",
+    "description": "Choose 2 Brain-picker moves and 2 Brain-picker gear. At 6Xp, choose an improvement and erase.",
     "category": "Improvement",
     "hideCheckbox": true,
     "tracks": [

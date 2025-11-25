@@ -2,5 +2,32 @@
   {
     "id": "v1",
     "title": "Coming soon..."
+  },
+  {
+    "id": "v9",
+    "title": "Improvements",
+    "description": "Choose 2 Volatile moves. At 6Xp, choose an improvement and erase.",
+    "category": "Improvement",
+    "hideCheckbox": true,
+    "tracks": [
+      {
+        "name": "» Improve",
+        "max": 6,
+        "shape": "circle"
+      }
+    ],
+"pick": [
+  "Get +1Aggro (max Aggro+3)",
+  "Get +1Cool (max Cool+3)",
+  "Get +1Hard (max Hard+3)",
+  "Get +1Sharp (max Sharp+3)",
+  "Get a new Volatile move",
+  "Get a new Volatile move",
+  "Get a gang and leadership",
+  "Get a holding and wealth",
+  "Get a move from an unused playbook",
+  "Get a move from an unused playbook"
+]
+
   }
 ]
