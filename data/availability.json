@@ -18,13 +18,11 @@
     "a6": false,
     "a7": false,
     "a8": true,
-    "a15":true,
     "a9": true,
     "a10": true,
     "a11": true,
     "a12": true,
     "a13": true,
-    "a14": true,
     "a16": true,
     "a17": true
   },
@@ -193,6 +191,8 @@
     "_movesFile": "data/moves/everyone.json",
     "description": "Universal moves available to all characters.",
     "cards": ["when-life-becomes-untenable", "hx"],
-    "e1": false
+    "e1": false,
+    "a14": true,
+    "a15":true
   }
 }
