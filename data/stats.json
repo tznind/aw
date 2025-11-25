@@ -74,5 +74,10 @@
         "endLabel":"Stabilized"
       }
     ]
+  },
+  {
+    "id": "barterpsi",
+    "title": "Barter,Ψ",
+    "shape": "double-up"
   }
 ]
