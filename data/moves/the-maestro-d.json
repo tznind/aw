@@ -1,0 +1,32 @@
+[
+  {
+    "id": "m1",
+    "title": "Coming soon..."
+  },
+  {
+    "id": "m9",
+    "title": "Improvements",
+    "description": "Choose 2 Maestro D moves. Your venue gives you wealth + it’s always something, and its options might give you leadership as well. At 6Xp, choose an improvement and erase.",
+    "category": "Improvement",
+    "hideCheckbox": true,
+    "tracks": [
+      {
+        "name": "» Improve",
+        "max": 6,
+        "shape": "circle"
+      }
+    ],
+   "pick": [
+  "Get +1Cool (max Cool+3)",
+  "Get +1Hard (max Hard+3)",
+  "Get +1Sharp (max Sharp+3)",
+  "Get +1Weird (max Weird+3)",
+  "Get a new Maestro D move",
+  "Get a new Maestro D move",
+  "Add a security option to your venue",
+  "Get 3 ports of call and ear to the ground",
+  "Get a move from an unused playbook",
+  "Get a move from an unused playbook"
+]
+  }
+]

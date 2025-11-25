@@ -1,0 +1,33 @@
+[
+  {
+    "id": "o1",
+    "title": "Coming soon..."
+  },
+  {
+    "id": "o9",
+    "title": "Improvements",
+    "description": "Choose 2 Hocus moves. Your cult gives you devotion and its options might give you additional standard moves as well.. At 6Xp, choose an improvement and erase.",
+    "category": "Improvement",
+    "hideCheckbox": true,
+    "tracks": [
+      {
+        "name": "» Improve",
+        "max": 6,
+        "shape": "circle"
+      }
+    ],
+    "pick": [
+  "Get +1Aggro (max Aggro+3)",
+  "Get +1Hard (max Hard+3)",
+  "Get +1Sharp (max Sharp+3)",
+  "Get +1Weird (max Weird+3)",
+  "Get a new Hocus move",
+  "Get a new Hocus move",
+  "Add 1 option to your cult",
+  "Get a refuge",
+  "Get a move from an unused playbook",
+  "Get a move from an unused playbook"
+]
+
+  }
+]

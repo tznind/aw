@@ -1,0 +1,33 @@
+[
+  {
+    "id": "u1",
+    "title": "Coming soon..."
+  },
+  {
+    "id": "u9",
+    "title": "Improvements",
+    "description": "Choose 2 Luminous moves. Your luxe setup might give you tinkering as well. At 6Xp, choose an improvement and erase.",
+    "category": "Improvement",
+    "hideCheckbox": true,
+    "tracks": [
+      {
+        "name": "» Improve",
+        "max": 6,
+        "shape": "circle"
+      }
+    ],
+    "pick": [
+  "Get +1Aggro (max Aggro+3)",
+  "Get +1Cool (max Cool+3)",
+  "Get +1Sharp (max Sharp+3)",
+  "Get +1Weird (max Weird+3)",
+  "Get a new Luminous move",
+  "Get a new Luminous move",
+  "Add an option to your luxe setup",
+  "Add an option to your luxe setup",
+  "Get a move from an unused playbook",
+  "Get a move from an unused playbook"
+]
+
+  }
+]

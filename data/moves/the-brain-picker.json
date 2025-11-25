@@ -160,5 +160,31 @@
       "Ornate dagger (2-harm, hand, valuable)",
       "Scalpels (3-harm, hi-tech, intimate, valuable)"
     ]
+  },
+  {
+    "id": "b16",
+    "title": "Improvements",
+    "description": "Choose 2 Brain-picker moves and 2 Brain-picker gear. At 6Xp, choose an improvement and erase.",
+    "category": "Improvement",
+    "hideCheckbox": true,
+    "tracks": [
+      {
+        "name": "» Improve",
+        "max": 6,
+        "shape": "circle"
+      }
+    ],
+    "pick": [
+      "Get +1Aggro (max Aggro+3)",
+      "Get +1Cool (max Cool+3)",
+      "Get a new Brain-picker move",
+      "Get a new Brain-picker move",
+      "Get 2 new Brain-picker gear",
+      "Get a **following** and **devotion**",
+      "Get a **psychic lab** (*workspace: Ψ*) and **tinkering**",
+      "Get a **venue** and **wealth + it's always something**",
+      "Get a move from an unused playbook",
+      "Get a move from an unused playbook"
+    ]
   }
 ]
