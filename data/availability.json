@@ -76,7 +76,7 @@
     "g8": true,
     "a17": true
   },
-  "The Harrier": {
+"The Harrier": {
   "_movesFile": "data/moves/the-harrier.json",
   "description": "**We are the fire in the ashes of the world.** We are the claws that rake the earth. We are the screaming machines that tear the roads to ruts and shake the ruined buildings. We are the furious horde of the not yet dead.\n\nWhen you play the Harrier, you have a dangerous and skilled, but chaotic, combat gang.",
   "statDistributions": [
@@ -85,8 +85,9 @@
     "Aggro+1, Cool+1, Hard+2, Sharp+0, Weird-1",
     "Aggro+2, Cool+0, Hard+2, Sharp+1, Weird-2"
   ],
-  "hxInstructions": "List the other characters' names.\nGo around again for Hx. On your turn, ask 1, 2 or all 3:\n• *Which of you did me and my pack swoop in and save your life?* For that character, write Hx+2.\n• *Which of you have called upon me and my pack to get violent revenge for you?* For that character, write Hx-1.\n• *Which of you can I consider a genuine friend?* For those characters, write Hx+2.\nFor everyone else, or if no one volunteers at all, write Hx+0. You tend to leave people to their own business.\nOn the others' turns, volunteer if you like."
-
+  "hxInstructions": "List the other characters' names.\nGo around again for Hx. On your turn, ask 1, 2 or all 3:\n• *Which of you did me and my pack swoop in and save your life?* For that character, write Hx+2.\n• *Which of you have called upon me and my pack to get violent revenge for you?* For that character, write Hx-1.\n• *Which of you can I consider a genuine friend?* For those characters, write Hx+2.\nFor everyone else, or if no one volunteers at all, write Hx+0. You tend to leave people to their own business.\nOn the others' turns, volunteer if you like.",
+  "cards": [],
+  "h1": false
 },
 
 "The Hocus": {
@@ -97,8 +98,9 @@
   "Aggro+1, Cool+0, Hard+1, Sharp-1, Weird+2",
   "Aggro+0, Cool-1, Hard+1, Sharp+1, Weird+2",
   "Aggro+1, Cool-2, Hard+2, Sharp+0, Weird+2"
-],"hxInstructions": "List the other characters' names.\nGo around again for Hx. On your turn, ask the group: *How do you personally feel about my cult?*\n• For those who are believers, write Hx+2.\n• For those who feel positive about it, write Hx+1.\n• For those who don't, write Hx-1.\nOn the others' turns, volunteer if you like."
-
+],"hxInstructions": "List the other characters' names.\nGo around again for Hx. On your turn, ask the group: *How do you personally feel about my cult?*\n• For those who are believers, write Hx+2.\n• For those who feel positive about it, write Hx+1.\n• For those who don't, write Hx-1.\nOn the others' turns, volunteer if you like.",
+  "cards": [],
+  "o1": false
 },
 
 "The Lawmaker": {
@@ -110,8 +112,9 @@
   "Aggro-1, Cool+2, Hard+1, Sharp+1, Weird+0",
   "Aggro+1, Cool+2, Hard-1, Sharp+0, Weird+1"
 ],
-"hxInstructions": "List the other characters' names.\nGo around again for Hx. On your turn, ask 1, 2 or all 3:\n• *Which of you has been with me the longest, since before?* For that character, write Hx+2.\n• *Have any of you ever betrayed or stolen from me?* For those characters, write Hx+3.\n• *Which of you is my favorite?* For that character, write Hx+2.\nFor everyone else, or if no one volunteers at all, write Hx+1. You're wary, watchful, and conscientious.\nOn the others' turns, volunteer if you like."
-
+"hxInstructions": "List the other characters' names.\nGo around again for Hx. On your turn, ask 1, 2 or all 3:\n• *Which of you has been with me the longest, since before?* For that character, write Hx+2.\n• *Have any of you ever betrayed or stolen from me?* For those characters, write Hx+3.\n• *Which of you is my favorite?* For that character, write Hx+2.\nFor everyone else, or if no one volunteers at all, write Hx+1. You're wary, watchful, and conscientious.\nOn the others' turns, volunteer if you like.",
+  "cards": [],
+  "l1": false
 },
 
 "The Luminous": {
@@ -123,9 +126,9 @@
   "Aggro-1, Cool+2, Hard+0, Sharp+2, Weird-1",
   "Aggro+1, Cool+2, Hard+1, Sharp+1, Weird-2"
 ],
-"hxInstructions": "List the other characters' names.\nGo around again for Hx. On your turn, choose 1 for each other character directly:\n• *I'm curious about you.* For the characters you choose, write Hx+2.\n• *I find you interesting, but don't trust you.* For the characters you choose, write Hx+1.\n• *I want to think well of you, but don't yet.* For the characters you choose, write Hx-1.\nOn the others' turns, volunteer if you like."
-
-
+"hxInstructions": "List the other characters' names.\nGo around again for Hx. On your turn, choose 1 for each other character directly:\n• *I'm curious about you.* For the characters you choose, write Hx+2.\n• *I find you interesting, but don't trust you.* For the characters you choose, write Hx+1.\n• *I want to think well of you, but don't yet.* For the characters you choose, write Hx-1.\nOn the others' turns, volunteer if you like.",
+  "cards": [],
+  "u1": false
 },
 
 "The Maestro D": {
@@ -137,8 +140,9 @@
   "Aggro-1, Cool+2, Hard+2, Sharp+0, Weird-1",
   "Aggro+0, Cool+2, Hard+0, Sharp+1, Weird+0"
 ],
-"hxInstructions": "List the other characters' names.\nGo around again for Hx. On your turn, ask the group: *Are any of you NOT my regulars?*\n• For those who aren't, write Hx+2: they represent a challenge.\n• For those who are, write Hx+1.\nOn the others' turns, volunteer if you like."
-
+"hxInstructions": "List the other characters' names.\nGo around again for Hx. On your turn, ask the group: *Are any of you NOT my regulars?*\n• For those who aren't, write Hx+2: they represent a challenge.\n• For those who are, write Hx+1.\nOn the others' turns, volunteer if you like.",
+  "cards": [],
+  "m1": false
 },
 
 "The Operator": {
@@ -150,8 +154,9 @@
   "Aggro+1, Cool+2, Hard-1, Sharp+0, Weird+1",
   "Aggro+1, Cool+2, Hard+1, Sharp+0, Weird-1"
 ],
-"hxInstructions": "List the other characters' names.\nGo around again for Hx. On your turn, ask 1, 2 or all 3:\n• *Have any of you ever stepped in, put it on the line, and gotten me out of a serious spot?* For those characters, write Hx+1.\n• *Have any of you ever been with me for days on the road?* For those characters, write Hx+2.\n• *Have I ever caught any of you staring out at the horizon?* For those characters, write Hx+3.\nFor everyone else, or if no one volunteers at all, write Hx-1. You don't get too attached.\nOn the others' turns, volunteer if you like."
-
+"hxInstructions": "List the other characters' names.\nGo around again for Hx. On your turn, ask 1, 2 or all 3:\n• *Have any of you ever stepped in, put it on the line, and gotten me out of a serious spot?* For those characters, write Hx+1.\n• *Have any of you ever been with me for days on the road?* For those characters, write Hx+2.\n• *Have I ever caught any of you staring out at the horizon?* For those characters, write Hx+3.\nFor everyone else, or if no one volunteers at all, write Hx-1. You don't get too attached.\nOn the others' turns, volunteer if you like.",
+  "cards": [],
+  "p1": false
 },
 
 "The Restless": {
@@ -162,8 +167,9 @@
   "Aggro+1, Cool+0, Hard+0, Sharp+2, Weird+0",
   "Aggro+1, Cool-1, Hard-2, Sharp+2, Weird+2",
   "Aggro+1, Cool+0, Hard+1, Sharp+2, Weird-1"
-],"hxInstructions": "List the other characters' names.\nGo around again for Hx. On your turn, ask 1 or both:\n• *Have any of you lived in this place all your life, so that you know stories about what's lost and hidden out there?* For those characters, write Hx+1.\n• *Do any of you rely on me? What for?* For those characters, write Hx-1.\nFor everyone else, or if no one volunteers at all, write Hx-1. You haven't quite settled here yet.\nOn the others' turns, volunteer if you like."
-
+],"hxInstructions": "List the other characters' names.\nGo around again for Hx. On your turn, ask 1 or both:\n• *Have any of you lived in this place all your life, so that you know stories about what's lost and hidden out there?* For those characters, write Hx+1.\n• *Do any of you rely on me? What for?* For those characters, write Hx-1.\nFor everyone else, or if no one volunteers at all, write Hx-1. You haven't quite settled here yet.\nOn the others' turns, volunteer if you like.",
+  "cards": [],
+  "r1": false
 },
 
 "The Volatile": {
@@ -175,8 +181,9 @@
   "Aggro+2, Cool-2, Hard+1, Sharp+0, Weird+2",
   "Aggro+2, Cool-1, Hard+2, Sharp-1, Weird+0"
 ],
-"hxInstructions": "List the other characters' names.\nGo around again for Hx. On your turn, ask 1, 2 or all 3:\n• *Have any of you fought shoulder to shoulder with me?* For those characters, write Hx+3.\n• *Do any of you think that I'm the problem?* For those characters, write Hx-2.\n• *Do any of you actually, honestly need protecting?* For those characters, write Hx+2.\nFor everyone else, or if no one volunteers at all, write Hx+0. You don't see much reason to dig too deeply into people.\nOn the others' turns, volunteer if you like."
-
+"hxInstructions": "List the other characters' names.\nGo around again for Hx. On your turn, ask 1, 2 or all 3:\n• *Have any of you fought shoulder to shoulder with me?* For those characters, write Hx+3.\n• *Do any of you think that I'm the problem?* For those characters, write Hx-2.\n• *Do any of you actually, honestly need protecting?* For those characters, write Hx+2.\nFor everyone else, or if no one volunteers at all, write Hx+0. You don't see much reason to dig too deeply into people.\nOn the others' turns, volunteer if you like.",
+  "cards": [],
+  "v1": false
 },
 
 "The Standout": {
@@ -185,7 +192,9 @@
   "statDistributions": [
     "Assign stats as you choose: +1, +1, +0, +0, -1."
   ],
-  "hxInstructions": "List the other characters' names. When you go around again for Hx, skip your turn. You can explain that you're just in the background, you haven't distinguished yourself yet. You have Hx+1 with everyone. On the others' turns, don't volunteer"
+  "hxInstructions": "List the other characters' names. When you go around again for Hx, skip your turn. You can explain that you're just in the background, you haven't distinguished yourself yet. You have Hx+1 with everyone. On the others' turns, don't volunteer",
+  "cards": [],
+  "s1": false
 }
 ,
   "Everyone": {
