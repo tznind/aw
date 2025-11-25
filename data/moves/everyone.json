@@ -13,8 +13,7 @@
   {
     "id": "e1",
     "title": "Get a move from an unused playbook",
-    "category": "Improvement",
-    "description": "Take a move from an unused role",
+    "description": "Mark this move when you take the respective Improvement. Choose a move from an unused playbook",
     "multiple": 2,
     "takeFrom": ["*"],
     "takeCategory": ["Moves"]

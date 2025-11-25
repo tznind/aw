@@ -6,6 +6,10 @@ This is an [Apocalypse World Burned Over](https://www.kickstarter.com/projects/l
 
 It is online at https://tznind.github.io/aw/cs.html
 
+Example Character
+
+-👨🏻‍⚕️[Doc Holtz](https://tznind.github.io/aw/cs.html?armorpsi_bottom=43&harm-value=1&role=The+Angel&hx_cnt=3&hx0n=Frank%2C+he+always+comes+crying+-holding+his+guts&hx0v=-1&name=Doc+Holz&pronouns=He%2FHim&player=Thomas&first-impression=Lanky%2C+crooked+backed%2C+wrinkled+old+man+with+broken+spectacles&aggro=%2B1&cool=%2B1&barterpsi_bottom=%2B1&barterpsi_top=-1&hard=%2B0&sharp=%2B2&weird=-1&hx1n=Suze%2C+she+helped+me+out+that+time+I+couldn%27t+afford+gas&hx1v=2&hx2n=Dozer%2C+not+sure+about+him+just+yet&track_stat_harm=1&track_a8_0=1&track_a8_1=2&track_a8_2=2&track_a8_3=2&track_a8_6=2&track_a8_4=1&track_a8_5=2&track_a8_10=1&track_a8_13=1&track_a8_12=1&track_a8_8=1&track_a8_7=2&track_a8_11=2&track_a8_14=2&track_a8_16=2&track_a8_18=3&track_a8_17=2&track_a8_15=2&track_a8_9=2&move_a13_pickone=1&move_a16_pickone=2&weapon=Pistol&track_a16=2&move_a17_dtl=Filthy+jeans%2C+well+used+pair+of+hardened+rubber+gloves.+Bowed+walking+stick.&move_a5=1&move_a5_dtl=Abandonned+hotel+at+the+corner+of+45th.++Mouldy%2C+smells+of+cordite+-+Not+a+suitable+place+for+a+hospital%21&move_a7=1&move_a7_pickone=4&move_a7_dtl=Debbs%2C+my+right+hand+and+trainee+replacement+for+when+I+finally+shuffle+off+this+mortal+coil.&track_a9=3&move_a9_p3=1&move_a9_p9=1&move_e1_1=1&takeFrom_e1_role=The+Gearcutter&takeFrom_e1_move=g3&takeFrom_g3_role=The+Brain-picker&takeFrom_g3_move=b9&move_a9_p6=1&move_a1=1&track_stat_cool=3&track_stat_aggro=2&track_stat_sharp=2&track_stat_hard=1&hide_untaken=1&move_a9_p10=1&move_e1_2=1&takeFrom_e1_2_role=The+Brain-picker&takeFrom_e1_2_move=b5)
+
 See https://github.com/tznind/lc for main template repository.
 
 ## Sync changes
