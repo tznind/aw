@@ -1,0 +1,11 @@
+{
+  "id": "salvage-grounds",
+  "title": "Salvage Grounds",
+  "path": "data/cards/salvage-grounds",
+  "description": "Define your salvage grounds and scavenging relationships",
+  "version": "1.0.0",
+  "author": "AW System",
+  "files": {
+    "html": "card.html"
+  }
+}

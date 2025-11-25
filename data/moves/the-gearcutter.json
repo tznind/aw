@@ -88,6 +88,13 @@
     ],
     "details": true
   },
+  {
+    "id": "g7",
+    "title": "Salvage Grounds",
+    "category": "Workspace & Salvage Grounds",
+    "hideCheckbox": true,
+    "grantsCard": "salvage-grounds"
+  },
    {
     "id": "g8",
     "title": "Repurposed Weapon",
