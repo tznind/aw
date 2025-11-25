@@ -52,7 +52,9 @@
     "b11": false,
     "b12": false,
     "b13": false,
-    "b14": false
+    "b14": false,
+    "b15": false,
+    "a17": true
   },
   "The Gearcutter": {
     "_movesFile": "data/moves/the-gearcutter.json",

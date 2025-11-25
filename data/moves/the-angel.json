@@ -281,13 +281,13 @@
     "category": "Gear",
     "pickOne": [
       "Big knife (2-harm, hand)",
-      "Crude handmade pistol (3-harm, close, loud, ammo)",
+      "Crude handmade pistol (3-harm, close, loud, ammo: 2)",
       "Stun gun (s-harm, hand, reload)"
     ]
   },
   {
     "id": "a17",
-    "title":"Other",
+    "title":"Clothing, Living Space & Incidentals",
     "category": "Gear",
     "hideCheckbox": true,
     "outcomes": [

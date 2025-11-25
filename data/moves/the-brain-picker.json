@@ -138,5 +138,27 @@
     "title": "Psychic Overload Chamber (hi-tech, valuable)",
     "category": "Brainpicker Gear",
     "description": "You have an enclosed chamber that acts as a psychic antenna, giving you access to augury."
+  },
+  {
+    "id": "b15",
+    "title": "Small Fancy Weapon",
+    "description": "Choose one:",
+    "hideCheckbox": true,
+    "tracks": [
+      {
+        "name": "Ammo",
+        "max": 3,
+        "dynamic": true,
+        "shape": "circle"
+      }
+    ],
+    "category": "Gear",
+    "pickOne": [
+      "Antique handgun (3-harm, close, loud, valuable, ammo: 4)",
+      "Handmade silenced handgun (3-harm, close, hi-tech, ammo: 3)",
+      "Hidden knives (2-harm, hand, hidden)",
+      "Ornate dagger (2-harm, hand, valuable)",
+      "Scalpels (3-harm, hi-tech, intimate, valuable)"
+    ]
   }
 ]
