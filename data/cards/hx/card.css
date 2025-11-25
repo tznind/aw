@@ -1,29 +1,4 @@
 /* Hx Card Styling */
-.hx-card {
-  /* Uses default .card styling from styles.css */
-}
-
-.hx-card .card-title {
-  /* Uses default .card-title styling */
-}
-
-.hx-card .form-field {
-  /* Uses default .card .form-field styling */
-}
-
-.hx-card .form-field strong {
-  display: block;
-  margin-bottom: 0.5rem;
-  color: #2c3e50;
-  font-weight: 700;
-}
-
-.hx-description {
-  margin: 0;
-  color: #555;
-  font-size: 14px;
-  line-height: 1.5;
-}
 
 /* Player history rows */
 .hx-row {
@@ -54,24 +29,6 @@
   box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.1);
 }
 
-.hx-row input[type="number"] {
-  border: 2px solid #e1e5e9;
-  padding: 6px 10px;
-  font-size: 14px;
-  border-radius: 4px;
-  background: white;
-  width: 100%;
-  box-sizing: border-box;
-  text-align: center;
-  font-weight: bold;
-}
-
-.hx-row input[type="number"]:focus {
-  border-color: #0ea5e9;
-  outline: none;
-  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.1);
-}
-
 .hx-row .remove-hx {
   background: #C62828;
   color: white;
@@ -88,21 +45,6 @@
 .hx-row .remove-hx:hover {
   background: #B71C1C;
   transform: scale(1.05);
-}
-
-.hx-headers {
-  display: grid;
-  grid-template-columns: 2fr auto 30px;
-  gap: 8px;
-  margin-bottom: 4px;
-  font-size: 11px;
-  font-weight: bold;
-  color: #495057;
-  padding: 0 8px;
-}
-
-.hx-headers .remove-spacer {
-  min-width: 30px;
 }
 
 /* Add Character Button */
@@ -130,7 +72,7 @@
 }
 
 .hx-section {
-  margin-top: 8px;
+  margin-top: 0px;
 }
 
 .hx-button-row {
@@ -138,7 +80,6 @@
   gap: 8px;
   justify-content: flex-end;
   align-items: center;
-  margin-top: 8px;
 }
 
 /* XP Note */
@@ -204,7 +145,6 @@
   .hx-row {
     display: block;
     padding: 8px;
-    margin-bottom: 8px;
   }
   
   .hx-row > * {
