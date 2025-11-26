@@ -40,9 +40,8 @@
   },
   {
     "id": "o3",
-    "title": "Out on the Edge",
-    "description": "Add an option to your cult. You also get +1Ψ (max 3-Ψ).",
-    "details": true
+    "title": "Out on the Edge (Requires a Cult)",
+    "description": "Add an option to your cult. You also get +1Ψ (max 3-Ψ)."
   },
   {
     "id": "o4",

@@ -1,7 +1,7 @@
 [
   {
     "id": "h1",
-    "title": "Chaotic Presence (+Hard)",
+    "title": "Chaotic Presence (+Hard, Requires a Gang)",
     "description": "When you and your gang enter into a nonviolent situation, roll+Hard.",
     "outcomes": [
       {
@@ -23,7 +23,7 @@
       },
       {
         "range": "≤ 6",
-        "text": "Ask the MC what *your most dumbass* does."
+        "text": "Ask the MC what [your most dumbass] does."
       }
     ]
   },
@@ -34,21 +34,19 @@
   },
   {
     "id": "h3",
-    "title": "Hunter-killers",
-    "description": "Your gang carries portable rocket tubes instead (4-harm, close/far, concentrated fire, braced, total ammo: ).",
+    "title": "Hunter-killers (Requires a Gang)",
+    "description": "Your gang carries portable rocket tubes instead (4-harm, close/far, concentrated fire, braced, total ammo: 6).",
     "tracks": [
       {
         "name": "Ammo",
-        "max": 3,
-        "dynamic": true,
+        "max": 6,
         "shape": "circle"
       }
-    ],
-    "details": true
+    ]
   },
   {
     "id": "h4",
-    "title": "Scavengers & Thieves (+Hard)",
+    "title": "Scavengers & Thieves (+Hard, Requires a Gang)",
     "description": "When something's hard to come by, even impossible to come by, or not available in any convenient market, have your gang search its panniers and saddlebags. Roll+Hard.",
     "outcomes": [
       {
@@ -67,7 +65,7 @@
   },
   {
     "id": "h5",
-    "title": "Skirmishers",
+    "title": "Skirmishers (Requires a Gang)",
     "description": "Your gang has the experience, discipline, and mobility to take on a much larger gang. When you're outnumbered in battle, count your gang as twice its number."
   },
   {
