@@ -86,7 +86,7 @@
     "Aggro+2, Cool+0, Hard+2, Sharp+1, Weird-2"
   ],
   "hxInstructions": "List the other characters' names.\nGo around again for Hx. On your turn, ask 1, 2 or all 3:\n• *Which of you did me and my pack swoop in and save your life?* For that character, write Hx+2.\n• *Which of you have called upon me and my pack to get violent revenge for you?* For that character, write Hx-1.\n• *Which of you can I consider a genuine friend?* For those characters, write Hx+2.\nFor everyone else, or if no one volunteers at all, write Hx+0. You tend to leave people to their own business.\nOn the others' turns, volunteer if you like.",
-  "cards": [],
+  "cards": ["your-pack"],
   "h1": true,
   "h2": false,
   "h3": false,

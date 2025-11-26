@@ -1,0 +1,294 @@
+/* Your Pack Card Styling */
+
+.pack-intro {
+  font-size: 14px;
+  margin-bottom: 16px;
+  padding: 12px;
+  background: #f8f9fa;
+  border-radius: 4px;
+  border: 1px solid #dee2e6;
+}
+
+/* Pack Options (Radio buttons with full labels) */
+.pack-options {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.pack-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 10px;
+  background: #f8f9fa;
+  border: 2px solid #dee2e6;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.pack-option:hover {
+  background: #e9ecef;
+  border-color: #adb5bd;
+}
+
+.pack-option input[type="radio"] {
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+/* Pack Numbers */
+.pack-numbers {
+  display: flex;
+  gap: 16px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
+
+.pack-numbers label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  background: #f8f9fa;
+  border: 2px solid #dee2e6;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.pack-numbers label:hover {
+  background: #e9ecef;
+  border-color: #adb5bd;
+}
+
+.pack-numbers input[type="radio"] {
+  cursor: pointer;
+}
+
+/* Pack Members */
+.pack-members {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.member-row {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 10px;
+  align-items: center;
+}
+
+.member-label {
+  font-weight: 500;
+}
+
+.member-row input[type="text"] {
+  border: 2px solid #e1e5e9;
+  padding: 6px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  background: white;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.member-row input[type="text"]:focus {
+  border-color: #0ea5e9;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.1);
+}
+
+.npc-names {
+  margin-top: 8px;
+  padding: 8px;
+  background: #f8f9fa;
+  border-radius: 4px;
+  font-size: 13px;
+  color: #6c757d;
+}
+
+/* Ride Properties (Checkboxes) */
+.ride-properties {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.ride-properties label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 8px;
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 0.2s ease;
+}
+
+.ride-properties label:hover {
+  background: #e9ecef;
+  border-color: #adb5bd;
+}
+
+.ride-properties input[type="checkbox"] {
+  cursor: pointer;
+}
+
+.ride-note {
+  margin-top: 10px;
+  padding: 8px;
+  background: #f8f9fa;
+  border-left: 3px solid #6c757d;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Weapons List */
+.weapons-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.weapon-item {
+  padding: 8px;
+  background: #f8f9fa;
+  border-radius: 4px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* Ammo Track */
+.ammo-track-field {
+  margin: 12px 0;
+}
+
+.ammo-track-field label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.ammo-track-field .track-shapes {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+/* Gang Summary and Defiance Side by Side */
+.summary-defiance-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 20px;
+  align-items: start;
+  margin: 16px 0;
+}
+
+.gang-summary-field {
+  flex: 1;
+}
+
+.gang-summary-field textarea {
+  width: 100%;
+  border: 2px solid #e1e5e9;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  background: white;
+  resize: vertical;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+.gang-summary-field textarea:focus {
+  border-color: #0ea5e9;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.1);
+}
+
+/* Defiance Clock Section */
+.defiance-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.defiance-label {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.defiance-section .clock {
+  width: 90px;
+  height: 90px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.defiance-section .clock:hover {
+  transform: scale(1.05);
+}
+
+.defiance-section .clock:focus {
+  outline: 3px solid #0ea5e9;
+  outline-offset: 4px;
+  border-radius: 50%;
+}
+
+/* MC Instructions */
+.mc-instructions {
+  margin-top: 16px;
+  padding: 12px;
+  background: #DBEAFE;
+  border-left: 4px solid #3B82F6;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Alpha Rule */
+.alpha-rule {
+  margin-top: 12px;
+  padding: 12px;
+  background: #FEF3C7;
+  border-left: 4px solid #F59E0B;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .member-row {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+  
+  .member-label {
+    font-size: 13px;
+  }
+  
+  .ride-properties {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  }
+  
+  .pack-numbers {
+    gap: 8px;
+  }
+  
+  .summary-defiance-row {
+    grid-template-columns: 1fr;
+  }
+}
