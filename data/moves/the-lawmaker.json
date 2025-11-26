@@ -88,34 +88,7 @@
     "id": "l5",
     "title": "Taskmaster",
     "description": "When you give orders to a non-gang body of people who answer to you (eg your holding's population, your followers, your assistants or crew) use **Leadership**, even though they're not a gang."
-  },
-  {
-    "id": "l9",
-    "title": "Improvements",
-    "description": "Choose 2 Lawmaker moves. At 6Xp, choose an improvement and erase.",
-    "category": "Improvement",
-    "hideCheckbox": true,
-    "tracks": [
-      {
-        "name": "» Improve",
-        "max": 6,
-        "shape": "circle"
-      }
-    ],
-    "pick": [
-      "Get +1Aggro (max Aggro+3)",
-      "Get +1Cool (max Cool+3)",
-      "Get +1Hard (max Hard+3)",
-      "Get +1Sharp (max Sharp+3)",
-      "Get a new Lawmaker move",
-      "Get a new Lawmaker move",
-      "Get a new Lawmaker move",
-      "Get a **refuge** and **infirmary**",
-      "Get a move from an unused playbook",
-      "Get a move from an unused playbook"
-    ]
-  }
-,{
+  },{
     "id": "l9",
     "title": "Improvements",
     "description": "You get the law speaks to you, and choose 1 more Lawmaker move. Your gang gives you leadership and your holding gives you wealth. A holding option might give you behind the wheel as well. At 6Xp, choose an improvement and erase.",

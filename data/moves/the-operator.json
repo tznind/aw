@@ -75,32 +75,6 @@
         "text": "Ask 1 anyway, but ask the MC what happens while you're caught up in musing."
       }
     ]
-  },
-  {
-    "id": "p9",
-    "title": "Improvements",
-    "description": "Choose 2 Operator moves. At 6Xp, choose an improvement and erase.",
-    "category": "Improvement",
-    "hideCheckbox": true,
-    "tracks": [
-      {
-        "name": "» Improve",
-        "max": 6,
-        "shape": "circle"
-      }
-    ],
-    "pick": [
-      "Get +1Aggro (max Aggro+3)",
-      "Get +1Cool (max Cool+3)",
-      "Get +1Hard (max Hard+3)",
-      "Get +1Sharp (max Sharp+3)",
-      "Get a new Operator move",
-      "Get a new Operator move",
-      "Get a new Operator move",
-      "Get a **holding** and **wealth**",
-      "Get a move from an unused playbook",
-      "Get a move from an unused playbook"
-    ]
   }
 ,{
     "id": "p9",

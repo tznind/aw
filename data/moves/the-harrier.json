@@ -67,32 +67,6 @@
     "id": "h5",
     "title": "Skirmishers (Requires a Gang)",
     "description": "Your gang has the experience, discipline, and mobility to take on a much larger gang. When you're outnumbered in battle, count your gang as twice its number."
-  },
-  {
-    "id": "h9",
-    "title": "Improvements",
-    "description": "Choose 2 Harrier moves. At 6Xp, choose an improvement and erase.",
-    "category": "Improvement",
-    "hideCheckbox": true,
-    "tracks": [
-      {
-        "name": "» Improve",
-        "max": 6,
-        "shape": "circle"
-      }
-    ],
-    "pick": [
-      "Get +1Aggro (max Aggro+3)",
-      "Get +1Cool (max Cool+3)",
-      "Get +1Hard (max Hard+3)",
-      "Get +1Sharp (max Sharp+3)",
-      "Get a new Harrier move",
-      "Get a new Harrier move",
-      "Get a new Harrier move",
-      "Get a **holding** and **wealth**",
-      "Get a move from an unused playbook",
-      "Get a move from an unused playbook"
-    ]
   }
 ,{
     "id": "h9",
