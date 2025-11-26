@@ -85,52 +85,19 @@
       {
         "name": "Salvos",
         "max": 3,
+        "dynamic": true,
         "shape": "circle"
       },
       {
         "name": "Uses",
         "max": 3,
+        "dynamic": true,
         "shape": "circle"
       },
       {
         "name": "Ammo",
         "max": 6,
-        "shape": "circle"
-      }
-    ],
-    "category": "Gear",
-    "pickOne": [
-      "Big knife (2-harm, hand)",
-      "Crossbow (2-harm, close-far, reload)",
-      "Crowbar (2-harm, hand, brutal)",
-      "Demolition hammer (2-harm, hand, brutal)",
-      "Hatchet (3-harm, hand)",
-      "Machete (3-harm, hand, brutal)",
-      "Molotov (1-environ, fire, thrown, single use: 3)",
-      "Revolver (3-harm, close, loud, ammo: 5)",
-      "Sawed off (4-harm, close, messy, ammo: 3)",
-      "Shrapnel gun (2-harm, close, messy, reload)"
-    ]
-  },
-   {
-    "id": "v7",
-    "title": "Handy Weapons",
-    "description": "Choose 2:",
-    "hideCheckbox": true,
-    "tracks": [
-      {
-        "name": "Salvos",
-        "max": 3,
-        "shape": "circle"
-      },
-      {
-        "name": "Uses",
-        "max": 3,
-        "shape": "circle"
-      },
-      {
-        "name": "Ammo",
-        "max": 6,
+        "dynamic": true,
         "shape": "circle"
       }
     ],
@@ -145,27 +112,50 @@
     ]
   },
    {
+    "id": "v7",
+    "title": "Handy Weapons",
+    "description": "Choose 2:",
+    "hideCheckbox": true,
+    "tracks": [
+      {
+        "name": "Molotovs",
+        "max": 3,
+        "dynamic": true,
+        "shape": "circle"
+      },
+      {
+        "name": "Revolver",
+        "max": 3,
+        "dynamic": true,
+        "shape": "circle"
+      },
+      {
+        "name": "Shells",
+        "max":3,
+        "dynamic": true,
+        "shape": "circle"
+      }
+    ],
+    "category": "Gear",
+    "pickOne": [
+      "Big knife (2-harm, hand)",
+      "Crossbow (2-harm, close-far, reload)",
+      "Crowbar (2-harm, hand, brutal)",
+      "Demolition hammer (2-harm, hand, brutal)",
+      "Hatchet (3-harm, hand)",
+      "Machete (3-harm, hand, brutal)",
+      "Molotov (1-environ, fire, thrown, single use: 3)",
+      "Revolver (3-harm, close, loud, ammo: 5)",
+      "Sawed off (4-harm, close, messy, ammo: 3)",
+      "Shrapnel gun (2-harm, close, messy, reload)",
+      "Spare ammo (Add 5/3/3 to ammo tracks of your choice)"
+    ]
+  },
+   {
     "id": "v8",
     "title": "Body Armor",
     "description": "Choose 1:",
     "hideCheckbox": true,
-    "tracks": [
-      {
-        "name": "Salvos",
-        "max": 3,
-        "shape": "circle"
-      },
-      {
-        "name": "Uses",
-        "max": 3,
-        "shape": "circle"
-      },
-      {
-        "name": "Ammo",
-        "max": 6,
-        "shape": "circle"
-      }
-    ],
     "category": "Gear",
     "pickOne": [
       "Beautiful custom-made body armor (2-armor, valuable)",
