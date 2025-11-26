@@ -1,9 +1,118 @@
 [
   {
     "id": "l1",
-    "title": "Coming soon..."
+    "title": "The Law Speaks to You (+Weird)",
+    "description": "When someone breaks your laws, roll+Weird.",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "The Law allows you to choose:",
+        "bullets": [
+          "You let them off with a warning, reduced penalty, or reprieve.",
+          "You make an exception for them and they have no blame.",
+          "They must face the full penalty."
+        ]
+      },
+      {
+        "range": "7–9",
+        "text": "The MC tells you which the Law will allow.",
+        "bullets": []
+      },
+      {
+        "range": "≤ 6",
+        "text": "Responsibility falls to you, and you must pay the penalty yourself. You may choose to pay it in full, in reduced form, or only symbolically."
+      }
+    ]
   },
   {
+    "id": "l2",
+    "title": "Ears in the Walls (+Sharp)",
+    "description": "At the beginning of the session, roll+Sharp.",
+    "tracks": [
+      {
+        "name": "Hold",
+        "max": 3,
+        "shape": "circle"
+      }
+    ],
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "Hold 3. During the session, spend your hold 1 for 1 to name a person who's living in or visiting your holding, and ask what they're up to right now. The MC or the other player has to answer frankly."
+      },
+      {
+        "range": "7–9",
+        "text": "Hold 2.",
+        "bullets": []
+      },
+      {
+        "range": "≤ 6",
+        "text": "Hold 1 anyway."
+      }
+    ]
+  },
+  {
+    "id": "l3",
+    "title": "Forbidding Presence (+Cool)",
+    "description": "When you enter into a nonviolent situation, roll+Cool.",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "Both:",
+        "bullets": [
+          "If anyone here has broken your laws or betrayed your holding, they can't meet your eyes. Ask the MC who can't.",
+          "If anyone here intends to break your laws or intends you harm, they move involuntarily away from you. Ask the MC who does."
+        ]
+      },
+      {
+        "range": "7–9",
+        "text": "Choose 1:",
+        "bullets": []
+      },
+      {
+        "range": "≤ 6",
+        "text": "If you have any enemies here, they panic and immediately move against you."
+      }
+    ]
+  },
+  {
+    "id": "l4",
+    "title": "Right Hand",
+    "description": "You have a lieutenant who isn't just competent and loyal, they are, as the saying goes, reliable. Detail them now with the MC.",
+    "details": true
+  },
+  {
+    "id": "l5",
+    "title": "Taskmaster",
+    "description": "When you give orders to a non-gang body of people who answer to you (eg your holding's population, your followers, your assistants or crew) use **leadership**, even though they're not a gang."
+  },
+  {
+    "id": "l9",
+    "title": "Improvements",
+    "description": "Choose 2 Lawmaker moves. At 6Xp, choose an improvement and erase.",
+    "category": "Improvement",
+    "hideCheckbox": true,
+    "tracks": [
+      {
+        "name": "» Improve",
+        "max": 6,
+        "shape": "circle"
+      }
+    ],
+    "pick": [
+      "Get +1Aggro (max Aggro+3)",
+      "Get +1Cool (max Cool+3)",
+      "Get +1Hard (max Hard+3)",
+      "Get +1Sharp (max Sharp+3)",
+      "Get a new Lawmaker move",
+      "Get a new Lawmaker move",
+      "Get a new Lawmaker move",
+      "Get a **refuge** and **infirmary**",
+      "Get a move from an unused playbook",
+      "Get a move from an unused playbook"
+    ]
+  }
+,{
     "id": "l9",
     "title": "Improvements",
     "description": "You get the law speaks to you, and choose 1 more Lawmaker move. Your gang gives you leadership and your holding gives you wealth. A holding option might give you behind the wheel as well. At 6Xp, choose an improvement and erase.",

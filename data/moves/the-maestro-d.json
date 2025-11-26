@@ -1,9 +1,109 @@
 [
   {
     "id": "m1",
-    "title": "Coming soon..."
+    "title": "Cultural Hub",
+    "description": "When you make your venue's wealth roll and your venue has surplus, choose a different hard zone location. Your venue's gossip & news includes gossip and news from that location too.",
+    "details": true
   },
   {
+    "id": "m2",
+    "title": "The Devil with a Blade",
+    "description": "When you use a blade to **attack someone** or **do battle**, you get +1choice."
+  },
+  {
+    "id": "m3",
+    "title": "Fingers in Every Pie (+Cool)",
+    "description": "Put out the word that you want a thing — could be a person, could be somethin somethin, could even be just a thing — and roll+Cool.",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "It shows up for you, like magic."
+      },
+      {
+        "range": "7–9",
+        "text": "Well, your people make an effort and everybody wants to please you and close is close, right?",
+        "bullets": []
+      },
+      {
+        "range": "≤ 6",
+        "text": "It shows up for you with strings wicked attached."
+      }
+    ]
+  },
+  {
+    "id": "m4",
+    "title": "Everybody Eats, Even That Guy (+Cool)",
+    "description": "When you want to know something about someone important (your call), roll+Cool.",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "Ask the MC 3 questions:",
+        "bullets": [
+          "How are they doing? What's up with them?",
+          "What or who do they love best?",
+          "Who do they know, like and/or trust?",
+          "When next should I expect to see them?",
+          "How could I get to them, physically or emotionally?"
+        ]
+      },
+      {
+        "range": "7–9",
+        "text": "Ask 1:",
+        "bullets": []
+      },
+      {
+        "range": "≤ 6",
+        "text": "Ask 1 anyway, but they hear about your interest in them."
+      }
+    ]
+  },
+  {
+    "id": "m5",
+    "title": "Just Give Me a Motive (+Hard or +Hx)",
+    "description": "Name somebody who might conceivably eat, drink, or otherwise ingest something you've touched. If it's an NPC, roll+Hard; a PC, roll+Hx.",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "They do, and suffer 4-harm (ap) sometime during the next 24 hours."
+      },
+      {
+        "range": "7–9",
+        "text": "It's 2-harm (ap).",
+        "bullets": []
+      },
+      {
+        "range": "≤ 6",
+        "text": "Some several people of the MC's choice, maybe including your guy maybe not, get it, and all suffer 3-harm (ap)."
+      }
+    ]
+  },
+  {
+    "id": "m9",
+    "title": "Improvements",
+    "description": "Choose 2 Maestro D moves. At 6Xp, choose an improvement and erase.",
+    "category": "Improvement",
+    "hideCheckbox": true,
+    "tracks": [
+      {
+        "name": "» Improve",
+        "max": 6,
+        "shape": "circle"
+      }
+    ],
+    "pick": [
+      "Get +1Aggro (max Aggro+3)",
+      "Get +1Cool (max Cool+3)",
+      "Get +1Hard (max Hard+3)",
+      "Get +1Sharp (max Sharp+3)",
+      "Get a new Maestro D move",
+      "Get a new Maestro D move",
+      "Get a new Maestro D move",
+      "Get a **holding** and **wealth**",
+      "Get a move from an unused playbook",
+      "Get a move from an unused playbook"
+    ]
+  }
+,{
     "id": "m9",
     "title": "Improvements",
     "description": "Choose 2 Maestro D moves. Your venue gives you wealth + it’s always something, and its options might give you leadership as well. At 6Xp, choose an improvement and erase.",

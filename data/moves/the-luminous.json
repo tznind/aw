@@ -1,9 +1,116 @@
 [
   {
     "id": "u1",
-    "title": "Coming soon..."
+    "title": "Artful & Gracious (+Cool)",
+    "description": "When you perform your chosen art — any act of expression or culture — or when you put its product before an audience, roll+Cool.",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "Choose 3 NPCs who are in your audience. For each NPC in turn, choose 1:",
+        "bullets": [
+          "This person must meet me.",
+          "This person must have my services.",
+          "This person loves me.",
+          "This person must give me a gift.",
+          "This person admires my patron."
+        ]
+      },
+      {
+        "range": "7–9",
+        "text": "Choose 1 NPC.",
+        "bullets": []
+      },
+      {
+        "range": "≤ 6",
+        "text": "You gain no benefit, but suffer no harm or lost opportunity. You simply perform very well."
+      }
+    ]
   },
   {
+    "id": "u2",
+    "title": "Breathtaking",
+    "description": "You get +1Ψ (max 3-Ψ). When you **reason with someone**, add your Ψ to your roll."
+  },
+  {
+    "id": "u3",
+    "title": "Incandescent",
+    "description": "When you make a show and display of passion — anguish, love, fury, any — no one who can see you can do anything but watch. You command their absolute attention. If you choose, you can exempt individual people, by name."
+  },
+  {
+    "id": "u4",
+    "title": "Lost (+Weird)",
+    "description": "When you whisper someone's name to the world's psychic maelstrom, roll+Weird.",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "They come to you, with or without any clear explanation why. Take +1forward against them."
+      },
+      {
+        "range": "7–9",
+        "text": "They come to you, with or without any clear explanation why.",
+        "bullets": []
+      },
+      {
+        "range": "≤ 6",
+        "text": "The MC will ask you 3 questions; answer them truthfully."
+      }
+    ]
+  },
+  {
+    "id": "u5",
+    "title": "Subtle Scrutiny (+Cool)",
+    "description": "When you enter into a nonviolent situation, roll+Cool.",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "Ask the MC 3 of the following questions:",
+        "bullets": [
+          "What is most beautiful here?",
+          "Who hopes that I walk on without paying any mind?",
+          "Who here is unexpected and might have answers for me?",
+          "How have loyalties shifted since last time I was here?",
+          "What is the biggest danger here, to me or to the people here?",
+          "Where are the weaknesses here?"
+        ]
+      },
+      {
+        "range": "7–9",
+        "text": "Ask 1:",
+        "bullets": []
+      },
+      {
+        "range": "≤ 6",
+        "text": "Choose 1 anyway, but tell the MC that your scrutiny isn't as subtle as you think."
+      }
+    ]
+  },
+  {
+    "id": "u9",
+    "title": "Improvements",
+    "description": "Choose 2 Luminous moves. At 6Xp, choose an improvement and erase.",
+    "category": "Improvement",
+    "hideCheckbox": true,
+    "tracks": [
+      {
+        "name": "» Improve",
+        "max": 6,
+        "shape": "circle"
+      }
+    ],
+    "pick": [
+      "Get +1Aggro (max Aggro+3)",
+      "Get +1Cool (max Cool+3)",
+      "Get +1Hard (max Hard+3)",
+      "Get +1Sharp (max Sharp+3)",
+      "Get a new Luminous move",
+      "Get a new Luminous move",
+      "Get a new Luminous move",
+      "Get a **venue** and **wealth + it's always something**",
+      "Get a move from an unused playbook",
+      "Get a move from an unused playbook"
+    ]
+  }
+,{
     "id": "u9",
     "title": "Improvements",
     "description": "Choose 2 Luminous moves. Your luxe setup might give you tinkering as well. At 6Xp, choose an improvement and erase.",

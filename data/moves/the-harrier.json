@@ -1,9 +1,102 @@
 [
   {
     "id": "h1",
-    "title": "Coming soon..."
+    "title": "Chaotic Presence (+Hard)",
+    "description": "When you and your gang enter into a nonviolent situation, roll+Hard.",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "Choose 1 or 2:",
+        "bullets": [
+          "Someone in your gang picks a fight with someone here. Ask the MC who and what it's about.",
+          "Someone here owes something to someone in your gang. Ask the MC who and how serious it is.",
+          "Someone in your gang wants to help or save someone here. Ask the MC who and how far they'll go.",
+          "Someone here has a loyalty-testing connection with someone in your gang. Ask the MC who and how they act on it.",
+          "Someone here is so afraid of someone in your gang that they abruptly leave. Ask the MC who.",
+          "Someone here makes a huge show of welcome to someone in your gang. Ask the MC who and whether it's sincere."
+        ]
+      },
+      {
+        "range": "7–9",
+        "text": "The MC chooses 1 for you, and you can choose another if you like:",
+        "bullets": []
+      },
+      {
+        "range": "≤ 6",
+        "text": "Ask the MC what *your most dumbass* does."
+      }
+    ]
   },
   {
+    "id": "h2",
+    "title": "Battle-skilled",
+    "description": "When you **attack** or **do battle**, on any hit, you get +1choice."
+  },
+  {
+    "id": "h3",
+    "title": "Hunter-killers",
+    "description": "Your gang carries portable rocket tubes instead (4-harm, close/far, concentrated fire, braced, total ammo: ).",
+    "tracks": [
+      {
+        "name": "Ammo",
+        "max": 3,
+        "dynamic": true,
+        "shape": "circle"
+      }
+    ],
+    "details": true
+  },
+  {
+    "id": "h4",
+    "title": "Scavengers & Thieves (+Hard)",
+    "description": "When something's hard to come by, even impossible to come by, or not available in any convenient market, have your gang search its panniers and saddlebags. Roll+Hard.",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "You've got just the thing, or better."
+      },
+      {
+        "range": "7–9",
+        "text": "You've got just the thing, more or less."
+      },
+      {
+        "range": "≤ 6",
+        "text": "Somebody robbed you, or someone in your gang is holding out."
+      }
+    ]
+  },
+  {
+    "id": "h5",
+    "title": "Skirmishers",
+    "description": "Your gang has the experience, discipline, and mobility to take on a much larger gang. When you're outnumbered in battle, count your gang as twice its number."
+  },
+  {
+    "id": "h9",
+    "title": "Improvements",
+    "description": "Choose 2 Harrier moves. At 6Xp, choose an improvement and erase.",
+    "category": "Improvement",
+    "hideCheckbox": true,
+    "tracks": [
+      {
+        "name": "» Improve",
+        "max": 6,
+        "shape": "circle"
+      }
+    ],
+    "pick": [
+      "Get +1Aggro (max Aggro+3)",
+      "Get +1Cool (max Cool+3)",
+      "Get +1Hard (max Hard+3)",
+      "Get +1Sharp (max Sharp+3)",
+      "Get a new Harrier move",
+      "Get a new Harrier move",
+      "Get a new Harrier move",
+      "Get a **holding** and **wealth**",
+      "Get a move from an unused playbook",
+      "Get a move from an unused playbook"
+    ]
+  }
+,{
     "id": "h9",
     "title": "Improvements",
     "description": "You get **chaotic presence**, and choose 1 more Harrier move.. At 6Xp, choose an improvement and erase.",
@@ -28,6 +121,5 @@
   "Get a move from an unused playbook",
   "Get a move from an unused playbook"
 ]
-
-  }
+}
 ]

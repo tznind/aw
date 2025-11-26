@@ -1,9 +1,108 @@
 [
   {
     "id": "p1",
-    "title": "Coming soon..."
+    "title": "Combat Driver",
+    "description": "When you use your vehicle as a weapon, inflict +1harm. When you inflict v-harm, inflict v-harm+1. When you suffer v-harm, suffer v-harm-1."
   },
   {
+    "id": "p2",
+    "title": "Collector",
+    "description": "You gain a car [or another car]. You detail. (If you take this move from another playbook, you also get **behind the wheel**.)",
+    "details": true
+  },
+  {
+    "id": "p3",
+    "title": "Eye on the Door (+Cool)",
+    "description": "Name your escape route and roll+Cool.",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "Sweet, you're gone."
+      },
+      {
+        "range": "7–9",
+        "text": "You can go or stay, but if you go it costs you: leave something behind, or take something with you, the MC will tell you what.",
+        "bullets": []
+      },
+      {
+        "range": "≤ 6",
+        "text": "You're caught vulnerable, half in and half out."
+      }
+    ]
+  },
+  {
+    "id": "p4",
+    "title": "Reputation (+Cool)",
+    "description": "When you meet someone important (your call), they've heard of you. Roll+Cool.",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "Tell the MC what they've heard. The MC has them respond to you accordingly."
+      },
+      {
+        "range": "7–9",
+        "text": "Tell the MC what they've heard, and the MC tells you what they've also heard.",
+        "bullets": []
+      },
+      {
+        "range": "≤ 6",
+        "text": "They've still heard of you, but the MC tells you what they've heard."
+      }
+    ]
+  },
+  {
+    "id": "p5",
+    "title": "Weather Eye (+Cool)",
+    "description": "Take a second to check your instincts and roll+Cool.",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "Ask the MC 2 questions:",
+        "bullets": [
+          "What's on the horizon? What's coming, what's gathering?",
+          "What's my best opportunity here? How might I pull this off?",
+          "If I cut out now, what could I get away with?",
+          "Who here can I trust for sure, and who can't I?"
+        ]
+      },
+      {
+        "range": "7–9",
+        "text": "Ask 1:",
+        "bullets": []
+      },
+      {
+        "range": "≤ 6",
+        "text": "Ask 1 anyway, but ask the MC what happens while you're caught up in musing."
+      }
+    ]
+  },
+  {
+    "id": "p9",
+    "title": "Improvements",
+    "description": "Choose 2 Operator moves. At 6Xp, choose an improvement and erase.",
+    "category": "Improvement",
+    "hideCheckbox": true,
+    "tracks": [
+      {
+        "name": "» Improve",
+        "max": 6,
+        "shape": "circle"
+      }
+    ],
+    "pick": [
+      "Get +1Aggro (max Aggro+3)",
+      "Get +1Cool (max Cool+3)",
+      "Get +1Hard (max Hard+3)",
+      "Get +1Sharp (max Sharp+3)",
+      "Get a new Operator move",
+      "Get a new Operator move",
+      "Get a new Operator move",
+      "Get a **holding** and **wealth**",
+      "Get a move from an unused playbook",
+      "Get a move from an unused playbook"
+    ]
+  }
+,{
     "id": "p9",
     "title": "Improvements",
     "description": " Choose 2 Operator moves. Your vehicle gives you behind the wheel and your ports of call give you ear to the ground. At 6Xp, choose an improvement and erase.",

@@ -1,9 +1,128 @@
 [
   {
     "id": "o1",
-    "title": "Coming soon..."
+    "title": "Creepy Intense",
+    "description": "When you **reason with someone**, on any hit, if they flatly refuse to go along with you, you can choose to inflict Ψ-harm. You also get +1Ψ (max 3-Ψ)."
   },
   {
+    "id": "o2",
+    "title": "Frenzy (+Weird)",
+    "description": "When you speak the truth to a mob, roll+Weird.",
+    "tracks": [
+      {
+        "name": "Hold",
+        "max": 3,
+        "shape": "circle"
+      }
+    ],
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "Hold 3 against the mob. Spend your hold 1 for 1 to make the mob:",
+        "bullets": [
+          "Bring people forward, by name or description, and deliver them to you.",
+          "Bring forward all their precious things as offerings to you or to the world's psychic maelstrom.",
+          "Unite and fight for you as a gang (2-harm, 0-armor). Choose their number and their impulse with the MC. While they remain united, you get **leadership**.",
+          "Fall into uninhibited emotional excess: celebrating, lamenting, cowering, fighting, as you choose.",
+          "Go quietly back to their lives."
+        ]
+      },
+      {
+        "range": "7–9",
+        "text": "Hold 1.",
+        "bullets": []
+      },
+      {
+        "range": "≤ 6",
+        "text": "The mob turns on you."
+      }
+    ]
+  },
+  {
+    "id": "o3",
+    "title": "Out on the Edge",
+    "description": "Add an option to your cult. You also get +1Ψ (max 3-Ψ).",
+    "details": true
+  },
+  {
+    "id": "o4",
+    "title": "Unsettling Presence (+Weird)",
+    "description": "When you enter into a nonviolent situation, roll+Weird.",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "Choose 1:",
+        "bullets": [
+          "Someone here becomes afraid of you, and moves back in a panic. Ask the MC who does.",
+          "Someone here becomes fascinated with you, and stares intently. Ask the MC who does.",
+          "Someone here becomes dissatisfied with their life, and they flinch. Ask the MC who does."
+        ]
+      },
+      {
+        "range": "7–9",
+        "text": "The MC chooses 1 for you:",
+        "bullets": []
+      },
+      {
+        "range": "≤ 6",
+        "text": "Someone here dismisses you with a sneer. Ask the MC who does."
+      }
+    ]
+  },
+  {
+    "id": "o5",
+    "title": "Piercing Visions",
+    "description": "Once per session, at any moment you choose, you can tell the MC you've had a piercing vision. Choose 1:",
+    "tracks": [
+      {
+        "name": "Session",
+        "max": 1,
+        "shape": "circle"
+      }
+    ],
+    "outcomes": [
+      {
+        "range": "",
+        "text": "",
+        "bullets": [
+          "Ask the MC what storm is gathering, what is stirring in its sleep, or what is waiting to be born.",
+          "Name a person. Ask the MC which gods or dead things attend them.",
+          "Name a place or a thing. Ask the MC who loves it, who owns it, and who hungers for it."
+        ]
+      },
+      {
+        "range": "",
+        "text": "The MC must answer truthfully."
+      }
+    ]
+  },
+  {
+    "id": "o9",
+    "title": "Improvements",
+    "description": "Choose 2 Hocus moves. At 6Xp, choose an improvement and erase.",
+    "category": "Improvement",
+    "hideCheckbox": true,
+    "tracks": [
+      {
+        "name": "» Improve",
+        "max": 6,
+        "shape": "circle"
+      }
+    ],
+    "pick": [
+      "Get +1Aggro (max Aggro+3)",
+      "Get +1Cool (max Cool+3)",
+      "Get +1Hard (max Hard+3)",
+      "Get +1Sharp (max Sharp+3)",
+      "Get a new Hocus move",
+      "Get a new Hocus move",
+      "Get a new Hocus move",
+      "Get a **holding** and **wealth**",
+      "Get a move from an unused playbook",
+      "Get a move from an unused playbook"
+    ]
+  }
+,{
     "id": "o9",
     "title": "Improvements",
     "description": "Choose 2 Hocus moves. Your cult gives you devotion and its options might give you additional standard moves as well.. At 6Xp, choose an improvement and erase.",
