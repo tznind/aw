@@ -138,17 +138,17 @@
     ],
     "category": "Gear",
     "pickOne": [
-      "Big knife (2-harm, hand)",
-      "Crossbow (2-harm, close-far, reload)",
-      "Crowbar (2-harm, hand, brutal)",
-      "Demolition hammer (2-harm, hand, brutal)",
-      "Hatchet (3-harm, hand)",
-      "Machete (3-harm, hand, brutal)",
-      "Molotov (1-environ, fire, thrown, single use: 3)",
-      "Revolver (3-harm, close, loud, ammo: 5)",
-      "Sawed off (4-harm, close, messy, ammo: 3)",
-      "Shrapnel gun (2-harm, close, messy, reload)",
-      "Spare ammo (Add 5/3/3 to ammo tracks of your choice)"
+      "**Big knife** (*2-harm, hand*)",
+      "**Crossbow** (*2-harm, close-far, reload*)",
+      "**Crowbar** (*2-harm, hand, brutal*)",
+      "**Demolition hammer** (*2-harm, hand, brutal*)",
+      "**Hatchet** (*3-harm, hand*)",
+      "**Machete** (*3-harm, hand, brutal*)",
+      "**Molotov** (*1-environ, fire, thrown, single use: 3*)",
+      "**Revolver** (*3-harm, close, loud, ammo: 5*)",
+      "**Sawed off** (*4-harm, close, messy, ammo: 3*)",
+      "**Shrapnel gun** (*2-harm, close, messy, reload*)",
+      "**Spare ammo** (*Add 5/3/3 to ammo tracks of your choice*)"
     ]
   },
    {

@@ -110,11 +110,11 @@
     ],
     "category": "Gear",
     "pickOne": [
-      "Blowtorch (*2-harm, fire, hand*)",
-      "CO 2 Spike gun (*2-harm, close, reload*)",
-      "Demolition hammer (*2-harm, hand, brutal*)",
-      "Nailgun, safety disabled (*1-harm, close, autofire, burstfire, loud*)",
-      "Pipe grenade (*1-environ, thrown, single use: 3*)"
+      "**Blowtorch** (*2-harm, fire, hand*)",
+      "**CO 2 Spike gun** (*2-harm, close, reload*)",
+      "**Demolition hammer** (*2-harm, hand, brutal*)",
+      "**Nailgun, safety disabled** (*1-harm, close, autofire, burstfire, loud*)",
+      "**Pipe grenade** (*1-environ, thrown, single use: 3*)"
     ]
   },
   {

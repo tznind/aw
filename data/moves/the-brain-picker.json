@@ -154,11 +154,11 @@
     ],
     "category": "Gear",
     "pickOne": [
-      "Antique handgun (3-harm, close, loud, valuable, ammo: 4)",
-      "Handmade silenced handgun (3-harm, close, hi-tech, ammo: 3)",
-      "Hidden knives (2-harm, hand, hidden)",
-      "Ornate dagger (2-harm, hand, valuable)",
-      "Scalpels (3-harm, hi-tech, intimate, valuable)"
+      "**Antique handgun** (*3-harm, close, loud, valuable, ammo: 4*)",
+      "**Handmade silenced handgun** (*3-harm, close, hi-tech, ammo: 3*)",
+      "**Hidden knives** (*2-harm, hand, hidden*)",
+      "**Ornate dagger** (*2-harm, hand, valuable*)",
+      "**Scalpels** (*3-harm, hi-tech, intimate, valuable*)"
     ]
   },
   {

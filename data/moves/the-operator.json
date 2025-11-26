@@ -91,11 +91,11 @@
     ],
     "category": "Gear",
     "pickOne": [
- "Big knife (2-harm, hand)",
-"Crossbow (2-harm, close-far, reload)",
-"Crowbar (2-harm, hand, brutal)",
-"Revolver (3-harm, close, loud, ammo: 5)",
-"Sawed off (4-harm, close, messy, ammo: 2)"
+ "**Big knife** (*2-harm, hand*)",
+"**Crossbow** (*2-harm, close-far, reload*)",
+"**Crowbar** (*2-harm, hand, brutal*)",
+"**Revolver** (*3-harm, close, loud, ammo: 5*)",
+"**Sawed off** (*4-harm, close, messy, ammo: 2*)"
     ]
   }
 ,{

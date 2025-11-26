@@ -247,9 +247,9 @@
     ],
     "category": "Gear",
     "pickOne": [
-      "Big knife (2-harm, hand)",
-      "Crude handmade pistol (3-harm, close, loud, ammo: 2)",
-      "Stun gun (s-harm, hand, reload)"
+      "**Big knife** (*2-harm, hand*)",
+      "**Crude handmade pistol** (*3-harm, close, loud, ammo: 2*)",
+      "**Stun gun** (*s-harm, hand, reload*)"
     ]
   },
   {

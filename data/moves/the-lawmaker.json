@@ -104,10 +104,10 @@
     ],
     "category": "Gear",
     "pickOne": [
-      "Big knife (2-harm, hand)",
-      "Handmade pistol (3-harm, close, loud, ammo: 5)",
-      "Hatchet (3-harm, hand)",
-      "Sawed off (4-harm, close, messy, ammo: 3)"
+      "**Big knife** (*2-harm, hand*)",
+      "**Handmade pistol** (*3-harm, close, loud, ammo: 5*)",
+      "**Hatchet** (*3-harm, hand*)",
+      "**Sawed off** (*4-harm, close, messy, ammo: 3*)"
     ]
   },{
     "id": "l9",
