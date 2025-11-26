@@ -103,12 +103,12 @@
     ],
     "category": "Gear",
     "pickOne": [
-"Blade thrower (4-harm, close, harness, loud, reload)",
-"Flamethrower (1-environ, close, fire, harness)",
-"Handmade gatling gun (4-harm, area, close-far, harness, loud, salvos: 3)",
-"Heavy shrapnel gun (3-harm, close-far, messy, reload)",
-"RPG (2-environ, close-far, single use: 3)",
-"Scoped sniper rifle (4-harm, far, hi-tech, loud, ammo: 6)"
+"**Blade thrower** (*4-harm, close, harness, loud, reload*)",
+"**Flamethrower** (*1-environ, close, fire, harness*)",
+"**Handmade gatling gun** (*4-harm, area, close-far, harness, loud, salvos: 3*)",
+"**Heavy shrapnel gun** (*3-harm, close-far, messy, reload*)",
+"**RPG** (*2-environ, close-far, single use: 3*)",
+"**Scoped sniper rifle** (*4-harm, far, hi-tech, loud, ammo: 6*)"
     ]
   },
    {
@@ -158,11 +158,11 @@
     "hideCheckbox": true,
     "category": "Gear",
     "pickOne": [
-      "Beautiful custom-made body armor (2-armor, valuable)",
-      "Dull, utilitarian body armor (2-armor)",
-      "Intimidating body armor (2-armor)",
-      "Preapocalyptic military body armor (2-armor, hi-tech)",
-      "Scavenged body armor (2-armor)"
+      "**Beautiful custom-made body armor** (*2-armor, valuable*)",
+      "**Dull, utilitarian body armor** (*2-armor*)",
+      "**Intimidating body armor** (*2-armor*)",
+      "**Preapocalyptic military body armor** (*2-armor, hi-tech*)",
+      "**Scavenged body armor** (*2-armor*)"
     ]
   }
 ,{
