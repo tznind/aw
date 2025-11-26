@@ -75,6 +75,105 @@
         "text": "You foresee your own death, and accordingly take -1 throughout the battle."
       }
     ]
+  },
+   {
+    "id": "v6",
+    "title": "Serious Weapons",
+    "description": "Choose 2:",
+    "hideCheckbox": true,
+    "tracks": [
+      {
+        "name": "Salvos",
+        "max": 3,
+        "shape": "circle"
+      },
+      {
+        "name": "Uses",
+        "max": 3,
+        "shape": "circle"
+      },
+      {
+        "name": "Ammo",
+        "max": 6,
+        "shape": "circle"
+      }
+    ],
+    "category": "Gear",
+    "pickOne": [
+      "Big knife (2-harm, hand)",
+      "Crossbow (2-harm, close-far, reload)",
+      "Crowbar (2-harm, hand, brutal)",
+      "Demolition hammer (2-harm, hand, brutal)",
+      "Hatchet (3-harm, hand)",
+      "Machete (3-harm, hand, brutal)",
+      "Molotov (1-environ, fire, thrown, single use: 3)",
+      "Revolver (3-harm, close, loud, ammo: 5)",
+      "Sawed off (4-harm, close, messy, ammo: 3)",
+      "Shrapnel gun (2-harm, close, messy, reload)"
+    ]
+  },
+   {
+    "id": "v7",
+    "title": "Handy Weapons",
+    "description": "Choose 2:",
+    "hideCheckbox": true,
+    "tracks": [
+      {
+        "name": "Salvos",
+        "max": 3,
+        "shape": "circle"
+      },
+      {
+        "name": "Uses",
+        "max": 3,
+        "shape": "circle"
+      },
+      {
+        "name": "Ammo",
+        "max": 6,
+        "shape": "circle"
+      }
+    ],
+    "category": "Gear",
+    "pickOne": [
+"Blade thrower (4-harm, close, harness, loud, reload)",
+"Flamethrower (1-environ, close, fire, harness)",
+"Handmade gatling gun (4-harm, area, close-far, harness, loud, salvos: 3)",
+"Heavy shrapnel gun (3-harm, close-far, messy, reload)",
+"RPG (2-environ, close-far, single use: 3)",
+"Scoped sniper rifle (4-harm, far, hi-tech, loud, ammo: 6)"
+    ]
+  },
+   {
+    "id": "v8",
+    "title": "Body Armor",
+    "description": "Choose 1:",
+    "hideCheckbox": true,
+    "tracks": [
+      {
+        "name": "Salvos",
+        "max": 3,
+        "shape": "circle"
+      },
+      {
+        "name": "Uses",
+        "max": 3,
+        "shape": "circle"
+      },
+      {
+        "name": "Ammo",
+        "max": 6,
+        "shape": "circle"
+      }
+    ],
+    "category": "Gear",
+    "pickOne": [
+      "Beautiful custom-made body armor (2-armor, valuable)",
+      "Dull, utilitarian body armor (2-armor)",
+      "Intimidating body armor (2-armor)",
+      "Preapocalyptic military body armor (2-armor, hi-tech)",
+      "Scavenged body armor (2-armor)"
+    ]
   }
 ,{
     "id": "v9",
