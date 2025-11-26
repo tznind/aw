@@ -10,19 +10,19 @@
   <div class="form-field">
     <label>Your pack are like (choose 1):</label>
     <div class="pack-options">
-      <label class="pack-option">
+      <label class="pack-option" id="pack-type-family-option">
         <input type="radio" name="pack-type" id="pack-type-family" value="family">
         A tight-knit, squabbling family (impulse: close ranks, protect their own).
       </label>
-      <label class="pack-option">
+      <label class="pack-option" id="pack-type-enforcers-option">
         <input type="radio" name="pack-type" id="pack-type-enforcers" value="enforcers">
         Bullying enforcers, always demanding obedience & deference (impulse: victimize whoever stands out).
       </label>
-      <label class="pack-option">
+      <label class="pack-option" id="pack-type-cult-option">
         <input type="radio" name="pack-type" id="pack-type-cult" value="cult">
         A weird, aggressive cult, always hazing new converts (impulse: victimize & incorporate people).
       </label>
-      <label class="pack-option">
+      <label class="pack-option" id="pack-type-hunters-option">
         <input type="radio" name="pack-type" id="pack-type-hunters" value="hunters">
         A hunting pack, predatory & lazy (impulse: victimize whoever's vulnerable).
       </label>
@@ -33,10 +33,10 @@
   <div class="form-field">
     <label>They number (circle 1):</label>
     <div class="pack-numbers">
-      <label><input type="radio" name="pack-number" id="pack-number-10" value="10"> 10</label>
-      <label><input type="radio" name="pack-number" id="pack-number-12" value="12"> 12</label>
-      <label><input type="radio" name="pack-number" id="pack-number-15" value="15"> 15</label>
-      <label><input type="radio" name="pack-number" id="pack-number-20" value="20"> 20</label>
+      <label id="pack-number-10-option"><input type="radio" name="pack-number" id="pack-number-10" value="10"> 10</label>
+      <label id="pack-number-12-option"><input type="radio" name="pack-number" id="pack-number-12" value="12"> 12</label>
+      <label id="pack-number-15-option"><input type="radio" name="pack-number" id="pack-number-15" value="15"> 15</label>
+      <label id="pack-number-20-option"><input type="radio" name="pack-number" id="pack-number-20" value="20"> 20</label>
     </div>
   </div>
 
@@ -78,15 +78,15 @@
   <div class="form-field">
     <label>You and your pack ride (choose 1):</label>
     <div class="pack-options">
-      <label class="pack-option">
+      <label class="pack-option" id="pack-ride-4wheelers-option">
         <input type="radio" name="pack-ride" id="pack-ride-4wheelers" value="4wheelers">
         <strong>4-wheelers.</strong> Frame: bike, massive=1, 0-armor. Gang: +bikes.
       </label>
-      <label class="pack-option">
+      <label class="pack-option" id="pack-ride-bikes-option">
         <input type="radio" name="pack-ride" id="pack-ride-bikes" value="bikes">
         <strong>Bikes.</strong> Frame: bike, massive=0, 0-armor. Gang: +bikes.
       </label>
-      <label class="pack-option">
+      <label class="pack-option" id="pack-ride-cutters-option">
         <input type="radio" name="pack-ride" id="pack-ride-cutters" value="cutters">
         <strong>Cutters.</strong> Frame: cutter, massive=1, 0-armor. Gang: +hovering.
       </label>

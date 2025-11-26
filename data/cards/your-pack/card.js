@@ -3,6 +3,9 @@ window.CardInitializers = window.CardInitializers || {};
 window.CardInitializers['your-pack'] = function() {
     console.log('Your Pack card initializing...');
     
+    // Setup hide untaken functionality
+    setupHideUntaken();
+    
     // Initialize the ammo track
     const trackContainer = document.querySelector('.ammo-track-field .track-container');
     if (!trackContainer) {
@@ -62,6 +65,115 @@ window.CardInitializers['your-pack'] = function() {
     
     console.log('Ammo track initialized successfully');
 };
+
+/**
+ * Setup hide untaken functionality for pack options
+ */
+function setupHideUntaken() {
+    console.log('Setting up hide untaken for pack options...');
+    
+    // All radio button groups
+    const packTypeRadios = document.querySelectorAll('input[name="pack-type"]');
+    const packNumberRadios = document.querySelectorAll('input[name="pack-number"]');
+    const packRideRadios = document.querySelectorAll('input[name="pack-ride"]');
+    
+    // Add change listeners to all radio buttons
+    [...packTypeRadios, ...packNumberRadios, ...packRideRadios].forEach(radio => {
+        if (!radio.hasAttribute('data-pack-listener')) {
+            radio.addEventListener('change', updatePackDisplay);
+            radio.setAttribute('data-pack-listener', 'true');
+        }
+    });
+    
+    // Listen to hide_untaken checkbox changes
+    const hideUntakenCheckbox = document.getElementById('hide_untaken');
+    if (hideUntakenCheckbox && !hideUntakenCheckbox.hasAttribute('data-pack-untaken-listener')) {
+        hideUntakenCheckbox.addEventListener('change', updatePackDisplay);
+        hideUntakenCheckbox.setAttribute('data-pack-untaken-listener', 'true');
+    }
+    
+    // Initial display update
+    updatePackDisplay();
+}
+
+/**
+ * Update display based on selections and hide untaken setting
+ */
+function updatePackDisplay() {
+    console.log('Updating pack display...');
+    
+    // Check if hide untaken is enabled
+    const hideUntakenCheckbox = document.getElementById('hide_untaken');
+    const hideUntaken = hideUntakenCheckbox ? hideUntakenCheckbox.checked : false;
+    
+    // Handle pack type options
+    const packTypeOptions = [
+        { radio: 'pack-type-family', option: 'pack-type-family-option' },
+        { radio: 'pack-type-enforcers', option: 'pack-type-enforcers-option' },
+        { radio: 'pack-type-cult', option: 'pack-type-cult-option' },
+        { radio: 'pack-type-hunters', option: 'pack-type-hunters-option' }
+    ];
+    
+    packTypeOptions.forEach(item => {
+        const radio = document.getElementById(item.radio);
+        const optionElement = document.getElementById(item.option);
+        
+        if (radio && optionElement) {
+            if (radio.checked) {
+                optionElement.classList.add('selected');
+                optionElement.style.display = '';
+            } else {
+                optionElement.classList.remove('selected');
+                optionElement.style.display = hideUntaken ? 'none' : '';
+            }
+        }
+    });
+    
+    // Handle pack number options
+    const packNumberOptions = [
+        { radio: 'pack-number-10', option: 'pack-number-10-option' },
+        { radio: 'pack-number-12', option: 'pack-number-12-option' },
+        { radio: 'pack-number-15', option: 'pack-number-15-option' },
+        { radio: 'pack-number-20', option: 'pack-number-20-option' }
+    ];
+    
+    packNumberOptions.forEach(item => {
+        const radio = document.getElementById(item.radio);
+        const optionElement = document.getElementById(item.option);
+        
+        if (radio && optionElement) {
+            if (radio.checked) {
+                optionElement.classList.add('selected');
+                optionElement.style.display = '';
+            } else {
+                optionElement.classList.remove('selected');
+                optionElement.style.display = hideUntaken ? 'none' : '';
+            }
+        }
+    });
+    
+    // Handle pack ride options
+    const packRideOptions = [
+        { radio: 'pack-ride-4wheelers', option: 'pack-ride-4wheelers-option' },
+        { radio: 'pack-ride-bikes', option: 'pack-ride-bikes-option' },
+        { radio: 'pack-ride-cutters', option: 'pack-ride-cutters-option' }
+    ];
+    
+    packRideOptions.forEach(item => {
+        const radio = document.getElementById(item.radio);
+        const optionElement = document.getElementById(item.option);
+        
+        if (radio && optionElement) {
+            if (radio.checked) {
+                optionElement.classList.add('selected');
+                optionElement.style.display = '';
+            } else {
+                optionElement.classList.remove('selected');
+                optionElement.style.display = hideUntaken ? 'none' : '';
+            }
+        }
+    });
+}
 
 /**
  * Handle clicking on a track shape
