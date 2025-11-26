@@ -1,9 +1,8 @@
 [
   {
     "id": "m1",
-    "title": "Cultural Hub",
-    "description": "When you make your venue's wealth roll and your venue has surplus, choose a different hard zone location. Your venue's gossip & news includes gossip and news from that location too.",
-    "details": true
+    "title": "Cultural Hub (Requires a Venue)",
+    "description": "When you make your venue's wealth roll and your venue has surplus, choose a different hard zone location. Your venue's gossip & news includes gossip and news from that location too."
   },
   {
     "id": "m2",
@@ -59,7 +58,7 @@
   },
   {
     "id": "m5",
-    "title": "Just Give Me a Motive (+Hard or +Hx)",
+    "title": "Just Give Me a Motive (+Hard or +Hx, Highly Interruptible)",
     "description": "Name somebody who might conceivably eat, drink, or otherwise ingest something you've touched. If it's an NPC, roll+Hard; a PC, roll+Hx.",
     "outcomes": [
       {

@@ -1,7 +1,7 @@
 [
   {
     "id": "p1",
-    "title": "Combat Driver",
+    "title": "Combat Driver (Requires a Vehicle)",
     "description": "When you use your vehicle as a weapon, inflict +1harm. When you inflict v-harm, inflict v-harm+1. When you suffer v-harm, suffer v-harm-1."
   },
   {

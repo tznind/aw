@@ -33,12 +33,12 @@
   },
   {
     "id": "u3",
-    "title": "Incandescent",
+    "title": "Incandescent (Highly Interruptible)",
     "description": "When you make a show and display of passion — anguish, love, fury, any — no one who can see you can do anything but watch. You command their absolute attention. If you choose, you can exempt individual people, by name."
   },
   {
     "id": "u4",
-    "title": "Lost (+Weird)",
+    "title": "Lost (+Weird, Highly Interruptible)",
     "description": "When you whisper someone's name to the world's psychic maelstrom, roll+Weird.",
     "outcomes": [
       {

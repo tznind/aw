@@ -1,7 +1,7 @@
 [
   {
     "id": "l1",
-    "title": "The Law Speaks to You (+Weird)",
+    "title": "The Law Speaks to You (+Weird, Requires Holding and Laws)",
     "description": "When someone breaks your laws, roll+Weird.",
     "outcomes": [
       {
@@ -26,7 +26,7 @@
   },
   {
     "id": "l2",
-    "title": "Ears in the Walls (+Sharp)",
+    "title": "Ears in the Walls (+Sharp, Requires Holding and Laws)",
     "description": "At the beginning of the session, roll+Sharp.",
     "tracks": [
       {
@@ -38,7 +38,10 @@
     "outcomes": [
       {
         "range": "≥ 10",
-        "text": "Hold 3. During the session, spend your hold 1 for 1 to name a person who's living in or visiting your holding, and ask what they're up to right now. The MC or the other player has to answer frankly."
+        "text": "Hold 3. During the session. Spend your hold 1 for 1 to",
+        "bullets": [
+          "Name a person who's living in or visiting your holding, and ask: *what they're up to right now*. The MC or the other player has to answer frankly"
+        ]
       },
       {
         "range": "7–9",
@@ -60,8 +63,8 @@
         "range": "≥ 10",
         "text": "Both:",
         "bullets": [
-          "If anyone here has broken your laws or betrayed your holding, they can't meet your eyes. Ask the MC who can't.",
-          "If anyone here intends to break your laws or intends you harm, they move involuntarily away from you. Ask the MC who does."
+          "If anyone here **has** broken your laws or betrayed your holding, they can't meet your eyes. Ask the MC who can't.",
+          "If anyone here **intends** to break your laws or intends you harm, they move involuntarily away from you. Ask the MC who does."
         ]
       },
       {
@@ -78,13 +81,13 @@
   {
     "id": "l4",
     "title": "Right Hand",
-    "description": "You have a lieutenant who isn't just competent and loyal, they are, as the saying goes, reliable. Detail them now with the MC.",
+    "description": "You have a lieutenant who isn't just competent and loyal, they are, as the saying goes, *reliable*. Detail them now with the MC.",
     "details": true
   },
   {
     "id": "l5",
     "title": "Taskmaster",
-    "description": "When you give orders to a non-gang body of people who answer to you (eg your holding's population, your followers, your assistants or crew) use **leadership**, even though they're not a gang."
+    "description": "When you give orders to a non-gang body of people who answer to you (eg your holding's population, your followers, your assistants or crew) use **Leadership**, even though they're not a gang."
   },
   {
     "id": "l9",
