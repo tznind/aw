@@ -1,9 +1,82 @@
 [
   {
     "id": "r1",
-    "title": "Coming soon..."
+    "title": "Best Friends",
+    "description": "You gain a dog [or another dog]. You detail.",
+    "details": true
   },
   {
+    "id": "r2",
+    "title": "Hunter (+Aggro)",
+    "description": "When you're hunting, tracking, fleeing, or standing off with an enemy, roll+Aggro.",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "Ask the MC 3 questions. The MC has to answer frankly:",
+        "bullets": [
+          "Is this its territory? How do I know?",
+          "Where would it go for safety? How do I know?",
+          "Where would it go for the advantage in an encounter? How do I know?",
+          "How close is it? How can I tell?",
+          "Is it aware of me and my position? How can I tell?",
+          "Is it motivated right now by pain, fear, hunger, or instinct? How can I tell?"
+        ]
+      },
+      {
+        "range": "7–9",
+        "text": "Ask 2:",
+        "bullets": []
+      },
+      {
+        "range": "≤ 6",
+        "text": "Ask 1 anyway, but it can ask you 1 too. Answer frankly."
+      }
+    ]
+  },
+  {
+    "id": "r3",
+    "title": "Monster Fighter",
+    "description": "You have the experience, discipline, and skill to take on enemies that are physically larger than you. When you **attack** or **do battle** with a larger enemy, you're not outsized, no matter how big they are."
+  },
+  {
+    "id": "r4",
+    "title": "Naturalist",
+    "description": "Ask the MC for the rules for creating creatures. Whenever there's a break in play, you can write up an until-now unknown plant, animal, or other creature. Give it over to the MC to create as a threat and bring into play as they choose.",
+    "details": true
+  },
+  {
+    "id": "r5",
+    "title": "Wanderer",
+    "description": "Whenever there's a break in play, you can declare that meanwhile, you've been wandering. Choose a location from the Inhospitable and tell the MC that you've discovered it, visited it, or learned the way to it. Add it to the hard zone in play. Instead of choosing a location from the Inhospitable, if you prefer, you can work with the MC to write up a new custom location for the hard zone in play.",
+    "details": true
+  },
+  {
+    "id": "r9",
+    "title": "Improvements",
+    "description": "Choose 2 Restless moves. At 6Xp, choose an improvement and erase.",
+    "category": "Improvement",
+    "hideCheckbox": true,
+    "tracks": [
+      {
+        "name": "» Improve",
+        "max": 6,
+        "shape": "circle"
+      }
+    ],
+    "pick": [
+      "Get +1Aggro (max Aggro+3)",
+      "Get +1Cool (max Cool+3)",
+      "Get +1Hard (max Hard+3)",
+      "Get +1Sharp (max Sharp+3)",
+      "Get a new Restless move",
+      "Get a new Restless move",
+      "Get a new Restless move",
+      "Get a **holding** and **wealth**",
+      "Get a move from an unused playbook",
+      "Get a move from an unused playbook"
+    ]
+  }
+,{
     "id": "r9",
     "title": "Improvements",
     "description": "Choose 2 Restless moves. At 6Xp, choose an improvement and erase.",

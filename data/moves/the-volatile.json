@@ -1,9 +1,108 @@
 [
   {
     "id": "v1",
-    "title": "Coming soon..."
+    "title": "Armed to the Teeth",
+    "description": "In addition to your other weapons, you get one serious weapon and two handy weapons.",
+    "details": true
   },
   {
+    "id": "v2",
+    "title": "Bug Out (+Aggro)",
+    "description": "Name your escape route and roll+Aggro.",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "Sweet, you're gone."
+      },
+      {
+        "range": "7–9",
+        "text": "You can go or stay, but if you go it costs you: leave something behind, or take something with you, the MC will tell you what.",
+        "bullets": []
+      },
+      {
+        "range": "≤ 6",
+        "text": "You're caught vulnerable, half in and half out."
+      }
+    ]
+  },
+  {
+    "id": "v3",
+    "title": "Dangerous Presence (+Aggro)",
+    "description": "When you enter into a nonviolent situation, roll+Aggro.",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "Choose 2:",
+        "bullets": [
+          "If I have any enemies here, they put their hands to their weapons. Ask the MC who does.",
+          "If I have any enemies here, they freeze and try to make themselves inconspicuous. Ask the MC who does.",
+          "If anybody here wants or needs my help, even if they don't dare signal me, they look relieved to see me. Ask the MC who does.",
+          "If I have any allies here, they make eye contact with me. Ask the MC who does."
+        ]
+      },
+      {
+        "range": "7–9",
+        "text": "Choose 1:",
+        "bullets": []
+      },
+      {
+        "range": "≤ 6",
+        "text": "If you have any enemies here, they immediately move against you."
+      }
+    ]
+  },
+  {
+    "id": "v4",
+    "title": "Hold Your Own",
+    "description": "In battle, you're able to go toe-to-toe with a small gang by yourself. When you're outnumbered, count yourself as a gang of 10."
+  },
+  {
+    "id": "v5",
+    "title": "Visions of Death (+Weird)",
+    "description": "When you go into battle, roll+Weird.",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "Name one person who'll die and one who'll live. Don't name a player's character; name NPCs only. The MC will make your vision come true, if it's possible."
+      },
+      {
+        "range": "7–9",
+        "text": "Name one person who'll die OR one person who'll live.",
+        "bullets": []
+      },
+      {
+        "range": "≤ 6",
+        "text": "You foresee your own death, and accordingly take -1 throughout the battle."
+      }
+    ]
+  },
+  {
+    "id": "v9",
+    "title": "Improvements",
+    "description": "Choose 2 Volatile moves. At 6Xp, choose an improvement and erase.",
+    "category": "Improvement",
+    "hideCheckbox": true,
+    "tracks": [
+      {
+        "name": "» Improve",
+        "max": 6,
+        "shape": "circle"
+      }
+    ],
+    "pick": [
+      "Get +1Aggro (max Aggro+3)",
+      "Get +1Cool (max Cool+3)",
+      "Get +1Hard (max Hard+3)",
+      "Get +1Sharp (max Sharp+3)",
+      "Get a new Volatile move",
+      "Get a new Volatile move",
+      "Get a new Volatile move",
+      "Get a **holding** and **wealth**",
+      "Get a move from an unused playbook",
+      "Get a move from an unused playbook"
+    ]
+  }
+,{
     "id": "v9",
     "title": "Improvements",
     "description": "Choose 2 Volatile moves. At 6Xp, choose an improvement and erase.",
