@@ -77,11 +77,14 @@ function setupHideUntaken() {
     const packNumberRadios = document.querySelectorAll('input[name="pack-number"]');
     const packRideRadios = document.querySelectorAll('input[name="pack-ride"]');
     
-    // Add change listeners to all radio buttons
-    [...packTypeRadios, ...packNumberRadios, ...packRideRadios].forEach(radio => {
-        if (!radio.hasAttribute('data-pack-listener')) {
-            radio.addEventListener('change', updatePackDisplay);
-            radio.setAttribute('data-pack-listener', 'true');
+    // All ride property checkboxes
+    const ridePropertyCheckboxes = document.querySelectorAll('.ride-properties input[type="checkbox"]');
+    
+    // Add change listeners to all radio buttons and checkboxes
+    [...packTypeRadios, ...packNumberRadios, ...packRideRadios, ...ridePropertyCheckboxes].forEach(input => {
+        if (!input.hasAttribute('data-pack-listener')) {
+            input.addEventListener('change', updatePackDisplay);
+            input.setAttribute('data-pack-listener', 'true');
         }
     });
     
@@ -165,6 +168,29 @@ function updatePackDisplay() {
         
         if (radio && optionElement) {
             if (radio.checked) {
+                optionElement.classList.add('selected');
+                optionElement.style.display = '';
+            } else {
+                optionElement.classList.remove('selected');
+                optionElement.style.display = hideUntaken ? 'none' : '';
+            }
+        }
+    });
+    
+    // Handle ride property checkboxes
+    const ridePropertyOptions = [
+        'blazing', 'bucking', 'churning', 'crying', 'darting', 'flashing',
+        'grinding', 'groaning', 'hissing', 'howling', 'racing', 'raging',
+        'roaring', 'scorching', 'screaming', 'smoking', 'soaring',
+        'swooping', 'wallowing', 'whispering'
+    ];
+    
+    ridePropertyOptions.forEach(property => {
+        const checkbox = document.getElementById(`ride-${property}`);
+        const optionElement = document.getElementById(`ride-${property}-option`);
+        
+        if (checkbox && optionElement) {
+            if (checkbox.checked) {
                 optionElement.classList.add('selected');
                 optionElement.style.display = '';
             } else {
