@@ -83,6 +83,45 @@
         "text": "Choose 1 anyway, but tell the MC that your scrutiny isn't as subtle as you think."
       }
     ]
+  },
+   {
+    "id": "u8",
+    "title": "Distinctive Weapons",
+    "description": "Choose 2:",
+    "hideCheckbox": true,
+    "tracks": [
+      {
+        "name": "Gernades",
+        "max": 3,
+        "dynamic": true,
+        "shape": "circle"
+      },
+      
+      {
+        "name": "Propane",
+        "max": 3,
+        "dynamic": true,
+        "shape": "circle"
+      },
+      
+      {
+        "name": "Repair",
+        "max": 3,
+        "dynamic": true,
+        "shape": "circle"
+      }
+    ],
+    "category": "Gear",
+    "pickOne": [
+        "Big knife (2-harm, hand)",
+        "Bean can gernades (3-harm, messy, thrown, single use: 3)",
+        "Crossbow (2-harm, close-far, reload)",
+        "Hatchet (3-harm, hand)",
+        "Machete (3-harm, hand, brutal)",
+        "Scavenged lost-tech pulser (3-harm, close-far, autofire, hi-tech, unreliable, repair: 3)",
+        "Tripwire propane can (3-harm, close, fire, set, single use: 3)",
+        "Tripwire spike (4-harm, hand, set)"
+    ]
   }
 ,{
     "id": "u9",

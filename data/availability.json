@@ -110,6 +110,7 @@
   "o3": false,
   "o4": false,
   "o5": false,
+  "o8": false,
   "o9": true
 },
 
@@ -129,6 +130,7 @@
   "l3": false,
   "l4": false,
   "l5": false,
+  "l8":true,
   "l9": true
 },
 
@@ -148,6 +150,7 @@
   "u3": false,
   "u4": false,
   "u5": false,
+  "u8": true,
   "u9": true
 },
 
@@ -167,6 +170,7 @@
   "m3": false,
   "m4": false,
   "m5": false,
+  "m8": true,
   "m9": true
 },
 
@@ -186,6 +190,7 @@
   "p3": false,
   "p4": false,
   "p5": false,
+  "p8": true,
   "p9": true
 },
 
@@ -204,6 +209,7 @@
   "r3": false,
   "r4": false,
   "r5": false,
+  "r8": true,
   "r9": true
 },
 

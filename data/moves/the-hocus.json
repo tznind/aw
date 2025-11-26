@@ -94,8 +94,31 @@
         "text": "The MC must answer truthfully."
       }
     ]
-  }
-,{
+  },
+   {
+    "id": "o8",
+    "title": "Showy Weapons",
+    "description": "Choose one or two:",
+    "hideCheckbox": true,
+    "tracks": [
+      {
+        "name": "Ammo",
+        "max": 3,
+        "dynamic": true,
+        "shape": "circle"
+      }
+    ],
+    "category": "Gear",
+    "pickOne": [
+"A big horn-handled hunter’s knife (2-harm, hand)",
+"A custom-made short-barrel shotgun (4-harm, close, messy, ammo: 2)",
+"An elaborate etched & engraved skull-club (2-harm, hand)",
+"A heavy ceremonial staff-mace (2-harm, hand)",
+"An honest to god sword, a decorated cavalry saber (3-harm, hand)",
+"A huge-bore vintage revolver (4-harm, close, loud, ammo: 6)"
+    ]
+  },
+{
     "id": "o9",
     "title": "Improvements",
     "description": "Choose 2 Hocus moves. Your cult gives you devotion and its options might give you additional standard moves as well.. At 6Xp, choose an improvement and erase.",

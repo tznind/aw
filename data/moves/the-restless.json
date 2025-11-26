@@ -49,6 +49,29 @@
     "title": "Wanderer",
     "description": "Whenever there's a break in play, you can declare that meanwhile, you've been wandering. Choose a location from the Inhospitable and tell the MC that you've discovered it, visited it, or learned the way to it. Add it to the hard zone in play. Instead of choosing a location from the Inhospitable, if you prefer, you can work with the MC to write up a new custom location for the hard zone in play.",
     "details": true
+  },
+   {
+    "id": "r8",
+    "title": "Survival Weapons",
+    "description": "A Big Knife plus 2 more:",
+    "hideCheckbox": true,
+    "tracks": [
+      {
+        "name": "Ammo",
+        "max": 3,
+        "dynamic": true,
+        "shape": "circle"
+      }
+    ],
+    "category": "Gear",
+    "pickOne": [
+      "Beautiful vintage handgun (3-harm, close, loud, valuable, ammo: 3)",
+      "Custom-made handgun (3-harm, close, loud, valuable, ammo: 3)",
+      "Hand-forged damascus blade (2-harm, hand, valuable)",
+      "Hidden knives (2-harm, hand, hidden)",
+      "Lavishly decorated hunting rifle (4-harm, far, loud, valuable, ammo: 3)",
+      "Weighted, swinging chain (2-harm, hand)"
+    ]
   },{
     "id": "r9",
     "title": "Improvements",

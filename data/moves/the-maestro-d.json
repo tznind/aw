@@ -75,6 +75,14 @@
         "text": "Some several people of the MC's choice, maybe including your guy maybe not, get it, and all suffer 3-harm (ap)."
       }
     ]
+  },
+   {
+    "id": "m8",
+    "title": "A wicked blade",
+    "description": "Like a kitchen knife or 12\" razor-sharp scissors (2-harm, hand).",
+    "hideCheckbox": true,
+    "category": "Gear",
+    "details": true
   }
 ,{
     "id": "m9",

@@ -88,6 +88,27 @@
     "id": "l5",
     "title": "Taskmaster",
     "description": "When you give orders to a non-gang body of people who answer to you (eg your holding's population, your followers, your assistants or crew) use **Leadership**, even though they're not a gang."
+  },
+   {
+    "id": "l8",
+    "title": "No-Nonsense Weapons",
+    "description": "Choose 2:",
+    "hideCheckbox": true,
+    "tracks": [
+      {
+        "name": "Ammo",
+        "max": 3,
+        "dynamic": true,
+        "shape": "circle"
+      }
+    ],
+    "category": "Gear",
+    "pickOne": [
+      "Big knife (2-harm, hand)",
+      "Handmade pistol (3-harm, close, loud, ammo: 5)",
+      "Hatchet (3-harm, hand)",
+      "Sawed off (4-harm, close, messy, ammo: 3)"
+    ]
   },{
     "id": "l9",
     "title": "Improvements",
