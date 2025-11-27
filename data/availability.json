@@ -89,6 +89,7 @@
   "h3": false,
   "h4": false,
   "h5": false,
+  "h6": true,
   "h9": true
 },
 

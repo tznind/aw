@@ -67,8 +67,15 @@
     "id": "h5",
     "title": "Skirmishers (Requires a Gang)",
     "description": "Your gang has the experience, discipline, and mobility to take on a much larger gang. When you're outnumbered in battle, count your gang as twice its number."
-  }
-,{
+  },
+  {
+    "id": "h6",
+    "title": "Gear",
+    "description": "You get the same ride, weapons, and armor your pack has.",
+    "hideCheckbox": true,
+    "category": "Gear"
+  },
+  {
     "id": "h9",
     "title": "Improvements",
     "description": "You get **chaotic presence**, and choose 1 more Harrier move.. At 6Xp, choose an improvement and erase.",
