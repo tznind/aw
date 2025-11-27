@@ -23,8 +23,7 @@
     "a11": true,
     "a12": true,
     "a13": true,
-    "a16": true,
-    "a17": true
+    "a16": true
   },
   "The Brain-picker": {
     "_movesFile": "data/moves/the-brain-picker.json",
@@ -52,7 +51,6 @@
     "b13": false,
     "b14": false,
     "b15": false,
-    "a17": true,
     "b16": true
   },
   "The Gearcutter": {
@@ -73,8 +71,7 @@
     "g5": false,
     "g6": true,
     "g7": true,
-    "g8": true,
-    "a17": true
+    "g8": true
   },
 "The Harrier": {
   "_movesFile": "data/moves/the-harrier.json",
@@ -253,6 +250,7 @@
     "cards": ["when-life-becomes-untenable", "hx"],
     "e1": false,
     "a14": true,
-    "a15":true
+    "a15": true,
+    "a17": true
   }
 }
