@@ -144,7 +144,7 @@
   "Aggro+1, Cool+2, Hard+1, Sharp+1, Weird-2"
 ],
 "hxInstructions": "List the other characters' names.\nGo around again for Hx. On your turn, choose 1 for each other character directly:\n• *I'm curious about you.* For the characters you choose, write Hx+2.\n• *I find you interesting, but don't trust you.* For the characters you choose, write Hx+1.\n• *I want to think well of you, but don't yet.* For the characters you choose, write Hx-1.\nOn the others' turns, volunteer if you like.",
-  "cards": [],
+  "cards": ["your-luxe-setup"],
   "u1": false,
   "u2": false,
   "u3": false,

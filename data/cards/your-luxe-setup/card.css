@@ -1,0 +1,129 @@
+/* Inline text inputs */
+.card input[type="text"].inline-text {
+  display: inline;
+  border: none;
+  border-bottom: 1px solid #dee2e6;
+  padding: 2px 6px;
+  font-size: inherit;
+  background: white;
+  width: 200px;
+  font-family: inherit;
+}
+
+.card input[type="text"].inline-text:focus {
+  border-bottom-color: #0ea5e9;
+  outline: none;
+  background: #f8f9fa;
+}
+
+/* Room Properties */
+.room-properties {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.room-properties label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 8px;
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 0.2s ease;
+}
+
+.room-properties label:hover {
+  background: #e9ecef;
+  border-color: #adb5bd;
+}
+
+.room-properties input[type="checkbox"] {
+  cursor: pointer;
+}
+
+/* Other option below room properties */
+.other-option {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.other-option input[type="checkbox"] {
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.other-option span {
+  flex-shrink: 0;
+}
+
+.other-option .other-text {
+  flex: 1;
+}
+
+/* Luxe Options */
+.luxe-options {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.luxe-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 10px;
+  background: #f8f9fa;
+  border: 2px solid #dee2e6;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 14px;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+
+.luxe-option:hover {
+  background: #e9ecef;
+  border-color: #adb5bd;
+}
+
+.luxe-option input[type="checkbox"] {
+  margin-top: 3px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+/* Car Details */
+.car-details {
+  margin-top: 6px;
+  font-size: 13px;
+  color: #6c757d;
+  font-style: italic;
+}
+
+/* Rare Goods List */
+.rare-goods-list {
+  margin: 8px 0 0 20px;
+  padding: 0;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.rare-goods-list li {
+  margin-bottom: 4px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .room-properties {
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "your-luxe-setup",
+  "title": "Your Luxe Setup",
+  "path": "data/cards/your-luxe-setup",
+  "description": "Track your enviable belongings and living arrangements",
+  "version": "1.0.0",
+  "author": "Apocalypse World",
+  "files": {
+    "html": "card.html",
+    "css": "card.css",
+    "js": "card.js"
+  }
+}
