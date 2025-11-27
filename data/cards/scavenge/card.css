@@ -6,7 +6,7 @@
 
 .scavenge-card .scavenge-option {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 8px;
   cursor: pointer;
   padding: 8px;
@@ -19,15 +19,22 @@
 }
 
 .scavenge-card .scavenge-option input[type="radio"] {
-  margin-top: 2px;
   flex-shrink: 0;
 }
 
-.scavenge-card .scavenge-custom-fields {
+.scavenge-card .scavenge-custom {
   display: flex;
-  flex-direction: column;
+  align-items: center;
   gap: 8px;
+}
+
+.scavenge-card .scavenge-custom input[type="text"] {
   flex: 1;
+  min-width: 0;
+}
+
+.scavenge-card .scavenge-custom input[type="number"] {
+  width: 60px;
 }
 
 .scavenge-card .scavenge-instruction {
