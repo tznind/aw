@@ -197,17 +197,6 @@
     "description": " you must restock it supply by supply: by **dropping jingle** in a marketplace, if the supply you need is available there; when you **live day to day**, if the supply you need is free or easy for you to come by; or by scavenging, scrounging, or looting, at the MC's discretion."
   },
   {
-    "id": "a13",
-    "title": "Scavenge",
-    "category": "Angel Kit",
-    "hideCheckbox": true,
-    "description": "Choose 1.  Record your current barter below.\n\nPeople support you out of appreciation…",
-    "pickOne": [
-      "…and you turn all their support back into resources for providing more care. You have **Barter-1**.",
-      "…and you're able to live a little comfortably on their gratitude for your care. You have **Barter+1**."
-    ]
-  },
-  {
     "id": "a9",
     "title": "Improvements",
     "description": "Choose 2 Angel moves. At 6Xp, choose an improvement and erase.",

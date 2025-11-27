@@ -1,0 +1,13 @@
+{
+  "id": "scavenge",
+  "title": "Scavenge",
+  "path": "data/cards/scavenge",
+  "description": "Choose how you make your way in the world",
+  "version": "1.0.0",
+  "author": "Apocalypse World",
+  "files": {
+    "html": "card.html",
+    "css": "card.css",
+    "js": "card.js"
+  }
+}

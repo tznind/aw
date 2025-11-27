@@ -1,0 +1,26 @@
+<div class="card scavenge-card">
+  <h3 class="card-title">💰  Scavenge</h3>
+  <div class="form-field">
+    <p class="scavenge-instruction">Choose 1:</p>
+    <div class="scavenge-options">
+      <label class="scavenge-option">
+        <input type="radio" name="scavenge_choice" value="option1">
+        <span class="scavenge-text" data-option="1"></span>
+      </label>
+      <label class="scavenge-option">
+        <input type="radio" name="scavenge_choice" value="option2">
+        <span class="scavenge-text" data-option="2"></span>
+      </label>
+      <span class="scavenge-option scavenge-custom">
+        <input type="radio" name="scavenge_choice" value="custom">
+          <input type="text" id="scavenge_custom_text" placeholder="Custom scavenge description" style="width: 100%; margin-bottom: 4px;">
+            <span>Barter</span>
+            <input type="number" id="scavenge_custom_barter" min="-2" max="3" value="0" style="width: 60px;">
+        
+      </span>
+    </div>
+    <p style="font-style: italic; margin-top: 12px; font-size: 0.9em; color: #555;">
+      When you change your scavenge, you can simply switch to the other option, or you can get with the MC to write a new one to reflect your current situation. Typically, you write the text and the MC assigns barter, but check with the MC to confirm.
+    </p>
+  </div>
+</div>

@@ -22,7 +22,6 @@
     "a10": true,
     "a11": true,
     "a12": true,
-    "a13": true,
     "a16": true
   },
   "The Brain-picker": {
@@ -248,7 +247,7 @@
   "Everyone": {
     "_movesFile": "data/moves/everyone.json",
     "description": "Universal moves available to all characters.",
-    "cards": ["when-life-becomes-untenable", "hx"],
+    "cards": ["when-life-becomes-untenable", "hx", "scavenge"],
     "e1": false,
     "a14": true,
     "a15": true,
