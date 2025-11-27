@@ -164,7 +164,7 @@
   "Aggro+0, Cool+2, Hard+0, Sharp+1, Weird+0"
 ],
 "hxInstructions": "List the other characters' names.\nGo around again for Hx. On your turn, ask the group: *Are any of you NOT my regulars?*\n• For those who aren't, write Hx+2: they represent a challenge.\n• For those who are, write Hx+1.\nOn the others' turns, volunteer if you like.",
-  "cards": [],
+  "cards": ["your-venue"],
   "m1": false,
   "m2": false,
   "m3": false,

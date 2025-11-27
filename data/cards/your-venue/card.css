@@ -1,0 +1,265 @@
+/* Your Venue Card Styling */
+
+/* Inline text inputs */
+.card input[type="text"].inline-text {
+  display: inline;
+  border: none;
+  border-bottom: 1px solid #dee2e6;
+  padding: 2px 6px;
+  font-size: inherit;
+  background: white;
+  width: 200px;
+  font-family: inherit;
+}
+
+.card input[type="text"].inline-text:focus {
+  border-bottom-color: #0ea5e9;
+  outline: none;
+  background: #f8f9fa;
+}
+
+/* Short inline text for ammo */
+.card input[type="text"].inline-text-short {
+  display: inline;
+  border: none;
+  border-bottom: 1px solid #dee2e6;
+  padding: 2px 6px;
+  font-size: inherit;
+  background: white;
+  width: 40px;
+  font-family: inherit;
+  text-align: center;
+}
+
+.card input[type="text"].inline-text-short:focus {
+  border-bottom-color: #0ea5e9;
+  outline: none;
+  background: #f8f9fa;
+}
+
+/* Inline radio buttons */
+.inline-radio {
+  display: inline;
+  margin: 0 2px;
+  cursor: pointer;
+  font-size: inherit;
+}
+
+.inline-radio input[type="radio"] {
+  margin: 0 4px 0 8px;
+  cursor: pointer;
+}
+
+/* Venue Options (trades and atmosphere) */
+.venue-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.venue-options label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 8px;
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 0.2s ease;
+}
+
+.venue-options label:hover {
+  background: #e9ecef;
+  border-color: #adb5bd;
+}
+
+.venue-options input[type="checkbox"] {
+  cursor: pointer;
+}
+
+/* Other option below venue options */
+.other-option {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.other-option input[type="checkbox"] {
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.other-option span {
+  flex-shrink: 0;
+}
+
+.other-option .other-text {
+  flex: 1;
+}
+
+/* Venue notes */
+.venue-note {
+  margin: 16px 0;
+  padding: 12px;
+  background: #f8f9fa;
+  border-left: 4px solid #6c757d;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* People Section */
+.people-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.person-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px;
+  background: #f8f9fa;
+  border-radius: 4px;
+  font-size: 14px;
+  flex-wrap: wrap;
+}
+
+.person-row input[type="text"]:not(.inline-text) {
+  width: 150px;
+  flex-shrink: 0;
+}
+
+/* Multi-line person row */
+.person-row-multi {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.person-line {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.person-line-indent {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: 156px;
+  margin-top: 4px;
+  flex-wrap: wrap;
+}
+
+/* NPC Names */
+.npc-names {
+  margin-top: 12px;
+  padding: 8px;
+  background: #f8f9fa;
+  border-radius: 4px;
+  font-size: 13px;
+  color: #6c757d;
+}
+
+/* Security Section */
+.security-section {
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+.security-options {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.security-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 10px;
+  background: #f8f9fa;
+  border: 2px solid #dee2e6;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.security-option:hover {
+  background: #e9ecef;
+  border-color: #adb5bd;
+}
+
+.security-option input[type="checkbox"] {
+  margin-top: 3px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+/* Wants Options */
+.wants-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.wants-options label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 8px;
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 0.2s ease;
+}
+
+.wants-options label:hover {
+  background: #e9ecef;
+  border-color: #adb5bd;
+}
+
+.wants-options input[type="checkbox"] {
+  cursor: pointer;
+}
+
+/* Always Something */
+.always-something {
+  margin-top: 16px;
+  padding: 12px;
+  background: #FEF3C7;
+  border-left: 4px solid #F59E0B;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .venue-options,
+  .wants-options {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  }
+
+  .person-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .person-row input[type="text"]:not(.inline-text) {
+    width: 100%;
+  }
+}

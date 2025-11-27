@@ -1,0 +1,13 @@
+{
+  "id": "your-venue",
+  "title": "Your Venue",
+  "path": "data/cards/your-venue",
+  "description": "Track your establishment where people come for food, drink, and entertainment",
+  "version": "1.0.0",
+  "author": "Apocalypse World",
+  "files": {
+    "html": "card.html",
+    "css": "card.css",
+    "js": "card.js"
+  }
+}
