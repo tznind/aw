@@ -203,7 +203,7 @@
   "Aggro+1, Cool-1, Hard-2, Sharp+2, Weird+2",
   "Aggro+1, Cool+0, Hard+1, Sharp+2, Weird-1"
 ],"hxInstructions": "List the other characters' names.\nGo around again for Hx. On your turn, ask 1 or both:\n• *Have any of you lived in this place all your life, so that you know stories about what's lost and hidden out there?* For those characters, write Hx+1.\n• *Do any of you rely on me? What for?* For those characters, write Hx-1.\nFor everyone else, or if no one volunteers at all, write Hx-1. You haven't quite settled here yet.\nOn the others' turns, volunteer if you like.",
-  "cards": [],
+  "cards": ["your-dog"],
   "r1": false,
   "r2": false,
   "r3": false,
