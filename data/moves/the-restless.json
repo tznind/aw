@@ -3,7 +3,7 @@
     "id": "r1",
     "title": "Best Friends",
     "description": "You gain a dog [or another dog]. You detail.",
-    "details": true
+    "grantsCard": "your-dog-2"
   },
   {
     "id": "r2",

@@ -1,0 +1,70 @@
+/* Your Dog 2 Card Styling */
+
+/* Dog Description */
+.dog-description {
+  margin: 16px 0;
+  padding: 12px;
+  background: #f8f9fa;
+  border-left: 4px solid #6c757d;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Impression Options */
+.impression-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.impression-options label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 8px;
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 0.2s ease;
+}
+
+.impression-options label:hover {
+  background: #e9ecef;
+  border-color: #adb5bd;
+}
+
+.impression-options input[type="checkbox"] {
+  cursor: pointer;
+}
+
+/* Other option below impression options */
+.other-option {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.other-option input[type="checkbox"] {
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.other-option span {
+  flex-shrink: 0;
+}
+
+.other-option .other-text {
+  flex: 1;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .impression-options {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  }
+}
