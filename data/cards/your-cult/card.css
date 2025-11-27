@@ -1,0 +1,195 @@
+/* Your Cult Card Styling */
+
+.cult-intro {
+  font-size: 14px;
+  margin-bottom: 16px;
+  padding: 12px;
+  background: #f8f9fa;
+  border-radius: 4px;
+  border: 1px solid #dee2e6;
+}
+
+/* Cult Numbers */
+.cult-numbers {
+  display: flex;
+  gap: 16px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
+
+.cult-numbers label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  background: #f8f9fa;
+  border: 2px solid #dee2e6;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.cult-numbers label:hover {
+  background: #e9ecef;
+  border-color: #adb5bd;
+}
+
+.cult-numbers input[type="radio"] {
+  cursor: pointer;
+}
+
+/* Cult Members */
+.cult-members {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.member-row {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 10px;
+  align-items: center;
+}
+
+.member-label {
+  font-weight: 500;
+}
+
+.member-row input[type="text"] {
+  border: 2px solid #e1e5e9;
+  padding: 6px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  background: white;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.member-row input[type="text"]:focus {
+  border-color: #0ea5e9;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.1);
+}
+
+.npc-names {
+  margin-top: 8px;
+  padding: 8px;
+  background: #f8f9fa;
+  border-radius: 4px;
+  font-size: 13px;
+  color: #6c757d;
+}
+
+/* Cult Options (Choose 3) */
+.cult-options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.cult-option {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  background: #f8f9fa;
+  border: 2px solid #dee2e6;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.cult-option:hover {
+  background: #e9ecef;
+  border-color: #adb5bd;
+}
+
+.cult-option input[type="checkbox"] {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.cult-option strong {
+  display: inline;
+}
+
+.option-detail {
+  display: inline-flex;
+  margin-top: 6px;
+  margin-left: 24px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #495057;
+  width: calc(100% - 24px);
+}
+
+/* Inline radio buttons within options */
+.inline-radio {
+  display: inline;
+  margin: 0 2px;
+  cursor: pointer;
+  font-size: inherit;
+}
+
+.inline-radio input[type="radio"] {
+  margin: 0 4px 0 8px;
+  cursor: pointer;
+}
+
+/* Laborers Types */
+.laborers-types {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 8px;
+  margin-top: 8px;
+  margin-left: 24px;
+}
+
+.laborers-types label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 8px;
+  background: white;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 0.2s ease;
+}
+
+.laborers-types label:hover {
+  background: #f8f9fa;
+  border-color: #adb5bd;
+}
+
+.laborers-types input[type="checkbox"] {
+  cursor: pointer;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .member-row {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
+  .member-label {
+    font-size: 13px;
+  }
+
+  .cult-numbers {
+    gap: 8px;
+  }
+
+  .laborers-types {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  }
+
+  .option-detail {
+    margin-left: 20px;
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "your-cult",
+  "title": "Your Cult",
+  "path": "data/cards/your-cult",
+  "description": "Track your devoted but not fanatical cult",
+  "version": "1.0.0",
+  "author": "Apocalypse World",
+  "files": {
+    "html": "card.html",
+    "css": "card.css",
+    "js": "card.js"
+  }
+}

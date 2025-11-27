@@ -1,0 +1,119 @@
+<!-- Your Cult Card for the Hocus -->
+<div class="card your-cult-card">
+  <h3 class="card-title">🧑‍🧑‍🧒‍🧒 YOUR CULT</h3>
+
+  <div class="cult-intro">
+    You have a cult <strong>(impulse: victimize & incorporate people)</strong>, devoted to you but not fanatical.
+    They have their own lives apart from you, integrated into the local population. They are
+    your <strong>following</strong>, and you also get <strong>devotion</strong>.
+  </div>
+
+  <!-- Cult Numbers -->
+  <div class="form-field">
+    <label>They number (circle 1):</label>
+    <div class="cult-numbers">
+      <label id="cn15o"><input type="radio" name="cn" id="cn15" value="15"> 15</label>
+      <label id="cn18o"><input type="radio" name="cn" id="cn18" value="18"> 18</label>
+      <label id="cn20o"><input type="radio" name="cn" id="cn20" value="20"> 20</label>
+      <label id="cn24o"><input type="radio" name="cn" id="cn24" value="24"> 24</label>
+    </div>
+  </div>
+
+  <!-- Cult Members -->
+  <div class="form-field">
+    <label>Key Members:</label>
+    <div class="cult-members">
+      <div class="member-row">
+        <span class="member-label">• Most devoted:</span>
+        <input type="text" id="cm1" placeholder="Name">
+      </div>
+      <div class="member-row">
+        <span class="member-label">• Most devious:</span>
+        <input type="text" id="cm2" placeholder="Name">
+      </div>
+      <div class="member-row">
+        <span class="member-label">• Most skeptical:</span>
+        <input type="text" id="cm3" placeholder="Name">
+      </div>
+      <div class="member-row">
+        <span class="member-label">• Most thoughtful:</span>
+        <input type="text" id="cm4" placeholder="Name">
+      </div>
+      <div class="member-row">
+        <span class="member-label">• Most truth-seeking:</span>
+        <input type="text" id="cm5" placeholder="Name">
+      </div>
+      <div class="member-row">
+        <span class="member-label">• Most unhinged:</span>
+        <input type="text" id="cm6" placeholder="Name">
+      </div>
+    </div>
+    <div class="npc-names">
+      <em>Some NPC names: Kaida, Lamprey, Jammer, Fu, Fosko, Arif, Tenna, Abondo, Child-of-Air, Rack.</em>
+    </div>
+  </div>
+
+  <!-- Cult Composition - Choose 3 -->
+  <div class="form-field">
+    <label>In addition (choose 3):</label>
+    <div class="cult-options">
+      <label class="cult-option" id="cc1o">
+        <input type="checkbox" id="cc1" value="children">
+        <strong>Your cult includes Children</strong> (devotion: hope, play; demands: protection)<br>
+        <span class="option-detail">To them you are a parent figure.</span>
+      </label>
+
+      <label class="cult-option" id="cc2o">
+        <input type="checkbox" id="cc2" value="elders">
+        <strong>Your cult includes Elders</strong> (devotion: insight; demands: obedience)<br>
+        <span class="option-detail">They are your advisors. To them you are a young leader, worth their wisdom. Their devotion gives you <strong>insight</strong>.</span>
+      </label>
+
+      <label class="cult-option" id="cc3o">
+        <input type="checkbox" id="cc3" value="guardians">
+        <strong>Your cult includes Guardians</strong> (devotion: battle, protection; demands: discipline)<br>
+        <span class="option-detail">They're a gang (2-harm, 1-armor) numbering (circle 1):
+          <label class="inline-radio"><input type="radio" name="gn" id="gn3" value="3"> 3</label>
+          <label class="inline-radio"><input type="radio" name="gn" id="gn5" value="5"> 5</label>
+          <label class="inline-radio"><input type="radio" name="gn" id="gn7" value="7"> 7</label>.
+          To them you are their gang boss. You also get <strong>leadership</strong>.
+        </span>
+      </label>
+
+      <label class="cult-option" id="cc4o">
+        <input type="checkbox" id="cc4" value="laborers">
+        <strong>Your cult includes Laborers</strong> (devotion: +1Barter; demands: R&R, solidarity)<br>
+        <span class="option-detail">Circle 1–3: farming, hunting, manual labor, scavenging, skilled labor, trade labor. To them you are a leader and organizer.</span>
+        <div class="laborers-types">
+          <label id="l1o"><input type="checkbox" id="l1" value="farming"> farming</label>
+          <label id="l2o"><input type="checkbox" id="l2" value="hunting"> hunting</label>
+          <label id="l3o"><input type="checkbox" id="l3" value="manual"> manual labor</label>
+          <label id="l4o"><input type="checkbox" id="l4" value="scavenging"> scavenging</label>
+          <label id="l5o"><input type="checkbox" id="l5" value="skilled"> skilled labor</label>
+          <label id="l6o"><input type="checkbox" id="l6" value="trade"> trade labor</label>
+        </div>
+      </label>
+
+      <label class="cult-option" id="cc5o">
+        <input type="checkbox" id="cc5" value="scholars">
+        <strong>Your cult includes Scholars</strong> (devotion: research; demands: books, documents, accounts)<br>
+        <span class="option-detail">They are a human source of information. To them you are a student. Their devotion gives you <strong>research</strong>.</span>
+      </label>
+
+      <label class="cult-option" id="cc6o">
+        <input type="checkbox" id="cc6" value="visionary">
+        <strong>Your cult includes a Visionary</strong> (devotion: insight; demands: flattery)<br>
+        <span class="option-detail">They are an advisor who knows weird things. To them you are a supplicant. Their devotion gives you <strong>insight</strong>.</span>
+      </label>
+
+      <label class="cult-option" id="cc7o">
+        <input type="checkbox" id="cc7" value="wanderers">
+        <strong>Your cult includes Wanderers</strong> (devotion: trade; demands: provisions)<br>
+        <span class="option-detail">To them you are their (circle 1):
+          <label class="inline-radio"><input type="radio" name="wt" id="wt1" value="homebase"> home base</label> /
+          <label class="inline-radio"><input type="radio" name="wt" id="wt2" value="wayfinder"> wayfinder</label>.
+        </span>
+      </label>
+    </div>
+  </div>
+</div>
