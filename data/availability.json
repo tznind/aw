@@ -184,7 +184,7 @@
   "Aggro+1, Cool+2, Hard+1, Sharp+0, Weird-1"
 ],
 "hxInstructions": "List the other characters' names.\nGo around again for Hx. On your turn, ask 1, 2 or all 3:\n• *Have any of you ever stepped in, put it on the line, and gotten me out of a serious spot?* For those characters, write Hx+1.\n• *Have any of you ever been with me for days on the road?* For those characters, write Hx+2.\n• *Have I ever caught any of you staring out at the horizon?* For those characters, write Hx+3.\nFor everyone else, or if no one volunteers at all, write Hx-1. You don't get too attached.\nOn the others' turns, volunteer if you like.",
-  "cards": [],
+  "cards": ["your-wheels"],
   "p1": false,
   "p2": false,
   "p3": false,

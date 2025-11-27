@@ -1,0 +1,13 @@
+{
+  "id": "your-wheels",
+  "title": "Your Wheels & Ports",
+  "path": "data/cards/your-wheels",
+  "description": "Track your vehicle and ports of call",
+  "version": "1.0.0",
+  "author": "Apocalypse World",
+  "files": {
+    "html": "card.html",
+    "css": "card.css",
+    "js": "card.js"
+  }
+}
