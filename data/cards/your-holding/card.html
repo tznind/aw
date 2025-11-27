@@ -1,0 +1,163 @@
+<!-- Your Holding Card for the Lawmaker -->
+<div class="card your-holding-card">
+  <h3 class="card-title">🏠 YOUR HOLDING</h3>
+
+  <div class="holding-intro">
+    You have a holding, a settlement where a population of about 100 lives and works,
+    defended by a gang (2-harm, 1-armor) numbering (circle 1):
+    <label class="inline-radio"><input type="radio" name="hgn" id="hgn20" value="20"> 20</label> /
+    <label class="inline-radio"><input type="radio" name="hgn" id="hgn25" value="25"> 25</label>.
+    You get <strong>wealth</strong> for your holding and <strong>leadership</strong> for your gang.
+  </div>
+
+  <!-- Laws -->
+  <div class="form-field">
+    <label>Your holding includes your laws:</label>
+    <div class="laws-section">
+      <div class="law-row">
+        <span class="law-label">General laws that everybody should follow. Name a few:</span>
+        <textarea id="hlg" rows="2" placeholder="Enter general laws"></textarea>
+      </div>
+      <div class="law-row">
+        <span class="law-label">One law that everybody knows not to break, or else. Name it:</span>
+        <input type="text" id="hlc" placeholder="Enter critical law">
+      </div>
+    </div>
+  </div>
+
+  <!-- Holding Options - Choose 5 -->
+  <div class="form-field">
+    <label>And choose 5 more options:</label>
+    <div class="holding-options">
+      <label class="holding-option" id="ho1o">
+        <input type="checkbox" id="ho1" value="marketplace">
+        A bustling marketplace (detail with the MC), traders & caravans coming regularly through.
+      </label>
+
+      <label class="holding-option" id="ho2o">
+        <input type="checkbox" id="ho2" value="champion-flashy">
+        A champion, a flashy, deadly showoff named <input type="text" id="hc1" class="inline-text" placeholder="name">
+      </label>
+
+      <label class="holding-option" id="ho3o">
+        <input type="checkbox" id="ho3" value="champion-serious">
+        A champion, a serious, deadly killer named <input type="text" id="hc2" class="inline-text" placeholder="name">
+      </label>
+
+      <label class="holding-option" id="ho4o">
+        <input type="checkbox" id="ho4" value="utilities">
+        Electricity, heat, refrigeration, running water.
+      </label>
+
+      <label class="holding-option" id="ho5o">
+        <input type="checkbox" id="ho5" value="vehicles">
+        A few vehicles: a truck, a buggy, a couple of bikes (you detail). You also get <strong>behind the wheel</strong>.
+      </label>
+
+      <label class="holding-option" id="ho6o">
+        <input type="checkbox" id="ho6" value="luxe-rooms">
+        Gorgeous, luxe rooms for whoever can afford them.
+      </label>
+
+      <label class="holding-option" id="ho7o">
+        <input type="checkbox" id="ho7" value="watchtower">
+        A high watchtower with a commanding view.
+      </label>
+
+      <label class="holding-option" id="ho8o">
+        <input type="checkbox" id="ho8" value="secret-place">
+        A place that holds a secret, silent and difficult to get to.
+      </label>
+
+      <label class="holding-option" id="ho9o">
+        <input type="checkbox" id="ho9" value="stronghold">
+        A powerful stronghold (in battle, this is a secure defensive position).
+      </label>
+
+      <label class="holding-option" id="ho10o">
+        <input type="checkbox" id="ho10" value="water-source">
+        A source of beautiful, pure, clean water.
+      </label>
+
+      <span class="holding-option" id="ho11o">
+        <input type="checkbox" id="ho11" value="raiding-party">
+        A scouting & raiding party separate from your gang (2-harm, 1-armor), numbering
+        <label class="inline-radio"><input type="radio" name="hrp" id="hrp5" value="5"> 5</label> /
+        <label class="inline-radio"><input type="radio" name="hrp" id="hrp7" value="7"> 7</label>
+      </span>
+
+      <label class="holding-option" id="ho12o">
+        <input type="checkbox" id="ho12" value="pc-want">
+        Something cool that one of the other PCs wants it to have: <input type="text" id="hpc" class="inline-text" placeholder="detail">
+      </label>
+
+      <label class="holding-option" id="ho13o">
+        <input type="checkbox" id="ho13" value="trade-accord">
+        A trade agreement & peace accord with (choose a hard zone location): <input type="text" id="hta" class="inline-text" placeholder="location">
+      </label>
+    </div>
+  </div>
+
+  <!-- Surplus - Circle 3 -->
+  <div class="form-field">
+    <label>For your holding's surplus, circle 3:</label>
+    <div class="surplus-options">
+      <label id="hs1o"><input type="checkbox" id="hs1" value="barter"> +1Barter</label>
+      <label id="hs2o"><input type="checkbox" id="hs2" value="art"> art</label>
+      <label id="hs3o"><input type="checkbox" id="hs3" value="development"> development projects</label>
+      <label id="hs4o"><input type="checkbox" id="hs4" value="exploration"> exploration</label>
+      <label id="hs5o"><input type="checkbox" id="hs5" value="feasting"> feasting</label>
+      <label id="hs6o"><input type="checkbox" id="hs6" value="food-storage"> food storage</label>
+      <label id="hs7o"><input type="checkbox" id="hs7" value="growth"> growth</label>
+      <label id="hs8o"><input type="checkbox" id="hs8" value="healing"> healing</label>
+      <label id="hs9o"><input type="checkbox" id="hs9" value="intrigue"> intrigue</label>
+      <label id="hs10o"><input type="checkbox" id="hs10" value="luxe"> luxe goods</label>
+      <label id="hs11o"><input type="checkbox" id="hs11" value="music"> music</label>
+      <label id="hs12o"><input type="checkbox" id="hs12" value="ordnance"> ordnance</label>
+      <label id="hs13o"><input type="checkbox" id="hs13" value="parties"> parties</label>
+      <label id="hs14o"><input type="checkbox" id="hs14" value="performance"> performance</label>
+      <label id="hs15o"><input type="checkbox" id="hs15" value="pit-fights"> pit fights</label>
+      <label id="hs16o"><input type="checkbox" id="hs16" value="profit"> profit</label>
+      <label id="hs17o"><input type="checkbox" id="hs17" value="pure-water"> pure water</label>
+      <label id="hs18o"><input type="checkbox" id="hs18" value="relaxation"> relaxation</label>
+      <label id="hs19o"><input type="checkbox" id="hs19" value="tech"> tech goods</label>
+      <label id="hs20o"><input type="checkbox" id="hs20" value="trade"> trade</label>
+      <label id="hs21o"><input type="checkbox" id="hs21" value="transport"> transport</label>
+      <label id="hs22o"><input type="checkbox" id="hs22" value="strangers"> visiting strangers</label>
+      <label id="hs23o"><input type="checkbox" id="hs23" value="worship"> worship</label>
+    </div>
+  </div>
+
+  <!-- Wants - Circle 2 -->
+  <div class="form-field">
+    <label>For its wants, circle 2:</label>
+    <div class="wants-options">
+      <label id="hw1o"><input type="checkbox" id="hw1" value="abandonment"> Abandonment</label>
+      <label id="hw2o"><input type="checkbox" id="hw2" value="byproducts"> dangerous byproducts</label>
+      <label id="hw3o"><input type="checkbox" id="hw3" value="disease"> disease</label>
+      <label id="hw4o"><input type="checkbox" id="hw4" value="extremism"> extremism</label>
+      <label id="hw5o"><input type="checkbox" id="hw5" value="hoarding"> hoarding</label>
+      <label id="hw6o"><input type="checkbox" id="hw6" value="hunger"> hunger</label>
+      <label id="hw7o"><input type="checkbox" id="hw7" value="outcasts"> outcasts</label>
+      <label id="hw8o"><input type="checkbox" id="hw8" value="power"> power struggles</label>
+      <label id="hw9o"><input type="checkbox" id="hw9" value="ruthlessness"> ruthlessness</label>
+      <label id="hw10o"><input type="checkbox" id="hw10" value="breakdowns"> technical breakdowns</label>
+      <label id="hw11o"><input type="checkbox" id="hw11" value="thirst"> thirst</label>
+      <label id="hw12o"><input type="checkbox" id="hw12" value="vendettas"> vendettas</label>
+      <label id="hw13o"><input type="checkbox" id="hw13" value="violence"> violence</label>
+    </div>
+  </div>
+
+  <!-- Gang Summary and Defiance Side by Side -->
+  <div class="summary-defiance-row">
+    <div class="form-field gang-summary-field">
+      <label for="hgs">Gang Summary:</label>
+      <textarea id="hgs" rows="3"></textarea>
+    </div>
+
+    <div class="defiance-section">
+      <label class="defiance-label">Defiance</label>
+      <div class="clock" id="hdef" data-clock-folder="data/clocks/quarter_twelfths" data-clock-faces="6"></div>
+    </div>
+  </div>
+</div>

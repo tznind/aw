@@ -1,0 +1,13 @@
+{
+  "id": "your-holding",
+  "title": "Your Holding",
+  "path": "data/cards/your-holding",
+  "description": "Track your settlement and defended holding",
+  "version": "1.0.0",
+  "author": "Apocalypse World",
+  "files": {
+    "html": "card.html",
+    "css": "card.css",
+    "js": "card.js"
+  }
+}

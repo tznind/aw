@@ -1,0 +1,265 @@
+/* Your Holding Card Styling */
+
+.holding-intro {
+  font-size: 14px;
+  margin-bottom: 16px;
+  padding: 12px;
+  background: #f8f9fa;
+  border-radius: 4px;
+  border: 1px solid #dee2e6;
+}
+
+/* Inline radio buttons */
+.inline-radio {
+  display: inline;
+  margin: 0 2px;
+  cursor: pointer;
+  font-size: inherit;
+}
+
+.inline-radio input[type="radio"] {
+  margin: 0 4px 0 8px;
+  cursor: pointer;
+}
+
+/* Inline text inputs */
+.card input[type="text"].inline-text {
+  display: inline;
+  border: none;
+  border-bottom: 1px solid #dee2e6;
+  padding: 2px 6px;
+  font-size: inherit;
+  background: white;
+  width: 200px;
+  font-family: inherit;
+}
+
+.card input[type="text"].inline-text:focus {
+  border-bottom-color: #0ea5e9;
+  outline: none;
+  background: #f8f9fa;
+}
+
+/* Laws Section */
+.laws-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.law-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.law-label {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.law-row textarea {
+  border: 2px solid #e1e5e9;
+  padding: 8px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  background: white;
+  resize: vertical;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+.law-row textarea:focus {
+  border-color: #0ea5e9;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.1);
+}
+
+.law-row input[type="text"] {
+  border: 2px solid #e1e5e9;
+  padding: 6px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  background: white;
+  box-sizing: border-box;
+}
+
+.law-row input[type="text"]:focus {
+  border-color: #0ea5e9;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.1);
+}
+
+/* Holding Options */
+.holding-options {
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.holding-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 10px;
+  background: #f8f9fa;
+  border: 2px solid #dee2e6;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.holding-option:hover {
+  background: #e9ecef;
+  border-color: #adb5bd;
+}
+
+.holding-option input[type="checkbox"] {
+  margin-top: 3px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.option-text {
+  display: inline-flex;
+}
+
+/* Surplus Options */
+.surplus-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.surplus-options label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 8px;
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 0.2s ease;
+}
+
+.surplus-options label:hover {
+  background: #e9ecef;
+  border-color: #adb5bd;
+}
+
+.surplus-options input[type="checkbox"] {
+  cursor: pointer;
+}
+
+/* Wants Options */
+.wants-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.wants-options label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 8px;
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 0.2s ease;
+}
+
+.wants-options label:hover {
+  background: #e9ecef;
+  border-color: #adb5bd;
+}
+
+.wants-options input[type="checkbox"] {
+  cursor: pointer;
+}
+
+/* Gang Summary and Defiance Side by Side */
+.summary-defiance-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 20px;
+  align-items: start;
+  margin: 16px 0;
+}
+
+.gang-summary-field {
+  flex: 1;
+}
+
+.gang-summary-field textarea {
+  width: 100%;
+  border: 2px solid #e1e5e9;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  background: white;
+  resize: vertical;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+.gang-summary-field textarea:focus {
+  border-color: #0ea5e9;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.1);
+}
+
+/* Defiance Clock Section */
+.defiance-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.defiance-label {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.defiance-section .clock {
+  width: 90px;
+  height: 90px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.defiance-section .clock:hover {
+  transform: scale(1.05);
+}
+
+.defiance-section .clock:focus {
+  outline: 3px solid #0ea5e9;
+  outline-offset: 4px;
+  border-radius: 50%;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .summary-defiance-row {
+    grid-template-columns: 1fr;
+  }
+
+  .surplus-options,
+  .wants-options {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  }
+}

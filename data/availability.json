@@ -124,7 +124,7 @@
   "Aggro+1, Cool+2, Hard-1, Sharp+0, Weird+1"
 ],
 "hxInstructions": "List the other characters' names.\nGo around again for Hx. On your turn, ask 1, 2 or all 3:\n• *Which of you has been with me the longest, since before?* For that character, write Hx+2.\n• *Have any of you ever betrayed or stolen from me?* For those characters, write Hx+3.\n• *Which of you is my favorite?* For that character, write Hx+2.\nFor everyone else, or if no one volunteers at all, write Hx+1. You're wary, watchful, and conscientious.\nOn the others' turns, volunteer if you like.",
-  "cards": [],
+  "cards": ["your-holding"],
   "l1": false,
   "l2": false,
   "l3": false,
