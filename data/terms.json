@@ -1,6 +1,14 @@
 [
   {
     "term": "Harm",
-    "description": "When you inflict harm on another player's character, they get +1Hx with you on their sheet.\nWhen you hurt someone, they see you more clearly."
+    "description": "When you inflict harm on another player's character, **they** get +1Hx with you on their sheet.\nWhen you hurt someone, they see you more clearly."
+  },
+  {
+    "term":"Heal",
+    "description":"When you heal or give medical aid to another player's character, you get +1Hx with them on\nyour sheet. When you heal someone, you see them more clearly"
+  },
+  {
+    "term":"Highly Interruptible",
+    "description":"When you make a highly interruptible move, announce that you're making it and explicitly give everyone a chance to interrupt you. Otherwise, they can call a do-over and retroactively interrupt you if they want, even after play's continued on."
   }
 ]
