@@ -76,7 +76,7 @@
     "id": "c2",
     "title": "Augury (+Weird)",
     "category": "Common Moves",
-    "description": "*The standard move for a psychic antenna.*\n\nWhen you use your psychic antenna for augury, roll+Weird.\n\nOn any hit, choose 1:\n- You can reach through the world's psychic maelstrom to something or someone connected to it\n- You can isolate and protect a person or thing from the world's psychic maelstrom\n- You can extract and contain a fragment of the world's psychic maelstrom itself.\n- You can open a window or door into the world's psychic maelstrom.\nAlso:",
+    "description": "*The standard move for a psychic antenna.*\n\nWhen you use your psychic antenna for augury, roll+Weird. On any hit, choose 1:\n- You can reach through the world's psychic maelstrom to something or someone connected to it\n- You can isolate and protect a person or thing from the world's psychic maelstrom\n- You can extract and contain a fragment of the world's psychic maelstrom itself.\n- You can open a window or door into the world's psychic maelstrom.\nAlso:",
     "outcomes": [
       {
         "range": "≥ 10",
