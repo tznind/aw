@@ -54,7 +54,7 @@
   },
   {
     "id": "c1",
-    "title": "WEALTH (+Hard)",
+    "title": "Wealth (+Hard)",
     "category": "Common Moves",
     "description": "The standard move for a holding or venue.\n\nAt the beginning of the session, if your holding or venue is secure and stable, roll+Hard.\n\nMake this move before you live day to day",
     "outcomes": [
@@ -69,6 +69,33 @@
       {
         "range": "≤ 6",
         "text": "On a miss, or if your holding or venue is in crisis, all of its wants."
+      }
+    ]
+  },
+  {
+    "id": "c2",
+    "title": "Augury (+Weird)",
+    "category": "Common Moves",
+    "description": "*The standard move for a psychic antenna.*\n\nWhen you use your psychic antenna for augury, roll+Weird.\n\nOn any hit, choose 1:\n- You can reach through the world's psychic maelstrom to something or someone connected to it\n- You can isolate and protect a person or thing from the world's psychic maelstrom\n- You can extract and contain a fragment of the world's psychic maelstrom itself.\n- You can open a window or door into the world's psychic maelstrom.\nAlso:",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "Choose 2:",
+        "bullets": [
+          "It persists for a while without your actively maintaining it.",
+          "It reaches deep into the world's psychic maelstrom.",
+          "It reaches broadly, maybe universally, throughout the world's psychic maelstrom.",
+          "It's stable and contained, no bleeding."
+        ]
+      },
+      {
+        "range": "7–9",
+        "text": "Choose 1:"
+    
+      },
+      {
+        "range": "≤ 6",
+        "text": "Whatever bad happens, your psychic antenna takes the brunt of it."
       }
     ]
   }

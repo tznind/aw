@@ -252,6 +252,7 @@
     "a14": true,
     "a15": true,
     "a17": true,
-    "wealth": false
+    "c1": false,
+    "c2": true
   }
 }
