@@ -1,10 +1,6 @@
 [
   {
-    "term": "Debility",
-    "description": "A lasting condition that hampers your effectiveness. When you suffer a Debility, mark it on your character sheet. Choose from\n- Weakened\n- Miserable\n- Broken."
-  },
-  {
-    "term":"+1 forward",
-    "description":"Your next roll gets a +1 bonus."
+    "term": "Harm",
+    "description": "When you inflict harm on another player's character, they get +1Hx with you on their sheet.\nWhen you hurt someone, they see you more clearly."
   }
 ]
