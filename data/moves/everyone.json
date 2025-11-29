@@ -51,5 +51,25 @@
     "multiple": 2,
     "takeFrom": ["*"],
     "takeCategory": ["Moves"]
+  },
+  {
+    "id": "c1",
+    "title": "WEALTH (+Hard)",
+    "category": "Common Moves",
+    "description": "The standard move for a holding or venue.\n\nAt the beginning of the session, if your holding or venue is secure and stable, roll+Hard.\n\nMake this move before you live day to day",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "During the session, your holding or venue has all of its surpluses."
+      },
+      {
+        "range": "7–9",
+        "text": "It has all of its surpluses, but choose 1 want."
+      },
+      {
+        "range": "≤ 6",
+        "text": "On a miss, or if your holding or venue is in crisis, all of its wants."
+      }
+    ]
   }
 ]
