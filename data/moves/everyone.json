@@ -91,11 +91,41 @@
       {
         "range": "7–9",
         "text": "Choose 1:"
-    
+
       },
       {
         "range": "≤ 6",
         "text": "Whatever bad happens, your psychic antenna takes the brunt of it."
+      }
+    ]
+  },
+  {
+    "id": "c3",
+    "title": "Leadership",
+    "description": "The standard move for a **gang**.",
+    "category": "Common Moves",
+    "submoves": [
+      {
+        "title": "Give an Order",
+        "description": "When you give your gang an order, if it lines up with their impulses, generally they'll obey it. If they won't, or when you give them an order that's out of line with their impulses, roll+Hard.",
+        "outcomes": [
+          {
+            "range": "≥ 10",
+            "text": "They snap to, and you take +1forward into whatever you're having them do."
+          },
+          {
+            "range": "7–9",
+            "text": "They follow your order."
+          },
+          {
+            "range": "≤ 6",
+            "text": "Maybe they still do it, but you'll hear about it later; maybe they refuse; or maybe they even make a bid to replace you as their leader."
+          }
+        ]
+      },
+      {
+        "title": "Using Your Gang as a Tool or Weapon",
+        "description": "When you have a gang, you can use them as a tool when you tackle a challenge, or in other demanding circumstances, or you can use them as a weapon when you get in someone's face, attack, do battle, or in other violent circumstances.\n\nWhen you do, you roll the dice and make your choices, but it's your gang's capabilities that determine how much work they can accomplish, and how well, not your own, and it's your gang that inflicts and suffers harm, not you yourself."
       }
     ]
   }
