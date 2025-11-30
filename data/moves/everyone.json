@@ -128,5 +128,57 @@
         "description": "When you have a gang, you can use them as a tool when you tackle a challenge, or in other demanding circumstances, or you can use them as a weapon when you get in someone's face, attack, do battle, or in other violent circumstances.\n\nWhen you do, you roll the dice and make your choices, but it's your gang's capabilities that determine how much work they can accomplish, and how well, not your own, and it's your gang that inflicts and suffers harm, not you yourself."
       }
     ]
+  },
+  {
+    "id": "c4",
+    "title": "Behind the Wheel",
+    "description": "The standard moves for **vehicles**.\nFor both moves below, if you're dealing with terrain or other vehicles, the MC should bring their impulses to bear against your vehicle's as well.",
+    "category": "Common Moves",
+    "submoves": [
+      {
+        "title": "Let Your Vehicle Off the Leash",
+        "description": "When you're behind the wheel and you let your vehicle off the leash, roll+Cool.",
+        "outcomes": [
+          {
+            "range": "≥ 10",
+            "text": "It does whatever's necessary to achieve its impulse, and succeeds, or else it damages or destroys itself in the attempt. Decide with the MC what it does and what happens."
+          },
+          {
+            "range": "7–9",
+            "text": "It strives to achieve its impulse, but at this moment, the outcome's uncertain. Ask the MC how things stand now, and take +1forward."
+          },
+          {
+            "range": "≤ 6",
+            "text": "It struggles to pursue its impulse but falls short. Decide with the MC how and why."
+          }
+        ]
+      },
+      {
+        "title": "Rein Your Vehicle In",
+        "description": "When you're behind the wheel and you rein your vehicle in, you're forcing it to deny its impulse and pursue some other impulse or goal instead. Say what you're making it do and roll+Hard.",
+        "outcomes": [
+          {
+            "range": "≥ 10",
+            "text": "It obeys. It does whatever's necessary to achieve your goal, and succeeds, or else it damages or destroys itself in the attempt. Decide with the MC what it does and what happens."
+          },
+          {
+            "range": "7–9",
+            "text": "It accedes, but grudgingly: it tries to find a balance between your goal and its defiance. Ask the MC what balance it finds, and what happens."
+          },
+          {
+            "range": "≤ 6",
+            "text": "It defies you. It pursues its defiance with its full will and intent. Ask the MC what it does."
+          }
+        ]
+      },
+      {
+        "title": "Outdriving Another Player's Character",
+        "description": "Both of you make your moves. If the outcomes are compatible, incorporate them together. If they contradict, decide with the MC whether they cancel out, whether you're interrupting one another, or whether now you're doing battle."
+      },
+      {
+        "title": "Using Your Vehicle as a Weapon",
+        "description": "When you're behind the wheel, you can use your vehicle as a weapon when you get in someone's face, attack, do battle, or in any other violent circumstance.\n\nWhen you do, you roll the dice and make your choices, but it's your vehicle that inflicts and suffers harm, not you yourself."
+      }
+    ]
   }
 ]
