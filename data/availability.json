@@ -70,7 +70,8 @@
     "g5": false,
     "g6": true,
     "g7": true,
-    "g8": true
+    "g8": true,
+    "g9":true
   },
 "The Harrier": {
   "_movesFile": "data/moves/the-harrier.json",
