@@ -247,6 +247,131 @@
     }
 
     /**
+     * Parse a stat distribution string and return stat values
+     * @param {string} distString - e.g., "Aggro+1, Cool+1, Hard+0, Sharp+2, Weird-1"
+     * @returns {Object} Object with stat names as keys and values as numbers
+     */
+    function parseStatDistribution(distString) {
+        const stats = {};
+        const parts = distString.split(',').map(s => s.trim());
+
+        parts.forEach(part => {
+            // Match pattern like "Aggro+1" or "Cool-1"
+            const match = part.match(/^(\w+)([\+\-]\d+)$/);
+            if (match) {
+                const statName = match[1].toLowerCase();
+                const value = match[2]; // Keep the +/- sign
+                stats[statName] = value;
+            }
+        });
+
+        return stats;
+    }
+
+    /**
+     * Apply stat distribution to the stat input fields
+     * @param {Object} stats - Object with stat names as keys and values
+     */
+    function applyStatDistribution(stats) {
+        // Known stat IDs from stats.json
+        const statIds = ['aggro', 'cool', 'hard', 'sharp', 'weird'];
+
+        statIds.forEach(statId => {
+            const input = document.getElementById(statId);
+            if (input && stats[statId] !== undefined) {
+                input.value = stats[statId];
+                // Trigger change event for persistence
+                input.dispatchEvent(new Event('change', { bubbles: true }));
+            }
+        });
+    }
+
+    /**
+     * Show stat distribution picker modal with clickable options
+     * @param {Array} distributions - Array of stat distribution strings
+     */
+    function showStatDistributionPicker(distributions) {
+        // Create modal
+        const modal = document.createElement('div');
+        modal.className = 'role-description-modal stat-picker-modal';
+
+        const content = document.createElement('div');
+        content.className = 'role-description-content stat-picker-content';
+
+        // Add close button
+        const closeButton = document.createElement('button');
+        closeButton.className = 'role-description-close';
+        closeButton.setAttribute('aria-label', 'Close');
+        closeButton.innerHTML = '&times;';
+        closeButton.addEventListener('click', () => modal.remove());
+
+        // Add title
+        const title = document.createElement('h3');
+        title.textContent = 'Choose Stat Distribution';
+
+        // Create options container
+        const optionsContainer = document.createElement('div');
+        optionsContainer.className = 'stat-distribution-options';
+
+        distributions.forEach((dist, index) => {
+            const option = document.createElement('div');
+            option.className = 'stat-distribution-option';
+            option.textContent = dist;
+            option.setAttribute('role', 'button');
+            option.setAttribute('tabindex', '0');
+            option.setAttribute('aria-label', `Select distribution: ${dist}`);
+
+            // Click handler
+            option.addEventListener('click', () => {
+                const stats = parseStatDistribution(dist);
+                applyStatDistribution(stats);
+                modal.remove();
+            });
+
+            // Keyboard handler
+            option.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    const stats = parseStatDistribution(dist);
+                    applyStatDistribution(stats);
+                    modal.remove();
+                }
+            });
+
+            optionsContainer.appendChild(option);
+        });
+
+        content.appendChild(closeButton);
+        content.appendChild(title);
+        content.appendChild(optionsContainer);
+        modal.appendChild(content);
+
+        // Close on backdrop click
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                modal.remove();
+            }
+        });
+
+        // Prevent clicks inside content from closing modal
+        content.addEventListener('click', (e) => {
+            e.stopPropagation();
+        });
+
+        // Close on Escape key
+        const handleEscape = (e) => {
+            if (e.key === 'Escape') {
+                modal.remove();
+                document.removeEventListener('keydown', handleEscape);
+            }
+        };
+        document.addEventListener('keydown', handleEscape);
+
+        // Add to DOM
+        document.body.appendChild(modal);
+    }
+
+    /**
      * Show table of contents modal with all available moves
      */
     function showContentsModal() {
@@ -459,12 +584,8 @@
                     return;
                 }
 
-                // Format distributions as a list
-                const distributionsList = roleData.statDistributions
-                    .map(dist => `• ${dist}`)
-                    .join('\n');
-
-                showHelpModal('Stat Distributions', `**Choose a set:**\n\n${distributionsList}`);
+                // Show the clickable stat distribution picker
+                showStatDistributionPicker(roleData.statDistributions);
             });
         }
 

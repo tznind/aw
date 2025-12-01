@@ -312,6 +312,50 @@ body.hide-help .move-reference {
   color: #2c3e50;
 }
 
+/* === STAT DISTRIBUTION PICKER === */
+.stat-distribution-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.stat-distribution-option {
+  padding: 14px 16px;
+  background: #f8f9fa;
+  border: 2px solid #dee2e6;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 15px;
+  font-weight: 500;
+  color: #2c3e50;
+  text-align: center;
+  font-family: monospace;
+}
+
+.stat-distribution-option:hover {
+  background: #e9ecef;
+  border-color: #3b82f6;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15);
+}
+
+.stat-distribution-option:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 6px rgba(59, 130, 246, 0.2);
+}
+
+.stat-distribution-option:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.stat-picker-content {
+  max-width: 600px;
+}
+
 @media (max-width: 480px) {
   .role-description-content {
     padding: 20px;
@@ -321,6 +365,11 @@ body.hide-help .move-reference {
   .help-icon {
     width: 24px;
     height: 24px;
+    font-size: 14px;
+  }
+
+  .stat-distribution-option {
+    padding: 12px 14px;
     font-size: 14px;
   }
 }
