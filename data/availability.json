@@ -247,7 +247,7 @@
   "Everyone": {
     "_movesFile": "data/moves/everyone.json",
     "description": "Universal moves available to all characters.",
-    "cards": ["when-life-becomes-untenable", "hx", "scavenge"],
+    "cards": ["hx", "scavenge","when-life-becomes-untenable"],
     "e1": false,
     "a14": true,
     "a15": true,
