@@ -1200,6 +1200,11 @@ window.MovesCore = (function() {
         sortedCategories.forEach(categoryName => {
             const categoryMoves = categorized.get(categoryName);
 
+            // Debug: log moves before sorting
+            if (categoryName === "Improvement") {
+                console.log('Improvement category moves BEFORE sorting:', categoryMoves.map(m => ({ id: m.id, title: m.title, weight: m.weight })));
+            }
+
             // Sort moves by weight (stable sort - preserves original order for same weight)
             // Default weight is 0 if not specified
             const sortedMoves = categoryMoves.slice().sort((a, b) => {
@@ -1207,6 +1212,11 @@ window.MovesCore = (function() {
                 const weightB = b.weight !== undefined ? b.weight : 0;
                 return weightA - weightB;
             });
+
+            // Debug: log moves after sorting
+            if (categoryName === "Improvement") {
+                console.log('Improvement category moves AFTER sorting:', sortedMoves.map(m => ({ id: m.id, title: m.title, weight: m.weight })));
+            }
 
             const categoryHeader = createCategoryHeader(categoryName, sortedMoves.length);
             movesContainer.appendChild(categoryHeader);
