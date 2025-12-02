@@ -211,5 +211,24 @@
         "text": "what's hard and what's impossible"
       }
     ]
+  },
+  {
+    "id": "c7",
+    "title": "Drop Jingle (+Barter)",
+    "description": "When you drop jingle to buy something, or when you cruise a marketplace, roll+Barter. No matter the result, ask the MC how they treat you and what kind of deal or deals they make available to you.",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "your trading partner, or the people of the marketplace, consider you to be both rich and powerful."
+      },
+      {
+        "range":"7–9",
+        "text": "they consider you to be either rich or powerful; the MC chooses which"
+      },
+      {
+        "range":"≤ 6",
+        "text": "they consider you to be neither rich nor powerful."
+      }
+    ]
   }
 ]
