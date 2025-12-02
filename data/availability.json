@@ -1,7 +1,7 @@
 {
   "The Angel": {
     "_movesFile": "data/moves/the-angel.json",
-    "description": "**When you're lying in the ashes,** burned and smashed and spilt, what do you hope for? More time, revenge, restitution, to finish what you started, to undo what you did, to do what you didn't? A second chance? Friend, here it is.\n\n*When you play the Angel, you represent life and hope in the ashes of the world. You can help who needs it most.*",
+    "description": "**When you're lying in the ashes,** *burned and smashed and spilt, what do you hope for? More time, revenge, restitution, to finish what you started, to undo what you did, to do what you didn't? A second chance? Friend, here it is.*\n\nWhen you play the Angel, you represent life and hope in the ashes of the world. You can help who needs it most.",
     "statDistributions": [
       "Aggro+1, Cool+1, Hard+0, Sharp+2, Weird-1",
       "Aggro+0, Cool+1, Hard+1, Sharp+2, Weird-1",
@@ -26,7 +26,7 @@
   },
   "The Brain-picker": {
     "_movesFile": "data/moves/the-brain-picker.json",
-    "description": "**When they burned the world down,** they didn't know what would grow in its ashes. They didn't know that we would be born, we with our eager, hungry brains, our unblinkered eyes, our whispering, dangerous voices.\n\n*When you play the Brain-picker, you have psychic powers and weird interests, and they go together…*",
+    "description": "**When they burned the world down,** *they didn't know what would grow in its ashes. They didn't know that we would be born, we with our eager, hungry brains, our unblinkered eyes, our whispering, dangerous voices.*\n\nWhen you play the Brain-picker, you have psychic powers and weird interests, and they go together…",
     "statDistributions": [
       "Aggro-2, Cool+1, Hard+1, Sharp+1, Weird+2",
       "Aggro+1, Cool+0, Hard+0, Sharp+0, Weird+2",
@@ -54,7 +54,7 @@
   },
   "The Gearcutter": {
     "_movesFile": "data/moves/the-gearcutter.json",
-    "description": "**Before they set fire to the world,** they knew everything. They knew the workings of light, of time, of human life, of space and of atoms. Everything.\n\nWhen you know everything, will you set fire to the world too?\n\n*When you play the Gearcutter, you have salvage grounds and a workspace, and you can fix almost everything that's broken.*",
+    "description": "**Before they set fire to the world,** *they knew everything. They knew the workings of light, of time, of human life, of space and of atoms. Everything.*\n\n*When you know everything, will you set fire to the world too?*\n\nWhen you play the Gearcutter, you have salvage grounds and a workspace, and you can fix almost everything that's broken.",
     "statDistributions": [
       "Aggro-2, Cool+1, Hard+1, Sharp+1, Weird+2",
       "Aggro+1, Cool-1, Hard+0, Sharp+1, Weird+2",
@@ -75,7 +75,7 @@
   },
 "The Harrier": {
   "_movesFile": "data/moves/the-harrier.json",
-  "description": "**We are the fire in the ashes of the world.** We are the claws that rake the earth. We are the screaming machines that tear the roads to ruts and shake the ruined buildings. We are the furious horde of the not yet dead.\n\n*When you play the Harrier, you have a dangerous and skilled, but chaotic, combat gang.*",
+  "description": "**We are the fire in the ashes of the world.** *We are the claws that rake the earth. We are the screaming machines that tear the roads to ruts and shake the ruined buildings. We are the furious horde of the not yet dead.*\n\nWhen you play the Harrier, you have a dangerous and skilled, but chaotic, combat gang.",
   "statDistributions": [
     "Aggro+0, Cool+1, Hard+2, Sharp+1, Weird-1",
     "Aggro-1, Cool+0, Hard+2, Sharp+1, Weird+1",
@@ -95,7 +95,7 @@
 
 "The Hocus": {
   "_movesFile": "data/moves/the-hocus.json",
-  "description": "**The world burned to ashes, and every god and demon it had burned with it.** Now there's the fouled sand, the choking smoke, the world's howling psychic maelstrom, and the desert's killing eye: who do we worship now except these?\n\n*When you play the Hocus, you have a devoted and dangerous cult.*",
+  "description": "**The world burned to ashes, and every god and demon it had burned with it.** *Now there's the fouled sand, the choking smoke, the world's howling psychic maelstrom, and the desert's killing eye: who do we worship now except these?*\n\nWhen you play the Hocus, you have a devoted and dangerous cult.",
   "statDistributions": [
   "Aggro-1, Cool+1, Hard+0, Sharp+1, Weird+2",
   "Aggro+1, Cool+0, Hard+1, Sharp-1, Weird+2",
@@ -114,7 +114,7 @@
 
 "The Lawmaker": {
   "_movesFile": "data/moves/the-lawmaker.json",
-  "description": "**Here in the ashes of the world, there's not much law to be found.** Most places, if someone's wronged, they're on their own. Your holding is a kind of oasis. Your law is a kind of water, sweet and cold after too long without.\n\n*When you play the Lawmaker, you create and rule a stronghold, with a gang to defend it and a population to care for.*",
+  "description": "**Here in the ashes of the world, there's not much law to be found.** *Most places, if someone's wronged, they're on their own. Your holding is a kind of oasis. Your law is a kind of water, sweet and cold after too long without.*\n\nWhen you play the Lawmaker, you create and rule a stronghold, with a gang to defend it and a population to care for.",
   "statDistributions": [
   "Aggro+1, Cool+2, Hard-1, Sharp+1, Weird+0",
   "Aggro+0, Cool+2, Hard+1, Sharp+1, Weird-1",
@@ -134,7 +134,7 @@
 
 "The Luminous": {
   "_movesFile": "data/moves/the-luminous.json",
-  "description": "**There is ugliness in the ashes of the world, and there's beauty too.** Some beauty is soft, kind; this beauty is yours, but so is the other beauty: consuming, whispering, dangerous. The beauty of the frost, the glimmering blade, the poison flower.\n\n*When you play the Luminous, you're a beautiful socialite and artist, gracious and elegant, insightful and manipulative.*",
+  "description": "**There is ugliness in the ashes of the world, and there's beauty too.** *Some beauty is soft, kind; this beauty is yours, but so is the other beauty: consuming, whispering, dangerous. The beauty of the frost, the glimmering blade, the poison flower.*\n\nWhen you play the Luminous, you're a beautiful socialite and artist, gracious and elegant, insightful and manipulative.",
   "statDistributions": [
   "Aggro+1, Cool+2, Hard-1, Sharp+1, Weird+0",
   "Aggro+0, Cool+2, Hard+0, Sharp+0, Weird+1",
@@ -154,7 +154,7 @@
 
 "The Maestro D": {
   "_movesFile": "data/moves/the-maestro-d.json",
-  "description": "**Before they burned the world, they had what we can't imagine: they had all-you-can-eat.** But all-you-can-eat crackled, sizzled, and burned like the rest. Now we have only this: maybe-enough, and if we're lucky, a safe place to enjoy it.\n\n*When you play the Maestro D, you have a venue, a social hub for food and entertainment.*",
+  "description": "**Before they burned the world, they had what we can't imagine: they had all-you-can-eat.** *But all-you-can-eat crackled, sizzled, and burned like the rest. Now we have only this: maybe-enough, and if we're lucky, a safe place to enjoy it.*\n\nWhen you play the Maestro D, you have a venue, a social hub for food and entertainment.",
   "statDistributions": [
   "Aggro+1, Cool+2, Hard-1, Sharp+0, Weird+1",
   "Aggro+0, Cool+2, Hard+1, Sharp+1, Weird-1",
@@ -174,7 +174,7 @@
 
 "The Operator": {
   "_movesFile": "data/moves/the-operator.json",
-  "description": "**A few living still remember it: every horizon scorching hot with civilization in flames, light to put out the stars and moon, smoke to put out the sun.** Now the horizons are dark and the roads have torn themselves apart, but a few still travel them.\n\n*When you play the Operator, you have ports of call, places you regularly go, where they know and expect you, and which your travels tie together.*",
+  "description": "**A few living still remember it: every horizon scorching hot with civilization in flames, light to put out the stars and moon, smoke to put out the sun.** *Now the horizons are dark and the roads have torn themselves apart, but a few still travel them.*\n\nWhen you play the Operator, you have ports of call, places you regularly go, where they know and expect you, and which your travels tie together.",
   "statDistributions": [
   "Aggro-1, Cool+2, Hard-1, Sharp+2, Weird+0",
   "Aggro+0, Cool+2, Hard+1, Sharp+1, Weird-1",
@@ -194,7 +194,7 @@
 
 "The Restless": {
   "_movesFile": "data/moves/the-restless.json",
-  "description": "**Before they set fire to the world, the surface of the earth was their thing, but not now.** Now the Inhospitable surrounds us. It devours cities, engulfs roads, and nobody who goes into it comes out again without help.\n\n*When you play the Restless, you know and travel the wilderness, going where others don't go and living where others can't live. Includes Creating Creatures and The Inhospitible.*",
+  "description": "**Before they set fire to the world, the surface of the earth was their thing, but not now.** *Now the Inhospitable surrounds us. It devours cities, engulfs roads, and nobody who goes into it comes out again without help.*\n\nWhen you play the Restless, you know and travel the wilderness, going where others don't go and living where others can't live. Includes Creating Creatures and The Inhospitible.",
   "statDistributions": [
   "Aggro-2, Cool+1, Hard+1, Sharp+2, Weird+1",
   "Aggro+1, Cool+0, Hard+0, Sharp+2, Weird+0",
@@ -213,7 +213,7 @@
 
 "The Volatile": {
   "_movesFile": "data/moves/the-volatile.json",
-  "description": "**When they set fire to the world, they burned away every nuance, every subtlety in creation.** They reduced the world to the flammable and the flame.\n\n*When you play the Volatile, you always have violence at your ready disposal.*",
+  "description": "**When they set fire to the world, they burned away every nuance, every subtlety in creation.** *They reduced the world to the flammable and the flame.*\n\nWhen you play the Volatile, you always have violence at your ready disposal.",
   "statDistributions": [
   "Aggro+2, Cool+1, Hard+1, Sharp+0, Weird-1",
   "Aggro+2, Cool+0, Hard+1, Sharp+1, Weird-1",
@@ -235,7 +235,7 @@
 
 "The Standout": {
   "_movesFile": "data/moves/the-standout.json",
-  "description": "**You are the least creature of the burnt world, but striving for more: a new life of purpose and promise, or a death worth witnessing.**\n\nPlay the Standout as an introductory character, or as a supporting character for someone else.",
+  "description": "*You are the least creature of the burnt world, but striving for more: a new life of purpose and promise, or a death worth witnessing.*\n\nPlay the Standout as an introductory character, or as a supporting character for someone else.",
   "statDistributions": [
     "Assign stats as you choose: +1, +1, +0, +0, -1."
   ],

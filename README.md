@@ -1,7 +1,5 @@
 # AW
 
-**This is still a Work in Progress**
-
 This is an [Apocalypse World Burned Over](https://www.kickstarter.com/projects/lumpleygames/apocalypse-world-burned-over) implementation of [PbtA-style](https://en.wikipedia.org/wiki/Powered_by_the_Apocalypse?utm_source=chatgpt.com) character sheets.
 
 It is online at https://tznind.github.io/aw/cs.html
