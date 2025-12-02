@@ -215,6 +215,7 @@
   {
     "id": "c7",
     "title": "Drop Jingle (+Barter)",
+    "category": "Common Moves",
     "description": "When you drop jingle to buy something, or when you cruise a marketplace, roll+Barter. No matter the result, ask the MC how they treat you and what kind of deal or deals they make available to you.",
     "outcomes": [
       {
