@@ -171,5 +171,45 @@
         "description": "When you're behind the wheel, you can use your vehicle as a weapon when you get in someone's face, attack, do battle, or in any other violent circumstance.\n\nWhen you do, you roll the dice and make your choices, but it's your vehicle that inflicts and suffers harm, not you yourself."
       }
     ]
+  },
+  {
+    "id": "c5",
+    "title":"Devotion",
+    "category":"Common Moves",
+    "description":"The standard move for a **following**.\nAt the beginning of the session, if your followers are secure and stable, roll+Aggro.\nIf you have more than 1 group of followers, roll separately for each of them.\nMake this move before you **live day to day**. If all your followers are in crisis treat as ≤ 6",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "during the session, your followers offer you all of their devotions."
+      },
+      {
+        "range": "7–9",
+        "text": "they offer you all of their devotions, but choose 1 demand."
+      },
+      {
+        "range": "≤ 6",
+        "text": "all of their demands."
+      }
+    ]
+  },
+  {
+    "id":"c6",
+    "title":"Live day to day (+Barter)",
+    "category":"Common Moves",
+    "description": "At the beginning of the session, or when there's a break in play, roll+Barter.\nIf you're interested in a specific resource, you can ask the MC about it specifically.",
+    "outcomes": [
+      {
+        "range":"≥ 10",
+        "text": "ask the MC what's free and what's easy"
+      },
+      {
+        "range":"7–9",
+        "text": "ask what's easy and what's hard"
+      },
+      {
+        "range":"≤ 6",
+        "text": "what's hard and what's impossible"
+      }
+    ]
   }
 ]
