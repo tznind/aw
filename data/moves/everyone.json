@@ -192,6 +192,68 @@
     ]
   },
   {
+    "id": "c16",
+    "title": "Back Someone's Play (+Hx)",
+    "category": "Basic Moves",
+    "hideCheckbox": true,
+    "description": "When you back the play of someone making a roll, roll+Hx. On a 7–9, before you choose, the MC tells you what it'll cost you. Decide whether to proceed, and if you do, choose a benefit with the MC.",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "choose a benefit with the MC:",
+        "bullets": [
+          "They get +1 to their roll.",
+          "They get to ask +1 question or choose +1 option.",
+          "They get +1harm, +1armor, +1Ψ, or another +1 as appropriate.",
+          "Another benefit, as you agree."
+        ]
+      },
+      {
+        "range": "7–9",
+        "text": "the MC tells you what it'll cost you first, then choose a benefit."
+      },
+      {
+        "range": "≤ 6",
+        "text": "the MC will tell you what. They might choose a benefit with you anyway, but be prepared for the worst."
+      }
+    ]
+  },
+  {
+    "id": "c17",
+    "title": "Interrupt Someone (+Hx)",
+    "category": "Basic Moves",
+    "hideCheckbox": true,
+    "description": "To interrupt someone, roll+Hx. (If an NPC, roll+Aggro.) On any hit, the MC chooses the most suitable and they have to deal with you instead of doing what they intended.",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "the MC chooses one and you take +1 to your next roll against them:",
+        "bullets": [
+          "You're there first.",
+          "You're in their way.",
+          "You're ready for it."
+        ]
+      },
+      {
+        "range": "7–9",
+        "text": "the MC chooses one:",
+        "bullets": [
+          "You're there first.",
+          "You're in their way.",
+          "You're ready for it."
+        ]
+      },
+      {
+        "range": "≤ 6",
+        "text": "you still interrupt them, but the MC chooses one:",
+        "bullets": [
+          "They see what's happening and can change course smoothly.",
+          "They take +1 to their next roll against you."
+        ]
+      }
+    ]
+  },
+  {
     "id": "a15",
     "title":"End of Session",
     "description": "Try to have goals for your character to pursue. Think about this session, the next few sessions, and the game overall.",
