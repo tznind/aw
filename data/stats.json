@@ -79,5 +79,10 @@
     "id": "barterpsi",
     "title": "Barter,Ψ",
     "shape": "double-up"
+  },
+  {
+    "id": "weparm",
+    "title": "Weapon,Armor",
+    "shape": "double-up"
   }
 ]
