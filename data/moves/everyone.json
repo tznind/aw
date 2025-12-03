@@ -524,5 +524,64 @@
     "title": "Insight",
     "category": "Standard Moves",
     "description": "The standard move for **advisors**.\n\nWhen you go to your advisors for insight, ask them what they think your best course is, and the MC will tell you. If you pursue that course, take +1 to any rolls you make in the pursuit. If you pursue that course but don't accomplish your ends, you get 1Xp."
+  },
+  {
+    "id": "c20",
+    "title": "Research (+Sharp)",
+    "category": "Standard Moves",
+    "description": "The standard move for **sources**.\n\nWhen you go to your source for information, tell the MC what you're trying to find out and roll+Sharp.",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "the MC answers your question from your source's point of view."
+      },
+      {
+        "range": "7–9",
+        "text": "the MC chooses 1:",
+        "bullets": [
+          "It's too much. There's no simple answer, or your sources conflict, or it's impossible to get to the bottom of this. Ask an easier question instead.",
+          "You find yourself down a rabbit hole, or you discover one of your source's obsessions. Ask a different, weirder question instead.",
+          "For a technical source: this subject is challenging your source's limits. It's overheating or consuming resources at an unsafe rate. The MC answers your question, but you'll have to deal with the damage afterward.",
+          "For a human source: this subject is too provocative. Pursuing it endangers your source or exposes them to retaliation. The MC answers your question, but you'll have to deal with the fallout afterward."
+        ]
+      },
+      {
+        "range": "≤ 6",
+        "text": "the MC can choose 1 of the above, and/or choose this:",
+        "bullets": [
+          "Your source needs [x] from you before it can answer any more of your questions."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c21",
+    "title": "Tinkering",
+    "category": "Standard Moves",
+    "description": "The standard move for a **workspace**.\n\nWhen you go into your workspace to create something, repair something, solve a problem, or get to the bottom of something, tell the MC about it and ask if it's possible. The MC will tell you \"sure, no problem, but...\" and then 1 to 4 of the following:\n\nThe MC might connect them all with \"and,\" or might throw in a merciful \"or.\"\n\nIf the MC has you roll, per the first option, they choose your stat. Usually sharp or weird, but it depends on your project and it's their call.\nOnce you've accomplished the necessaries, you can go ahead and accomplish your project. Ask the MC what happens.",
+    "outcomes": [
+      {
+        "range": "",
+        "text": "The MC chooses 1 to 4:",
+        "bullets": [
+          "You can accomplish [x] on a 10+, but on a 7–9 you can only accomplish [x].",
+          "It's going to take hours/days/weeks/months of work.",
+          "First you'll have to get/make/fix/figure out [x].",
+          "You're going to need [x] to help you with it.",
+          "It's going to cost a ton of jingle.",
+          "The best you'll be able to do is not great, it'll be poor, slow, weak or unreliable.",
+          "It's going to mean exposing yourself or others to serious danger.",
+          "You're going to have to add [x] to your workspace first.",
+          "It's going to take you several/dozens/hundreds of tries.",
+          "You're going to have to take [x] apart to do it."
+        ]
+      }
+    ],
+    "submoves": [
+      {
+        "title": "True Prerequisites",
+        "description": "When you tell the MC about a project and ask if it's possible, instead of telling you \"*sure, no problem, but*...\" the MC is allowed to tell you \"*maybe, but you'll need to expand your workspace to [named workspace tag] before you can even begin.*\"\n\nWhen the MC gives you a true prerequisite like this, you can take it as an intermediate project, and use **tinkering** again to accomplish it.\n\nFor example, suppose that you have a garage (workspace: vehicles), and you want to create a Ψ-isolation helmet. The MC answers that maybe you can, but you'll need to expand your workspace to workspace: Ψ before you can even begin. You can use **tinkering** to ask back: \"cool, I'll do that. Is it possible?\" Now the MC has to answer again: \"sure, no problem, but...\""
+      }
+    ]
   }
 ]
