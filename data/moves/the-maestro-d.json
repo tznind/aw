@@ -2,7 +2,7 @@
   {
     "id": "m1",
     "title": "Cultural Hub (Requires a Venue)",
-    "description": "When you make your venue's wealth roll and your venue has surplus, choose a different hard zone location. Your venue's gossip & news includes gossip and news from that location too."
+    "description": "When you make your venue's **wealth** roll and your venue has surplus, choose a different hard zone location. Your venue's gossip & news includes gossip and news from that location too."
   },
   {
     "id": "m2",
@@ -87,7 +87,7 @@
 ,{
     "id": "m9",
     "title": "Improvements",
-    "description": "Choose 2 Maestro D moves. Your venue gives you wealth + it’s always something, and its options might give you leadership as well. At 6Xp, choose an improvement and erase.",
+    "description": "Choose 2 Maestro D moves. Your venue gives you **wealth** + it's always something, and its options might give you **leadership** as well. At 6Xp, choose an improvement and erase.",
     "category": "Improvement",
     "hideCheckbox": true,
     "tracks": [
@@ -105,7 +105,7 @@
       "Get a new Maestro D move",
       "Get a new Maestro D move",
       "Add a security option to your venue",
-      "Get 3 ports of call and ear to the ground",
+      "Get 3 ports of call and **ear to the ground**",
       "Get a move from an unused playbook",
       "Get a move from an unused playbook"
     ]

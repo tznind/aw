@@ -121,7 +121,7 @@
 {
     "id": "o9",
     "title": "Improvements",
-    "description": "Choose 2 Hocus moves. Your cult gives you devotion and its options might give you additional standard moves as well.. At 6Xp, choose an improvement and erase.",
+    "description": "Choose 2 Hocus moves. Your cult gives you **devotion** and its options might give you additional standard moves as well.. At 6Xp, choose an improvement and erase.",
     "category": "Improvement",
     "hideCheckbox": true,
     "tracks": [

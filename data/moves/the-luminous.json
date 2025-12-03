@@ -126,7 +126,7 @@
 ,{
     "id": "u9",
     "title": "Improvements",
-    "description": "Choose 2 Luminous moves. Your luxe setup might give you tinkering as well. At 6Xp, choose an improvement and erase.",
+    "description": "Choose 2 Luminous moves. Your luxe setup might give you **tinkering** as well. At 6Xp, choose an improvement and erase.",
     "category": "Improvement",
     "hideCheckbox": true,
     "tracks": [

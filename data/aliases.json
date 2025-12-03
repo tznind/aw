@@ -2,7 +2,7 @@
     {
         "alias":"do battle",
         "move":"Attack Someone"
-    }, 
+    },
     {
         "alias":"doing battle",
         "move":"Attack Someone"
@@ -10,5 +10,25 @@
     {
         "alias":"attack",
         "move":"Attack Someone"
+    },
+    {
+        "alias":"reason with",
+        "move":"Reason with Someone"
+    },
+    {
+        "alias":"read someone",
+        "move":"Read a Person"
+    },
+    {
+        "alias":"read a situation",
+        "move":"Read a Situation"
+    },
+    {
+        "alias":"back a play",
+        "move":"Back Someone's Play"
+    },
+    {
+        "alias":"dropping jingle",
+        "move":"Drop Jingle"
     }
 ]

@@ -217,7 +217,7 @@
       "Get a new Angel move (Mark it above)",
       "Get a new Angel move (Mark it above)",
       "Get a new Angel move (Mark it above)",
-      "Get a following and devotion (Mark it *below*)",
+      "Get a following and **devotion** (Mark it *below*)",
       "Get a move from an unused playbook (Mark it *below*)",
       "Get a move from an unused playbook (Mark it *below*)"
     ]

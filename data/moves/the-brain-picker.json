@@ -95,7 +95,7 @@
     "id": "b7",
     "title": "Babble Prism (hi-tech, valuable)",
     "category": "Brainpicker Gear",
-    "description": "A glass device that allows you to converse with a strange unliving entity, a perpetual nonperson who is eager to help you, but has a vacant, unlearning point of view. It's an advisor, and gives you insight, but remind the MC to create it as a pinpoint threat."
+    "description": "A glass device that allows you to converse with a strange unliving entity, a perpetual nonperson who is eager to help you, but has a vacant, unlearning point of view. It's an advisor, and gives you **insight**, but remind the MC to create it as a pinpoint threat."
   },
   {
     "id": "b8",
@@ -131,13 +131,13 @@
     "id": "b13",
     "title": "Psychic Crash Rig (hi-tech, valuable)",
     "category": "Brainpicker Gear",
-    "description": "Wire someone up to it and you can induce them to open their brain to the world's psychic maelstrom. If a PC, they make the move; if an NPC, ask the MC what happens. While their brain's open, the crash rig acts as a technical source on their experience, and gives you research."
+    "description": "Wire someone up to it and you can induce them to open their brain to the world's psychic maelstrom. If a PC, they make the move; if an NPC, ask the MC what happens. While their brain's open, the crash rig acts as a technical source on their experience, and gives you **research**."
   },
   {
     "id": "b14",
     "title": "Psychic Overload Chamber (hi-tech, valuable)",
     "category": "Brainpicker Gear",
-    "description": "You have an enclosed chamber that acts as a psychic antenna, giving you access to augury."
+    "description": "You have an enclosed chamber that acts as a psychic antenna, giving you access to **augury**."
   },
   {
     "id": "b15",

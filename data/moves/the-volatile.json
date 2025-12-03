@@ -185,8 +185,8 @@
   "Get +1Sharp (max Sharp+3)",
   "Get a new Volatile move",
   "Get a new Volatile move",
-  "Get a gang and leadership",
-  "Get a holding and wealth",
+  "Get a gang and **leadership**",
+  "Get a holding and **wealth**",
   "Get a move from an unused playbook",
   "Get a move from an unused playbook"
 ]
