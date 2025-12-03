@@ -1,1 +1,10 @@
-[]
+[
+    {
+        "alias":"do battle",
+        "move":"Attack Someone"
+    },
+    {
+        "alias":"attack",
+        "move":"Attack Someone"
+    }
+]
