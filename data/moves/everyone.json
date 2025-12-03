@@ -486,5 +486,43 @@
         "text": "they consider you to be neither rich nor powerful."
       }
     ]
+  },
+  {
+    "id": "c18",
+    "title": "Ear to the Ground (+Cool)",
+    "category": "Standard Moves",
+    "description": "The standard move for **ports of call**.\n\nAt the beginning of the session, or whenever there's a break in play, name the location of one of your ports of call or another location you care about, and roll+Cool.\n\nMake this move before you **live day to day**.",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "word reaches you that (choose 1):",
+        "bullets": [
+          "There's a great opportunity for you there. Ask the MC what it is.",
+          "Choose 1 from the 7–9 list below."
+        ]
+      },
+      {
+        "range": "7–9",
+        "text": "word reaches you that (choose 1):",
+        "bullets": [
+          "They're facing a serious problem there. Ask the MC what it is.",
+          "Somebody there needs to talk to you. Ask the MC who.",
+          "Something bad is coming your way, and somebody there has a warning for you. Ask the MC what their warning is."
+        ]
+      },
+      {
+        "range": "≤ 6",
+        "text": "word reaches you that:",
+        "bullets": [
+          "Somebody there wants your blood. Ask the MC who."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c19",
+    "title": "Insight",
+    "category": "Standard Moves",
+    "description": "The standard move for **advisors**.\n\nWhen you go to your advisors for insight, ask them what they think your best course is, and the MC will tell you. If you pursue that course, take +1 to any rolls you make in the pursuit. If you pursue that course but don't accomplish your ends, you get 1Xp."
   }
 ]
