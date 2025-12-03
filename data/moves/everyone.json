@@ -88,7 +88,7 @@
     "title": "Attack Someone (+Hard)",
     "category": "Basic Moves",
     "hideCheckbox": true,
-    "description": "When you attack someone, roll+Hard. On any hit, you inflict harm as established.\n\n**Doing battle:** If your enemy's able to defend themselves or fight back, exchange harm as established.",
+    "description": "When you attack someone, roll+Hard. On any hit, you inflict harm as established.\n\n**Doing battle**: If your enemy's able to defend themselves or fight back, exchange harm as established.",
     "outcomes": [
       {
         "range": "≥ 10",
@@ -320,7 +320,7 @@
     "id": "c2",
     "title": "Augury (+Weird)",
     "category": "Standard Moves",
-    "description": "*The standard move for a psychic antenna.*\n\nWhen you use your psychic antenna for augury, roll+Weird. On any hit, choose 1:\n- You can reach through the world's psychic maelstrom to something or someone connected to it\n- You can isolate and protect a person or thing from the world's psychic maelstrom\n- You can extract and contain a fragment of the world's psychic maelstrom itself.\n- You can open a window or door into the world's psychic maelstrom.\nAlso:",
+    "description": "*The standard move for a psychic antenna*.\n\nWhen you use your psychic antenna for augury, roll+Weird. On any hit, choose 1:\n- You can reach through the world's psychic maelstrom to something or someone connected to it\n- You can isolate and protect a person or thing from the world's psychic maelstrom\n- You can extract and contain a fragment of the world's psychic maelstrom itself.\n- You can open a window or door into the world's psychic maelstrom.\nAlso:",
     "outcomes": [
       {
         "range": "≥ 10",

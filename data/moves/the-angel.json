@@ -10,7 +10,7 @@
       },
       {
         "range": "",
-        "text": "You also get **behind the wheel.**"
+        "text": "You also get **behind the wheel**."
       }
     ]
   },
@@ -107,7 +107,7 @@
     "title": "Stock",
     "hideCheckbox": true,
     "category": "Angel Kit",
-    "description": "Before you begin play, mark 20 of the above stock as *spent*.\n\n**To use your angel kit,** spend it's stock: choose 0-3 suitable supplies and mark them *spent*.  Roll + Stock spent.",
+    "description": "Before you begin play, mark 20 of the above stock as *spent*.\n\n**To use your angel kit**, spend it's stock: choose 0-3 suitable supplies and mark them *spent*.  Roll + Stock spent.",
     "tracks": [
       {"name": "Scissors", "max": 1, "shape": "circle"},
       {"name": "Rags", "max": 3, "shape": "circle"},
