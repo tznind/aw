@@ -1,5 +1,196 @@
 [
-  
+  {
+    "id": "c8",
+    "title": "Demand Something (+Aggro)",
+    "category": "Basic Moves",
+    "hideCheckbox": true,
+    "description": "When you demand something of someone, roll+Aggro.",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "they have to choose: give in to your demand, or push back hard."
+      },
+      {
+        "range": "7–9",
+        "text": "if they don't want to give in or push back, they can try to stall, make excuses, smooth it over, calm you down, or pass the buck, but in return you take +1forward against them."
+      },
+      {
+        "range": "≤ 6",
+        "text": "the MC will tell you what."
+      }
+    ]
+  },
+  {
+    "id": "c9",
+    "title": "Tackle a Challenge (+Aggro)",
+    "category": "Basic Moves",
+    "hideCheckbox": true,
+    "description": "When you tackle a challenge, trying for something that might be beyond you, requiring strength, skill, great care, quick reflexes, patience, or hard work, roll+Aggro.",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "you're able to take it on. Ask the MC what you can accomplish, and no one could expect to do it better."
+      },
+      {
+        "range": "7–9",
+        "text": "ask the MC what it will cost you to succeed, and decide for yourself whether to go through with it."
+      },
+      {
+        "range": "≤ 6",
+        "text": "the MC will tell you what."
+      }
+    ]
+  },
+  {
+    "id": "c10",
+    "title": "Act Under Fire (+Cool)",
+    "category": "Basic Moves",
+    "hideCheckbox": true,
+    "description": "When you act under fire, stick to your guns, or hold it together under duress, be prepared to suffer harm if appropriate, and roll+Cool.",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "you're solid. You stand or you follow through without flinching or hesitating. Ask the MC how it goes."
+      },
+      {
+        "range": "7–9",
+        "text": "you flinch, hesitate, waver, or stall. Choose which, and ask the MC what it costs you or what your options are."
+      },
+      {
+        "range": "≤ 6",
+        "text": "the MC will tell you what."
+      }
+    ]
+  },
+  {
+    "id": "c11",
+    "title": "Reason with Someone (+Cool)",
+    "category": "Basic Moves",
+    "hideCheckbox": true,
+    "description": "To reason with someone, say what they'll do, what you'll do, and roll+Cool.",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "they have to choose: set reservations aside and go along with your offer, or else frankly, flatly — maybe violently — refuse."
+      },
+      {
+        "range": "7–9",
+        "text": "or if they're reasonable about refusing, ask for their counterproposal, or ask what you'd have to do to convince them, and decide for yourself whether and how to pursue it."
+      },
+      {
+        "range": "≤ 6",
+        "text": "the MC will tell you what."
+      }
+    ]
+  },
+  {
+    "id": "c12",
+    "title": "Attack Someone (+Hard)",
+    "category": "Basic Moves",
+    "hideCheckbox": true,
+    "description": "When you attack someone, roll+Hard. On any hit, you inflict harm as established.\n\n**Doing battle:** If your enemy's able to defend themselves or fight back, exchange harm as established.",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "choose 3 options against your enemy:",
+        "bullets": [
+          "Inflict terrible harm: You inflict +1harm.",
+          "Seize hold of something: Name it; you have definite hold of it.",
+          "Get them out of your way: You knock them down, drive them away, or fight past them.",
+          "Impress, frighten, or dismay them: Ask the MC how this changes their morale and intentions.",
+          "Pin them down: They're immobilized, cornered, or boxed in, and can't move freely.",
+          "Suffer little harm: You suffer -1harm."
+        ]
+      },
+      {
+        "range": "7–9",
+        "text": "choose 2 options."
+      },
+      {
+        "range": "≤ 6",
+        "text": "the MC will tell you what. They might have you choose 1 anyway, but be prepared for the worst."
+      }
+    ]
+  },
+  {
+    "id": "c13",
+    "title": "Read a Person (+Sharp)",
+    "category": "Basic Moves",
+    "hideCheckbox": true,
+    "description": "When you read someone in a charged interaction, roll+Sharp. At any time during your interaction, you can pause to ask them a question: something that your character realizes about theirs. They have to answer frankly.",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "ask 3 in total:",
+        "bullets": [
+          "Are you telling the truth? (How can I tell?)",
+          "What are you feeling? (How can I tell?)",
+          "What are you thinking of doing? (How can I tell?)",
+          "What do you hope I'll do? (How can I tell?)",
+          "How are you vulnerable to me? (How can I tell?)",
+          "How could I get you to do [x]? (How can I tell?)"
+        ]
+      },
+      {
+        "range": "7–9",
+        "text": "ask 2 in total."
+      },
+      {
+        "range": "≤ 6",
+        "text": "the MC will tell you what. They might have you ask 1 anyway, but be prepared for the worst."
+      }
+    ]
+  },
+  {
+    "id": "c14",
+    "title": "Read a Situation (+Sharp)",
+    "category": "Basic Moves",
+    "hideCheckbox": true,
+    "description": "When you read a charged situation, roll+Sharp. They have to answer frankly. As play goes on, when you're acting on their answers, take +1 to any rolls you make.",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "ask the MC 3 questions right now:",
+        "bullets": [
+          "Who's in control here? (How can I tell?)",
+          "What's my best way in / out / around / through? (What makes me think so?)",
+          "Who or what poses the biggest threat to me? (How can I tell?)",
+          "Who or what represents the best opportunity for me to do [x]? (How can I tell?)",
+          "What should I be on the lookout for? (What makes me think so?)",
+          "If I take on this challenge, [x], what can I hope to accomplish? How might I accomplish more? (What am I basing this on?)"
+        ]
+      },
+      {
+        "range": "7–9",
+        "text": "ask the MC 1 question."
+      },
+      {
+        "range": "≤ 6",
+        "text": "the MC will tell you what. They might have you ask 1 anyway, but be prepared for the worst."
+      }
+    ]
+  },
+  {
+    "id": "c15",
+    "title": "Open Your Brain (+Weird)",
+    "category": "Basic Moves",
+    "hideCheckbox": true,
+    "description": "When you open your brain to the world's psychic maelstrom, roll+Weird. On a hit, the MC tells you something new and interesting about the current situation, from the point of view of the world's psychic maelstrom. They can also ask you a question or two; answer them frankly. Either way, if you already know all there is to know, the MC should tell you so.",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "the MC should give you good detail, and might answer followup questions."
+      },
+      {
+        "range": "7–9",
+        "text": "the MC should give you an impression at least."
+      },
+      {
+        "range": "≤ 6",
+        "text": "the MC will tell you what."
+      }
+    ]
+  },
   {
     "id": "a15",
     "title":"End of Session",
@@ -195,7 +386,8 @@
   {
     "id":"c6",
     "title":"Live day to day (+Barter)",
-    "category":"Common Moves",
+    "category":"Basic Moves",
+    "hideCheckbox": true,
     "description": "At the beginning of the session, or when there's a break in play, roll+Barter.\nIf you're interested in a specific resource, you can ask the MC about it specifically.",
     "outcomes": [
       {
@@ -215,7 +407,8 @@
   {
     "id": "c7",
     "title": "Drop Jingle (+Barter)",
-    "category": "Common Moves",
+    "category": "Basic Moves",
+    "hideCheckbox": true,
     "description": "When you drop jingle to buy something, or when you cruise a marketplace, roll+Barter. No matter the result, ask the MC how they treat you and what kind of deal or deals they make available to you.",
     "outcomes": [
       {
