@@ -299,7 +299,7 @@
   {
     "id": "c1",
     "title": "Wealth (+Hard)",
-    "category": "Common Moves",
+    "category": "Standard Moves",
     "description": "The standard move for a holding or venue.\n\nAt the beginning of the session, if your holding or venue is secure and stable, roll+Hard.\n\nMake this move before you live day to day",
     "outcomes": [
       {
@@ -319,7 +319,7 @@
   {
     "id": "c2",
     "title": "Augury (+Weird)",
-    "category": "Common Moves",
+    "category": "Standard Moves",
     "description": "*The standard move for a psychic antenna.*\n\nWhen you use your psychic antenna for augury, roll+Weird. On any hit, choose 1:\n- You can reach through the world's psychic maelstrom to something or someone connected to it\n- You can isolate and protect a person or thing from the world's psychic maelstrom\n- You can extract and contain a fragment of the world's psychic maelstrom itself.\n- You can open a window or door into the world's psychic maelstrom.\nAlso:",
     "outcomes": [
       {
@@ -347,7 +347,7 @@
     "id": "c3",
     "title": "Leadership",
     "description": "The standard move for a **gang**.",
-    "category": "Common Moves",
+    "category": "Standard Moves",
     "submoves": [
       {
         "title": "Give an Order",
@@ -377,7 +377,7 @@
     "id": "c4",
     "title": "Behind the Wheel",
     "description": "The standard moves for **vehicles**.\nFor both moves below, if you're dealing with terrain or other vehicles, the MC should bring their impulses to bear against your vehicle's as well.",
-    "category": "Common Moves",
+    "category": "Standard Moves",
     "submoves": [
       {
         "title": "Let Your Vehicle Off the Leash",
@@ -428,7 +428,7 @@
   {
     "id": "c5",
     "title":"Devotion",
-    "category":"Common Moves",
+    "category":"Standard Moves",
     "description":"The standard move for a **following**.\nAt the beginning of the session, if your followers are secure and stable, roll+Aggro.\nIf you have more than 1 group of followers, roll separately for each of them.\nMake this move before you **live day to day**. If all your followers are in crisis treat as ≤ 6",
     "outcomes": [
       {
