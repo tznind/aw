@@ -71,7 +71,9 @@
     "g6": true,
     "g7": true,
     "g8": true,
-    "g9":true
+    "g9":true,
+    "c21":true,
+    "c18":true
   },
 "The Harrier": {
   "_movesFile": "data/moves/the-harrier.json",
@@ -90,7 +92,9 @@
   "h4": false,
   "h5": false,
   "h6": true,
-  "h9": true
+  "h9": true,
+  "c3": true,
+  "c4": true
 },
 
 "The Hocus": {
@@ -109,7 +113,8 @@
   "o4": false,
   "o5": false,
   "o8": false,
-  "o9": true
+  "o9": true,
+  "c5": true
 },
 
 "The Lawmaker": {
@@ -129,7 +134,9 @@
   "l4": false,
   "l5": false,
   "l8":true,
-  "l9": true
+  "l9": true,
+  "c1": true,
+  "c3": true
 },
 
 "The Luminous": {
@@ -169,7 +176,8 @@
   "m4": false,
   "m5": false,
   "m8": true,
-  "m9": true
+  "m9": true,
+  "c1": true
 },
 
 "The Operator": {
@@ -189,7 +197,9 @@
   "p4": false,
   "p5": false,
   "p8": true,
-  "p9": true
+  "p9": true,
+  "c4": true,
+  "c18": true
 },
 
 "The Restless": {
@@ -254,7 +264,7 @@
     "a15": true,
     "a17": true,
     "c1": false,
-    "c2": true,
+    "c2": false,
     "c3":false,
     "c4": false,
     "c5": false,
