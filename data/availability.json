@@ -107,7 +107,7 @@
   "Aggro+1, Cool-2, Hard+2, Sharp+0, Weird+2"
 ],"hxInstructions": "List the other characters' names.\nGo around again for Hx. On your turn, ask the group: *How do you personally feel about my cult?*\n• For those who are believers, write Hx+2.\n• For those who feel positive about it, write Hx+1.\n• For those who don't, write Hx-1.\nOn the others' turns, volunteer if you like.",
   "cards": ["your-cult"],
-  "o1": true,
+  "o1": false,
   "o2": false,
   "o3": false,
   "o4": false,
