@@ -71,22 +71,19 @@
 .luxe-options {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 12px;
   margin-top: 8px;
 }
 
 .luxe-option {
   display: flex;
-  align-items: flex-start;
-  gap: 8px;
-  padding: 10px;
+  flex-direction: column;
+  padding: 12px;
   background: #f8f9fa;
   border: 2px solid #dee2e6;
   border-radius: 4px;
   cursor: pointer;
   transition: all 0.2s ease;
-  font-size: 14px;
-  line-height: 1.5;
 }
 
 .luxe-option:hover {
@@ -95,9 +92,8 @@
 }
 
 .luxe-option input[type="checkbox"] {
-  margin-top: 3px;
+  margin-right: 8px;
   cursor: pointer;
-  flex-shrink: 0;
 }
 
 /* Car Details */
