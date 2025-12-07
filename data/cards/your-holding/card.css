@@ -95,7 +95,6 @@
 .holding-options {
   display: flex;
   flex-direction: column;
-  white-space: nowrap;
   gap: 8px;
   margin-top: 8px;
 }
