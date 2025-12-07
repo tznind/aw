@@ -102,7 +102,7 @@
       }
     ],
     "category": "Gear",
-    "pickOne": [
+    "pick": [
 "**Blade thrower** (*4-harm, close, harness, loud, reload*)",
 "**Flamethrower** (*1-environ, close, fire, harness*)",
 "**Handmade gatling gun** (*4-harm, area, close-far, harness, loud, salvos: 3*)",
@@ -137,7 +137,7 @@
       }
     ],
     "category": "Gear",
-    "pickOne": [
+    "pick": [
       "**Big knife** (*2-harm, hand*)",
       "**Crossbow** (*2-harm, close-far, reload*)",
       "**Crowbar** (*2-harm, hand, brutal*)",
