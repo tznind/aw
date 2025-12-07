@@ -56,21 +56,38 @@
     "description": "A Big Knife plus 2 more:",
     "hideCheckbox": true,
     "tracks": [
+    
       {
-        "name": "Ammo",
+        "name": "Gernades",
+        "max": 3,
+        "dynamic": true,
+        "shape": "circle"
+      },
+      
+      {
+        "name": "Propane",
+        "max": 3,
+        "dynamic": true,
+        "shape": "circle"
+      },
+      
+      {
+        "name": "Repair",
         "max": 3,
         "dynamic": true,
         "shape": "circle"
       }
     ],
     "category": "Gear",
-    "pickOne": [
-      "**Beautiful vintage handgun** (*3-harm, close, loud, valuable, ammo: 3*)",
-      "**Custom-made handgun** (*3-harm, close, loud, valuable, ammo: 3*)",
-      "**Hand-forged damascus blade** (*2-harm, hand, valuable*)",
-      "**Hidden knives** (*2-harm, hand, hidden*)",
-      "**Lavishly decorated hunting rifle** (*4-harm, far, loud, valuable, ammo: 3*)",
-      "**Weighted, swinging chain** (*2-harm, hand*)"
+    "pick": [
+        "**Big knife** (*2-harm, hand*)",
+        "**Bean can gernades** (*3-harm, messy, thrown, single use: 3*)",
+        "**Crossbow** (*2-harm, close-far, reload*)",
+        "**Hatchet** (*3-harm, hand*)",
+        "**Machete** (*3-harm, hand, brutal*)",
+        "**Scavenged lost-tech pulser** (*3-harm, close-far, autofire, hi-tech, unreliable, repair: 3*)",
+        "**Tripwire propane can** (*3-harm, close, fire, set, single use: 3*)",
+        "**Tripwire spike** (*4-harm, hand, set*)"
     ]
   },{
     "id": "r9",
