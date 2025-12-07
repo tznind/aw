@@ -74,7 +74,7 @@
   {
     "id": "g6",
     "title": "Your Workspace",
-    "category": "Workspace & Salvage Grounds",
+    "category": "⚙️ Workspace & Salvage Grounds",
     "description": "You have a workshop full of tools, old machines, parts, salvage, and scrap (workspace: machinery). You get **tinkering**.\n\nYour workshop also includes (choose 3):",
     "hideCheckbox": true,
     "pick": [
@@ -91,7 +91,7 @@
   {
     "id": "g7",
     "title": "Salvage Grounds",
-    "category": "Workspace & Salvage Grounds",
+    "category": "⚙️ Workspace & Salvage Grounds",
     "hideCheckbox": true,
     "grantsCard": "salvage-grounds"
   },

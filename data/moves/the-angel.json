@@ -106,7 +106,7 @@
     "id": "a8",
     "title": "Stock",
     "hideCheckbox": true,
-    "category": "Angel Kit",
+    "category": "❤️‍🩹Angel Kit",
     "description": "Before you begin play, mark 20 of the above stock as *spent*.\n\n**To use your angel kit**, spend it's stock: choose 0-3 suitable supplies and mark them *spent*.  Roll + Stock spent.",
     "tracks": [
       {"name": "Scissors", "max": 1, "shape": "circle"},
@@ -133,7 +133,7 @@
   {
     "id": "a10",
     "title": "In the field (+Stock Spent)",
-    "category": "Angel Kit",
+    "category": "❤️‍🩹Angel Kit",
     "description": "When someone's suffered harm, it doesn't matter how much, even if their life is untenable, you might be able to help. Roll+stock spent.",
     "outcomes": [
       {
@@ -162,7 +162,7 @@
   {
     "id": "a11",
     "title": "In your care (+Stock Spent)",
-    "category": "Angel Kit",
+    "category": "❤️‍🩹Angel Kit",
     "description": "To treat a PC who's past 6:00, or an NPC who's suffered more than 1-harm, roll+stock spent. On any hit, you stabilize them (if they weren't) and heal them — to 6:00 for a PC, outright for an NPC.\n\nHowever:",
     "outcomes": [
       {
@@ -192,7 +192,7 @@
   {
     "id": "a12",
     "title": "Restock your angel kit",
-    "category": "Angel Kit",
+    "category": "❤️‍🩹Angel Kit",
     "hideCheckbox": true,
     "description": " you must restock it supply by supply: by **dropping jingle** in a marketplace, if the supply you need is available there; when you **live day to day**, if the supply you need is free or easy for you to come by; or by scavenging, scrounging, or looting, at the MC's discretion."
   },
