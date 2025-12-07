@@ -76,14 +76,14 @@
 }
 
 .luxe-option {
-  display: flex;
-  flex-direction: column;
+  display: block;
   padding: 12px;
   background: #f8f9fa;
   border: 2px solid #dee2e6;
   border-radius: 4px;
   cursor: pointer;
   transition: all 0.2s ease;
+  line-height: 1.5;
 }
 
 .luxe-option:hover {
@@ -94,6 +94,7 @@
 .luxe-option input[type="checkbox"] {
   margin-right: 8px;
   cursor: pointer;
+  vertical-align: top;
 }
 
 /* Car Details */
