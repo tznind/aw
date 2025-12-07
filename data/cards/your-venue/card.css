@@ -38,8 +38,9 @@
 }
 
 /* Inline radio buttons */
-.inline-radio {
-  display: inline;
+.card .inline-radio,
+label.inline-radio {
+  display: inline !important;
   margin: 0 2px;
   cursor: pointer;
   font-size: inherit;
@@ -48,6 +49,12 @@
 .inline-radio input[type="radio"] {
   margin: 0 4px 0 8px;
   cursor: pointer;
+}
+
+/* Keep grouped radio buttons on one line */
+.radio-group {
+  display: inline;
+  white-space: nowrap;
 }
 
 /* Venue Options (trades and atmosphere) */

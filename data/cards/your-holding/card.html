@@ -2,12 +2,12 @@
 <div class="card your-holding-card">
   <h3 class="card-title">🏠 Your Holding</h3>
 
-  <div class="holding-intro" data-format-text>
+  <div class="holding-intro">
     You have a holding, a settlement where a population of about 100 lives and works,
-    defended by a gang (2-harm, 1-armor) numbering (circle 1):
-    <label class="inline-radio"><input type="radio" name="hgn" id="hgn20" value="20"> 20</label> /
-    <label class="inline-radio"><input type="radio" name="hgn" id="hgn25" value="25"> 25</label>.
-    You get **wealth** for your holding and **leadership** for your gang.
+    defended by a gang (2-harm, 1-armor)
+    <span class="radio-group">numbering (circle 1): <label class="inline-radio"><input type="radio" name="hgn" id="hgn20" value="20"> 20</label> /
+    <label class="inline-radio"><input type="radio" name="hgn" id="hgn25" value="25"> 25</label></span>.
+    <span data-format-text>You get **wealth** for your holding and **leadership** for your gang.</span>
   </div>
 
   <!-- Laws -->
@@ -81,9 +81,9 @@
 
       <span class="holding-option" id="ho11o">
         <input type="checkbox" id="ho11" value="raiding-party">
-        A scouting & raiding party separate from your gang (2-harm, 1-armor), numbering
-        <label class="inline-radio"><input type="radio" name="hrp" id="hrp5" value="5"> 5</label> /
-        <label class="inline-radio"><input type="radio" name="hrp" id="hrp7" value="7"> 7</label>
+        A scouting & raiding party separate from your gang (2-harm, 1-armor),
+        <span class="radio-group">numbering <label class="inline-radio"><input type="radio" name="hrp" id="hrp5" value="5"> 5</label> /
+        <label class="inline-radio"><input type="radio" name="hrp" id="hrp7" value="7"> 7</label></span>
       </span>
 
       <label class="holding-option" id="ho12o">
