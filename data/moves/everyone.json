@@ -88,7 +88,7 @@
     "title": "Attack Someone (+Hard)",
     "category": "Basic Moves",
     "hideCheckbox": true,
-    "description": "When you attack someone, roll+Hard. On any hit, you inflict harm as established.\n\n**Doing battle**: If your enemy's able to defend themselves or fight back, exchange harm as established.",
+    "description": "When you attack someone, roll+Hard. On any hit, you inflict harm as established.",
     "outcomes": [
       {
         "range": "≥ 10",
@@ -98,9 +98,7 @@
           "Seize hold of something: Name it; you have definite hold of it.",
           "Get them out of your way: You knock them down, drive them away, or fight past them.",
           "Impress, frighten, or dismay them: Ask the MC how this changes their morale and intentions.",
-          "Pin them down: They're immobilized, cornered, or boxed in, and can't move freely.",
-          "Suffer little harm: You suffer -1harm."
-        ]
+          "Pin them down: They're immobilized, cornered, or boxed in, and can't move freely."]
       },
       {
         "range": "7–9",
@@ -109,6 +107,12 @@
       {
         "range": "≤ 6",
         "text": "the MC will tell you what. They might have you choose 1 anyway, but be prepared for the worst."
+      }
+    ],
+    "submoves": [
+      {
+        "title": "Do Battle",
+        "description": "If your enemy's able to defend themselves or fight back, exchange harm as established. Add to your choices\n\n- Suffer little harm: You suffer -1harm."
       }
     ]
   },
