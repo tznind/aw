@@ -293,6 +293,7 @@
     "title": "Get a move from an unused playbook",
     "description": "Mark this move when you take the respective Improvement. Choose a move from an unused playbook",
     "multiple": 2,
+    "category": "Improvement",
     "takeFrom": ["*"],
     "takeCategory": ["Moves"]
   },
