@@ -95,6 +95,12 @@
         "max": 3,
         "dynamic": true,
         "shape": "circle"
+      },
+      {
+        "name": "Ammo",
+        "max": 3,
+        "dynamic": true,
+        "shape": "circle"
       }
     ],
     "category": "Gear",
