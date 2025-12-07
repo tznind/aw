@@ -112,7 +112,7 @@
       }
     ],
     "category": "Gear",
-    "pickOne": [
+    "pick": [
         "**Big knife** (*2-harm, hand*)",
         "**Bean can gernades** (*3-harm, messy, thrown, single use: 3*)",
         "**Crossbow** (*2-harm, close-far, reload*)",

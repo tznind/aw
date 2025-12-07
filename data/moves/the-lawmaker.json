@@ -103,7 +103,7 @@
       }
     ],
     "category": "Gear",
-    "pickOne": [
+    "pick": [
       "**Big knife** (*2-harm, hand*)",
       "**Handmade pistol** (*3-harm, close, loud, ammo: 5*)",
       "**Hatchet** (*3-harm, hand*)",
