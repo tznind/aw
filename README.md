@@ -34,19 +34,13 @@ Example Characters
          </td>   
         <td width="25%">🏍️&nbsp;<a href="https://tznind.github.io/aw/cs.html?harm-value=1&role=The+Harrier&name=Max+Damage&so_b=0&pack-defiance-value=0&pronouns=She%2FHer&player=Biff&first-impression=Classic+black+leathers+dirt+biker%2C+members+only+jacket+and+a+cocky+grin.&aggro=%2B1&cool=%2B1&hard=%2B2&sharp=%2B0&weird=-1&track_stat_aggro=2&track_stat_sharp=2&track_stat_weird=3&pack-type=enforcers&pack-number=20&pack-lieutenant=Howler&pack-scout=Alice+quickfinger&pack-fighter=Dirty+Harriet&pack-ambitious=Rolland&pack-ruthless=Ugly+Decker&pack-dumbass=Vee&pack-ride=bikes&ride-blazing=1&ride-churning=1&ride-darting=1&ride-screaming=1&ride-smoking=1&ride-racing=1&track_pack-ammo=13&gang-summary=%27The+Open+Road%27+motorcycle+gang.+We+live+to+ride%2C+kill+to+ride%2C+ride+to+die.&hx_cnt=1&hx0n=Dr+Holtz%2C+he+fixed+me+up+that+time+I+was+left+in+the+dirt&hx0v=2&scavenge_choice=option2&barterpsi_top=%2B2&barterpsi_bottom=0&move_h3=1&track_h3=6&track_h9=4&hide_untaken=1">Max&nbsp;Damage</a></td>
   </tr>
-  <<tr>
+  <tr>
     <td width="25%">
           🚗&nbsp;<a href="https://tznind.github.io/aw/cs.html?harm-value=2&role=The+Operator&so_b=0&name=Taggart&pronouns=He%2FHim&player=Jim&first-impression=Slow+talking+hard+working%2C+wrinkled+old+dude%2C+chewing+tobacco+and+peering+through+dusty+welding+goggles&aggro=-1&cool=%2B2&hard=-1&sharp=%2B2&weird=%2B0&track_stat_aggro=2&track_stat_hard=2&track_stat_cool=2&track_stat_sharp=1&opv=devil&opvn=Blitz&opp1=The+Red+Wastes&opp5=Forgotten+Caves+of+Area+31-B82&opp4=The+Red+Lorry+Factories&opp6=Redoubt&opp7=The+First+Exit+%28for+the+lost%29&move_p8_pickone=4&track_p8_max=5&track_p8=4&hx_cnt=3&hx0n=Dr+Holtz%2C+I+hate+going+to+the+doctor&hx0v=-2&hx1n=Lorgar%2C+he+shot+me+off+the+road+once+-+he+seems+to+have+forgotten%21+what+the+hell&hx1v=-1&hx2n=Chef%2C+hes+got+the+best+meat%2C+just+don%27t+ask+where+it+comes+from&hx2v=2&scavenge_choice=option2&barterpsi_top=%2B2&barterpsi_bottom=0&move_p1=1&move_p5=1&hide_untaken=1&move_a17_dtl=Overalls%2C+dusty+denim+and+welding+goggles">Taggart</a>
     </td>
    <td width="25%">
      🐊&nbsp;<a href="https://tznind.github.io/aw/cs.html?harm-value=0&role=The+Restless&so_b=0&name=Rodney&pronouns=He%2FHim&player=Fellicity&first-impression=Wearing+outfit+made+of+cut-up+tyres%2C+a+wacky+looking+guy+with+floppy+brimmed+hat+with+corks+hanging+off.&aggro=%2B2&cool=-1&hard=-2&sharp=%2B2&weird=%2B2&track_stat_aggro=3&track_stat_cool=2&track_stat_hard=1&track_stat_weird=2&dgn=Gertrude&dgi=Protect&dgim2=1&dgim6=1&dgim12=1&hx_cnt=4&hx0n=Holtz&hx0v=2&hx1n=Drew&hx2n=Chef&hx2v=-1&hx1v=1&hx3n=Max&hx3v=2&scavenge_choice=option1&barterpsi_top=-1&move_r3=1&move_r2=1&move_a17_dtl=Shack+out+down+by+the+river%2C+filled+with+old+animal+bones+and+nicknacks&move_r8_p1=1&move_r8_p3=1&move_r8_p6=1&track_r8_0_max=0&track_r8_2=3&track_r8_1_max=0&move_r9_p1=1">Rodney</a>
-    </td>
- <!--    <td width="25%">
-    </td>
-    <td width="25%">
-    </td>
-  </tr>-->
-               
+    </td>               
 </table>
 
 
