@@ -11,8 +11,8 @@
 .vehicle-option {
   display: flex;
   align-items: flex-start;
-  gap: 12px;
-  padding: 12px;
+  gap: 8px;
+  padding: 10px;
   background: #f8f9fa;
   border: 2px solid #dee2e6;
   border-radius: 4px;
@@ -28,13 +28,6 @@
 .vehicle-option input[type="radio"] {
   margin-top: 3px;
   cursor: pointer;
-  flex-shrink: 0;
-}
-
-.vehicle-details {
-  flex: 1;
-  font-size: 14px;
-  line-height: 1.6;
 }
 
 /* Vehicle Name */
