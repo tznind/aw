@@ -1,7 +1,18 @@
 [
   {
     "id": "s1",
-    "title": "Coming soon..."
+    "title": "Blaze of Glory",
+    "category": "Moves",
+    "outcomes": [
+      {
+        "text": "When you decide to go out in glory",
+        "bullets": [
+          "for any moves you make in the attempt, roll+3 instead of rolling as normal",
+          "No one can **interrupt** you or save you",
+          "At the end, your life becomes untenable. Choose to die."
+        ]
+      }
+    ]
   },
   {
     "id": "s9",

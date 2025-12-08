@@ -30,5 +30,9 @@
     {
         "alias":"dropping jingle",
         "move":"Drop Jingle"
+    },
+    {
+        "alias":"end of the session",
+        "move":"End of Session"
     }
 ]
