@@ -22,7 +22,10 @@
     "a10": true,
     "a11": true,
     "a12": true,
-    "a16": true
+    "a14": true,
+    "a15": true,
+    "a16": true,
+    "e1": true
   },
   "The Brain-picker": {
     "_movesFile": "data/moves/the-brain-picker.json",
@@ -50,7 +53,10 @@
     "b13": false,
     "b14": false,
     "b15": false,
-    "b16": true
+    "a14": true,
+    "a15": true,
+    "b16": true,
+    "e1": true
   },
   "The Gearcutter": {
     "_movesFile": "data/moves/the-gearcutter.json",
@@ -72,8 +78,11 @@
     "g7": true,
     "g8": true,
     "g9":true,
+    "a14": true,
+    "a15": true,
     "c21":true,
-    "c18":true
+    "c18":true,
+    "e1": true
   },
 "The Harrier": {
   "_movesFile": "data/moves/the-harrier.json",
@@ -93,8 +102,11 @@
   "h5": false,
   "h6": true,
   "h9": true,
+  "a14": true,
+  "a15": true,
   "c3": true,
-  "c4": true
+  "c4": true,
+  "e1": true
 },
 
 "The Hocus": {
@@ -114,7 +126,10 @@
   "o5": false,
   "o8": true,
   "o9": true,
-  "c5": true
+  "a14": true,
+  "a15": true,
+  "c5": true,
+  "e1": true
 },
 
 "The Lawmaker": {
@@ -135,8 +150,11 @@
   "l5": false,
   "l8":true,
   "l9": true,
+  "a14": true,
+  "a15": true,
   "c1": true,
-  "c3": true
+  "c3": true,
+  "e1": true
 },
 
 "The Luminous": {
@@ -156,7 +174,10 @@
   "u4": false,
   "u5": false,
   "u8": true,
-  "u9": true
+  "u9": true,
+  "a14": true,
+  "a15": true,
+  "e1": true
 },
 
 "The Maestro D": {
@@ -177,7 +198,10 @@
   "m5": false,
   "m8": true,
   "m9": true,
-  "c1": true
+  "a14": true,
+  "a15": true,
+  "c1": true,
+  "e1": true
 },
 
 "The Operator": {
@@ -198,8 +222,11 @@
   "p5": false,
   "p8": true,
   "p9": true,
+  "a14": true,
+  "a15": true,
   "c4": true,
-  "c18": true
+  "c18": true,
+  "e1": true
 },
 
 "The Restless": {
@@ -218,7 +245,10 @@
   "r4": false,
   "r5": false,
   "r8": true,
-  "r9": true
+  "r9": true,
+  "a14": true,
+  "a15": true,
+  "e1": true
 },
 
 "The Volatile": {
@@ -240,7 +270,10 @@
   "v6": true,
   "v7": true,
   "v8": true,
-  "v9": true
+  "v9": true,
+  "a14": true,
+  "a15": true,
+  "e1": true
 },
 
 "The Standout": {
@@ -251,7 +284,8 @@
   ],
   "hxInstructions": "List the other characters' names. When you go around again for Hx, skip your turn. You can explain that you're just in the background, you haven't distinguished yourself yet. You have Hx+1 with everyone. On the others' turns, don't volunteer",
   "cards": [],
-  "s1": false,
+  "s1": true,
+  "s2": true,
   "s9": true
 }
 ,
@@ -259,9 +293,6 @@
     "_movesFile": "data/moves/everyone.json",
     "description": "Universal moves available to all characters.",
     "cards": ["hx", "scavenge","when-life-becomes-untenable"],
-    "e1": false,
-    "a14": true,
-    "a15": true,
     "a17": true,
     "c1": false,
     "c2": false,
