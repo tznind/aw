@@ -17,6 +17,7 @@
   {
     "id":"s2",
     "title": "Standout Features",
+    "description": "Choose 1 or 2 Standout features.  If appropriate, you also get the same kind of weapon and armor as anybody. Ask your gang boss, your prophet, the MC, or whoever.",
     "pick": [
 
       "You get +1 to one of your stats (max +2).",
