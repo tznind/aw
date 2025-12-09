@@ -34,5 +34,9 @@
     {
         "alias":"end of the session",
         "move":"End of Session"
+    },
+    {
+        "alias":"interrupt",
+        "move":"Interrupt Someone"
     }
 ]
