@@ -276,9 +276,9 @@
   "e1": true
 },
 
-"The Standout": {
+"A Standout": {
   "_movesFile": "data/moves/the-standout.json",
-  "description": "*You are the least creature of the burnt world, but striving for more: a new life of purpose and promise, or a death worth witnessing.*\n\nPlay the Standout as an introductory character, or as a supporting character for someone else.",
+  "description": "*You are the least creature of the burnt world, but striving for more: a new life of purpose and promise, or a death worth witnessing.*\n\nPlay a Standout as an introductory character, or as a supporting character for someone else.",
   "statDistributions": [
     "Assign stats as you choose: +1, +1, +0, +0, -1."
   ],

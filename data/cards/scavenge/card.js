@@ -49,7 +49,7 @@ window.CardInitializers.scavenge = function() {
       option1: "You don't hire out your violence, you use it only when you need to. You have Barter+0.",
       option2: "You're a mercenary, a bounty hunter, an assassin for hire. You have Barter+2."
     },
-    "The Standout": {
+    "A Standout": {
       option1: "You work for your keep, doing whatever odd jobs come your way. You have Barter+0.",
       option2: "You have a skill or trade that keeps you fed and housed. You have Barter+1."
     }
