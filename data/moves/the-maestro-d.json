@@ -90,6 +90,7 @@
     "description": "Choose 2 Maestro D moves. Your venue gives you **wealth** + it's always something, and its options might give you **leadership** as well. At 6Xp, choose an improvement and erase.",
     "category": "Improvement",
     "hideCheckbox": true,
+    "details": true,
     "tracks": [
       {
         "name": "» Xp",

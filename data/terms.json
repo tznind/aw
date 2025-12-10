@@ -10,5 +10,14 @@
   {
     "term":"Highly Interruptible",
     "description":"When you make a highly interruptible move, announce that you're making it and explicitly give everyone a chance to interrupt you. Otherwise, they can call a do-over and retroactively interrupt you if they want, even after play's continued on."
+  },
+  {
+    "term":"surplus",
+    "description":"Things you get on a hit on a **wealth** roll."
+  },
+  {"term":"wants",
+   "description":"Things that happen on partial success or missed **wealth** roll."
   }
+
+
 ]
