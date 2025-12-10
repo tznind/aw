@@ -120,6 +120,7 @@ function updateVenueDisplay() {
     });
 
     // Handle wants options (vnw1-vnw9)
+    // Always show wants because "it's always something" mechanic means they change frequently
     for (let i = 1; i <= 9; i++) {
         const checkbox = document.getElementById(`vnw${i}`);
         const optionElement = document.getElementById(`vnw${i}o`);
@@ -127,10 +128,8 @@ function updateVenueDisplay() {
         if (checkbox && optionElement) {
             if (checkbox.checked) {
                 optionElement.classList.add('selected');
-                optionElement.style.display = '';
             } else {
                 optionElement.classList.remove('selected');
-                optionElement.style.display = hideUntaken ? 'none' : '';
             }
         }
     }
