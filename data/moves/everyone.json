@@ -305,7 +305,7 @@
     "id": "c1",
     "title": "Wealth (+Hard)",
     "category": "Standard Moves",
-    "description": "The standard move for a holding or venue.\n\nAt the beginning of the session, if your holding or venue is secure and stable, roll+Hard.\n\nMake this move before you live day to day",
+    "description": "The standard move for a holding or venue.\n\nAt the beginning of the session, if your holding or venue is secure and stable, roll+Hard.\n\nMake this move before you **live day to day**",
     "outcomes": [
       {
         "range": "≥ 10",
