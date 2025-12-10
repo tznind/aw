@@ -17,7 +17,13 @@
   },
   {"term":"wants",
    "description":"Things that happen on partial success or missed **wealth** roll."
+  },
+  {
+    "term":"It's always something",
+    "description":"Whenever one of your establishment's wants comes true, and you've suffered the consequences, erase it and choose a different want instead for next time."
+  },
+  {
+    "term":"alpha",
+    "description":"Before you roll **leadership**, ask the MC if your pack's going to let you just roll it, or do you have to make an example of somebody first?"
   }
-
-
 ]
