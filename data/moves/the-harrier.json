@@ -81,6 +81,7 @@
     "description": "You get **chaotic presence**, and choose 1 more Harrier move.. At 6Xp, choose an improvement and erase.",
     "category": "Improvement",
     "hideCheckbox": true,
+    "details": true,
     "tracks": [
       {
         "name": "» Xp",

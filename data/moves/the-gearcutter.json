@@ -123,6 +123,7 @@
     "description": "Choose 2 Gearcutter moves. At 6Xp, choose an improvement and erase.",
     "category": "Improvement",
     "hideCheckbox": true,
+    "details": true,
     "tracks": [
       {
         "name": "» Xp",

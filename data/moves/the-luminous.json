@@ -119,6 +119,7 @@
     "description": "Choose 2 Luminous moves. Your luxe setup might give you **tinkering** as well. At 6Xp, choose an improvement and erase.",
     "category": "Improvement",
     "hideCheckbox": true,
+    "details": true,
     "tracks": [
       {
         "name": "» Xp",

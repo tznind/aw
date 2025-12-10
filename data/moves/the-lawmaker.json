@@ -115,6 +115,7 @@
     "description": "You get **the law speaks to you**, and choose 1 more Lawmaker move. Your gang gives you **leadership** and your holding gives you **wealth**. A holding option might give you **behind the wheel** as well. At 6Xp, choose an improvement and erase.",
     "category": "Improvement",
     "hideCheckbox": true,
+    "details": true,
     "tracks": [
       {
         "name": "» Xp",

@@ -104,6 +104,7 @@
     "description": " Choose 2 Operator moves. Your vehicle gives you **behind the wheel** and your ports of call give you **ear to the ground**. At 6Xp, choose an improvement and erase.",
     "category": "Improvement",
     "hideCheckbox": true,
+    "details": true,
     "tracks": [
       {
         "name": "» Xp",
