@@ -1,13 +1,22 @@
 <!-- Hx (History) Card for Apocalypse World -->
 <div class="card hx-card">
   <h3 class="card-title">🤝 Hx (History)</h3>
-    
+
   <!-- Player History Section -->
   <div class="form-field">
     <div class="hx-section">
-      <div id="hx-players"></div>
+      <table id="hx-table" data-dynamic-table>
+        <thead>
+          <tr>
+            <th data-field="character">Character</th>
+            <th data-field="hx" data-type="number">Hx</th>
+            <th></th> <!-- Empty header for delete button column -->
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
       <div class="hx-button-row">
-        <button type="button" id="add-hx" class="add-hx">+ Add</button>
+        <button type="button" data-table-add="hx-table" class="add-hx">+ Add Character</button>
         <button type="button" class="help-icon"
           data-help-title="History Experience"
           data-help-text="">?</button>
