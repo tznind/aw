@@ -5,8 +5,8 @@
   <div class="holding-intro">
     You have a holding, a settlement where a population of about 100 lives and works,
     defended by a gang (2-harm, 1-armor)
-    <span class="radio-group">numbering (choose 1): <label class="inline-radio"><input type="radio" name="hgn" id="hgn20" value="20"> 20</label> /
-    <label class="inline-radio"><input type="radio" name="hgn" id="hgn25" value="25"> 25</label></span>.
+    <span class="radio-group">numbering (choose 1): <label class="inline-radio"><input type="radio" name="hgn" id="hgn20" data-hide-if-untaken data-hide-if-untaken value="20"> 20</label> /
+    <label class="inline-radio"><input type="radio" name="hgn" id="hgn25" data-hide-if-untaken data-hide-if-untaken value="25"> 25</label></span>.
     <span data-format-text>You get **wealth** for your holding and **leadership** for your gang.</span>
   </div>
 
@@ -29,70 +29,70 @@
   <div class="form-field">
     <label>And choose 5 more options:</label>
     <div class="holding-options">
-      <label class="holding-option" id="ho1o">
-        <input type="checkbox" id="ho1" value="marketplace">
+      <label class="holding-option" id="ho1o" data-hide-if-untaken>
+        <input type="checkbox" id="ho1" data-hide-if-untaken data-hide-if-untaken value="marketplace">
         A bustling marketplace (detail with the MC), traders & caravans coming regularly through.
       </label>
 
-      <label class="holding-option" id="ho2o">
-        <input type="checkbox" id="ho2" value="champion-flashy">
+      <label class="holding-option" id="ho2o" data-hide-if-untaken>
+        <input type="checkbox" id="ho2" data-hide-if-untaken data-hide-if-untaken value="champion-flashy">
         A champion, a flashy, deadly showoff named <input type="text" id="hc1" class="inline-text" placeholder="name">
       </label>
 
-      <label class="holding-option" id="ho3o">
-        <input type="checkbox" id="ho3" value="champion-serious">
+      <label class="holding-option" id="ho3o" data-hide-if-untaken>
+        <input type="checkbox" id="ho3" data-hide-if-untaken data-hide-if-untaken value="champion-serious">
         A champion, a serious, deadly killer named <input type="text" id="hc2" class="inline-text" placeholder="name">
       </label>
 
-      <label class="holding-option" id="ho4o">
-        <input type="checkbox" id="ho4" value="utilities">
+      <label class="holding-option" id="ho4o" data-hide-if-untaken>
+        <input type="checkbox" id="ho4" data-hide-if-untaken data-hide-if-untaken value="utilities">
         Electricity, heat, refrigeration, running water.
       </label>
 
       <label class="holding-option" id="ho5o" data-format-text>
-        <input type="checkbox" id="ho5" value="vehicles">
+        <input type="checkbox" id="ho5" data-hide-if-untaken data-hide-if-untaken value="vehicles">
         A few vehicles: a truck, a buggy, a couple of bikes (you detail). You also get **behind the wheel**.
       </label>
 
-      <label class="holding-option" id="ho6o">
-        <input type="checkbox" id="ho6" value="luxe-rooms">
+      <label class="holding-option" id="ho6o" data-hide-if-untaken>
+        <input type="checkbox" id="ho6" data-hide-if-untaken data-hide-if-untaken value="luxe-rooms">
         Gorgeous, luxe rooms for whoever can afford them.
       </label>
 
-      <label class="holding-option" id="ho7o">
-        <input type="checkbox" id="ho7" value="watchtower">
+      <label class="holding-option" id="ho7o" data-hide-if-untaken>
+        <input type="checkbox" id="ho7" data-hide-if-untaken data-hide-if-untaken value="watchtower">
         A high watchtower with a commanding view.
       </label>
 
-      <label class="holding-option" id="ho8o">
-        <input type="checkbox" id="ho8" value="secret-place">
+      <label class="holding-option" id="ho8o" data-hide-if-untaken>
+        <input type="checkbox" id="ho8" data-hide-if-untaken data-hide-if-untaken value="secret-place">
         A place that holds a secret, silent and difficult to get to.
       </label>
 
-      <label class="holding-option" id="ho9o">
-        <input type="checkbox" id="ho9" value="stronghold">
+      <label class="holding-option" id="ho9o" data-hide-if-untaken>
+        <input type="checkbox" id="ho9" data-hide-if-untaken data-hide-if-untaken value="stronghold">
         A powerful stronghold (in battle, this is a secure defensive position).
       </label>
 
-      <label class="holding-option" id="ho10o">
-        <input type="checkbox" id="ho10" value="water-source">
+      <label class="holding-option" id="ho10o" data-hide-if-untaken>
+        <input type="checkbox" id="ho10" data-hide-if-untaken data-hide-if-untaken value="water-source">
         A source of beautiful, pure, clean water.
       </label>
 
       <span class="holding-option" id="ho11o">
-        <input type="checkbox" id="ho11" value="raiding-party">
+        <input type="checkbox" id="ho11" data-hide-if-untaken data-hide-if-untaken value="raiding-party">
         A scouting & raiding party separate from your gang (2-harm, 1-armor),
-        <span class="radio-group">numbering <label class="inline-radio"><input type="radio" name="hrp" id="hrp5" value="5"> 5</label> /
-        <label class="inline-radio"><input type="radio" name="hrp" id="hrp7" value="7"> 7</label></span>
+        <span class="radio-group">numbering <label class="inline-radio"><input type="radio" name="hrp" id="hrp5" data-hide-if-untaken data-hide-if-untaken value="5"> 5</label> /
+        <label class="inline-radio"><input type="radio" name="hrp" id="hrp7" data-hide-if-untaken data-hide-if-untaken value="7"> 7</label></span>
       </span>
 
-      <label class="holding-option" id="ho12o">
-        <input type="checkbox" id="ho12" value="pc-want">
+      <label class="holding-option" id="ho12o" data-hide-if-untaken>
+        <input type="checkbox" id="ho12" data-hide-if-untaken data-hide-if-untaken value="pc-want">
         Something cool that one of the other PCs wants it to have: <input type="text" id="hpc" class="inline-text" placeholder="detail">
       </label>
 
-      <label class="holding-option" id="ho13o">
-        <input type="checkbox" id="ho13" value="trade-accord">
+      <label class="holding-option" id="ho13o" data-hide-if-untaken>
+        <input type="checkbox" id="ho13" data-hide-if-untaken data-hide-if-untaken value="trade-accord">
         A trade agreement & peace accord with (choose a hard zone location): <input type="text" id="hta" class="inline-text" placeholder="location">
       </label>
     </div>
@@ -102,29 +102,29 @@
   <div class="form-field">
     <label data-format-text="For your holding's **surplus**, choose 3:"></label>
     <div class="surplus-options">
-      <label id="hs1o"><input type="checkbox" id="hs1" value="barter"> +1Barter</label>
-      <label id="hs2o"><input type="checkbox" id="hs2" value="art"> art</label>
-      <label id="hs3o"><input type="checkbox" id="hs3" value="development"> development projects</label>
-      <label id="hs4o"><input type="checkbox" id="hs4" value="exploration"> exploration</label>
-      <label id="hs5o"><input type="checkbox" id="hs5" value="feasting"> feasting</label>
-      <label id="hs6o"><input type="checkbox" id="hs6" value="food-storage"> food storage</label>
-      <label id="hs7o"><input type="checkbox" id="hs7" value="growth"> growth</label>
-      <label id="hs8o"><input type="checkbox" id="hs8" value="healing"> healing</label>
-      <label id="hs9o"><input type="checkbox" id="hs9" value="intrigue"> intrigue</label>
-      <label id="hs10o"><input type="checkbox" id="hs10" value="luxe"> luxe goods</label>
-      <label id="hs11o"><input type="checkbox" id="hs11" value="music"> music</label>
-      <label id="hs12o"><input type="checkbox" id="hs12" value="ordnance"> ordnance</label>
-      <label id="hs13o"><input type="checkbox" id="hs13" value="parties"> parties</label>
-      <label id="hs14o"><input type="checkbox" id="hs14" value="performance"> performance</label>
-      <label id="hs15o"><input type="checkbox" id="hs15" value="pit-fights"> pit fights</label>
-      <label id="hs16o"><input type="checkbox" id="hs16" value="profit"> profit</label>
-      <label id="hs17o"><input type="checkbox" id="hs17" value="pure-water"> pure water</label>
-      <label id="hs18o"><input type="checkbox" id="hs18" value="relaxation"> relaxation</label>
-      <label id="hs19o"><input type="checkbox" id="hs19" value="tech"> tech goods</label>
-      <label id="hs20o"><input type="checkbox" id="hs20" value="trade"> trade</label>
-      <label id="hs21o"><input type="checkbox" id="hs21" value="transport"> transport</label>
-      <label id="hs22o"><input type="checkbox" id="hs22" value="strangers"> visiting strangers</label>
-      <label id="hs23o"><input type="checkbox" id="hs23" value="worship"> worship</label>
+      <label id="hs1o" data-hide-if-untaken><input type="checkbox" id="hs1" data-hide-if-untaken data-hide-if-untaken value="barter"> +1Barter</label>
+      <label id="hs2o" data-hide-if-untaken><input type="checkbox" id="hs2" data-hide-if-untaken data-hide-if-untaken value="art"> art</label>
+      <label id="hs3o" data-hide-if-untaken><input type="checkbox" id="hs3" data-hide-if-untaken data-hide-if-untaken value="development"> development projects</label>
+      <label id="hs4o" data-hide-if-untaken><input type="checkbox" id="hs4" data-hide-if-untaken data-hide-if-untaken value="exploration"> exploration</label>
+      <label id="hs5o" data-hide-if-untaken><input type="checkbox" id="hs5" data-hide-if-untaken data-hide-if-untaken value="feasting"> feasting</label>
+      <label id="hs6o" data-hide-if-untaken><input type="checkbox" id="hs6" data-hide-if-untaken data-hide-if-untaken value="food-storage"> food storage</label>
+      <label id="hs7o" data-hide-if-untaken><input type="checkbox" id="hs7" data-hide-if-untaken data-hide-if-untaken value="growth"> growth</label>
+      <label id="hs8o" data-hide-if-untaken><input type="checkbox" id="hs8" data-hide-if-untaken data-hide-if-untaken value="healing"> healing</label>
+      <label id="hs9o" data-hide-if-untaken><input type="checkbox" id="hs9" data-hide-if-untaken data-hide-if-untaken value="intrigue"> intrigue</label>
+      <label id="hs10o" data-hide-if-untaken><input type="checkbox" id="hs10" data-hide-if-untaken data-hide-if-untaken value="luxe"> luxe goods</label>
+      <label id="hs11o" data-hide-if-untaken><input type="checkbox" id="hs11" data-hide-if-untaken data-hide-if-untaken value="music"> music</label>
+      <label id="hs12o" data-hide-if-untaken><input type="checkbox" id="hs12" data-hide-if-untaken data-hide-if-untaken value="ordnance"> ordnance</label>
+      <label id="hs13o" data-hide-if-untaken><input type="checkbox" id="hs13" data-hide-if-untaken data-hide-if-untaken value="parties"> parties</label>
+      <label id="hs14o" data-hide-if-untaken><input type="checkbox" id="hs14" data-hide-if-untaken data-hide-if-untaken value="performance"> performance</label>
+      <label id="hs15o" data-hide-if-untaken><input type="checkbox" id="hs15" data-hide-if-untaken data-hide-if-untaken value="pit-fights"> pit fights</label>
+      <label id="hs16o" data-hide-if-untaken><input type="checkbox" id="hs16" data-hide-if-untaken data-hide-if-untaken value="profit"> profit</label>
+      <label id="hs17o" data-hide-if-untaken><input type="checkbox" id="hs17" data-hide-if-untaken data-hide-if-untaken value="pure-water"> pure water</label>
+      <label id="hs18o" data-hide-if-untaken><input type="checkbox" id="hs18" data-hide-if-untaken data-hide-if-untaken value="relaxation"> relaxation</label>
+      <label id="hs19o" data-hide-if-untaken><input type="checkbox" id="hs19" data-hide-if-untaken data-hide-if-untaken value="tech"> tech goods</label>
+      <label id="hs20o" data-hide-if-untaken><input type="checkbox" id="hs20" data-hide-if-untaken data-hide-if-untaken value="trade"> trade</label>
+      <label id="hs21o" data-hide-if-untaken><input type="checkbox" id="hs21" data-hide-if-untaken data-hide-if-untaken value="transport"> transport</label>
+      <label id="hs22o" data-hide-if-untaken><input type="checkbox" id="hs22" data-hide-if-untaken data-hide-if-untaken value="strangers"> visiting strangers</label>
+      <label id="hs23o" data-hide-if-untaken><input type="checkbox" id="hs23" data-hide-if-untaken data-hide-if-untaken value="worship"> worship</label>
     </div>
   </div>
 
@@ -132,19 +132,19 @@
   <div class="form-field">
     <label data-format-text="For its **wants**, choose 2:"></label>
     <div class="wants-options">
-      <label id="hw1o"><input type="checkbox" id="hw1" value="abandonment"> Abandonment</label>
-      <label id="hw2o"><input type="checkbox" id="hw2" value="byproducts"> dangerous byproducts</label>
-      <label id="hw3o"><input type="checkbox" id="hw3" value="disease"> disease</label>
-      <label id="hw4o"><input type="checkbox" id="hw4" value="extremism"> extremism</label>
-      <label id="hw5o"><input type="checkbox" id="hw5" value="hoarding"> hoarding</label>
-      <label id="hw6o"><input type="checkbox" id="hw6" value="hunger"> hunger</label>
-      <label id="hw7o"><input type="checkbox" id="hw7" value="outcasts"> outcasts</label>
-      <label id="hw8o"><input type="checkbox" id="hw8" value="power"> power struggles</label>
-      <label id="hw9o"><input type="checkbox" id="hw9" value="ruthlessness"> ruthlessness</label>
-      <label id="hw10o"><input type="checkbox" id="hw10" value="breakdowns"> technical breakdowns</label>
-      <label id="hw11o"><input type="checkbox" id="hw11" value="thirst"> thirst</label>
-      <label id="hw12o"><input type="checkbox" id="hw12" value="vendettas"> vendettas</label>
-      <label id="hw13o"><input type="checkbox" id="hw13" value="violence"> violence</label>
+      <label id="hw1o" data-hide-if-untaken><input type="checkbox" id="hw1" data-hide-if-untaken data-hide-if-untaken value="abandonment"> Abandonment</label>
+      <label id="hw2o" data-hide-if-untaken><input type="checkbox" id="hw2" data-hide-if-untaken data-hide-if-untaken value="byproducts"> dangerous byproducts</label>
+      <label id="hw3o" data-hide-if-untaken><input type="checkbox" id="hw3" data-hide-if-untaken data-hide-if-untaken value="disease"> disease</label>
+      <label id="hw4o" data-hide-if-untaken><input type="checkbox" id="hw4" data-hide-if-untaken data-hide-if-untaken value="extremism"> extremism</label>
+      <label id="hw5o" data-hide-if-untaken><input type="checkbox" id="hw5" data-hide-if-untaken data-hide-if-untaken value="hoarding"> hoarding</label>
+      <label id="hw6o" data-hide-if-untaken><input type="checkbox" id="hw6" data-hide-if-untaken data-hide-if-untaken value="hunger"> hunger</label>
+      <label id="hw7o" data-hide-if-untaken><input type="checkbox" id="hw7" data-hide-if-untaken data-hide-if-untaken value="outcasts"> outcasts</label>
+      <label id="hw8o" data-hide-if-untaken><input type="checkbox" id="hw8" data-hide-if-untaken data-hide-if-untaken value="power"> power struggles</label>
+      <label id="hw9o" data-hide-if-untaken><input type="checkbox" id="hw9" data-hide-if-untaken data-hide-if-untaken value="ruthlessness"> ruthlessness</label>
+      <label id="hw10o" data-hide-if-untaken><input type="checkbox" id="hw10" data-hide-if-untaken data-hide-if-untaken value="breakdowns"> technical breakdowns</label>
+      <label id="hw11o" data-hide-if-untaken><input type="checkbox" id="hw11" data-hide-if-untaken data-hide-if-untaken value="thirst"> thirst</label>
+      <label id="hw12o" data-hide-if-untaken><input type="checkbox" id="hw12" data-hide-if-untaken data-hide-if-untaken value="vendettas"> vendettas</label>
+      <label id="hw13o" data-hide-if-untaken><input type="checkbox" id="hw13" data-hide-if-untaken data-hide-if-untaken value="violence"> violence</label>
     </div>
   </div>
 

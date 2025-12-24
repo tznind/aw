@@ -8,20 +8,20 @@
   <div class="form-field">
     <label>Your pack are like (choose 1):</label>
     <div class="pack-options">
-      <label class="pack-option" id="pack-type-family-option">
-        <input type="radio" name="pack-type" id="pack-type-family" value="family">
+      <label class="pack-option" id="pack-type-family-option" data-hide-if-untaken>
+        <input type="radio" name="pack-type" id="pack-type-family" data-hide-if-untaken value="family">
         A tight-knit, squabbling family (impulse: close ranks, protect their own).
       </label>
-      <label class="pack-option" id="pack-type-enforcers-option">
-        <input type="radio" name="pack-type" id="pack-type-enforcers" value="enforcers">
+      <label class="pack-option" id="pack-type-enforcers-option" data-hide-if-untaken>
+        <input type="radio" name="pack-type" id="pack-type-enforcers" data-hide-if-untaken value="enforcers">
         Bullying enforcers, always demanding obedience & deference (impulse: victimize whoever stands out).
       </label>
-      <label class="pack-option" id="pack-type-cult-option">
-        <input type="radio" name="pack-type" id="pack-type-cult" value="cult">
+      <label class="pack-option" id="pack-type-cult-option" data-hide-if-untaken>
+        <input type="radio" name="pack-type" id="pack-type-cult" data-hide-if-untaken value="cult">
         A weird, aggressive cult, always hazing new converts (impulse: victimize & incorporate people).
       </label>
-      <label class="pack-option" id="pack-type-hunters-option">
-        <input type="radio" name="pack-type" id="pack-type-hunters" value="hunters">
+      <label class="pack-option" id="pack-type-hunters-option" data-hide-if-untaken>
+        <input type="radio" name="pack-type" id="pack-type-hunters" data-hide-if-untaken value="hunters">
         A hunting pack, predatory & lazy (impulse: victimize whoever's vulnerable).
       </label>
     </div>
@@ -31,10 +31,10 @@
   <div class="form-field">
     <label>They number (choose 1):</label>
     <div class="pack-numbers">
-      <label id="pack-number-10-option"><input type="radio" name="pack-number" id="pack-number-10" value="10"> 10</label>
-      <label id="pack-number-12-option"><input type="radio" name="pack-number" id="pack-number-12" value="12"> 12</label>
-      <label id="pack-number-15-option"><input type="radio" name="pack-number" id="pack-number-15" value="15"> 15</label>
-      <label id="pack-number-20-option"><input type="radio" name="pack-number" id="pack-number-20" value="20"> 20</label>
+      <label id="pack-number-10-option" data-hide-if-untaken><input type="radio" name="pack-number" id="pack-number-10" data-hide-if-untaken value="10"> 10</label>
+      <label id="pack-number-12-option" data-hide-if-untaken><input type="radio" name="pack-number" id="pack-number-12" data-hide-if-untaken value="12"> 12</label>
+      <label id="pack-number-15-option" data-hide-if-untaken><input type="radio" name="pack-number" id="pack-number-15" data-hide-if-untaken value="15"> 15</label>
+      <label id="pack-number-20-option" data-hide-if-untaken><input type="radio" name="pack-number" id="pack-number-20" data-hide-if-untaken value="20"> 20</label>
     </div>
   </div>
 
@@ -77,15 +77,15 @@
     <label>You and your pack ride (choose 1):</label>
     <div class="pack-options">
       <label class="pack-option" id="pack-ride-4wheelers-option" data-format-text>
-        <input type="radio" name="pack-ride" id="pack-ride-4wheelers" value="4wheelers">
+        <input type="radio" name="pack-ride" id="pack-ride-4wheelers" data-hide-if-untaken value="4wheelers">
         **4-wheelers.** Frame: bike, massive=1, 0-armor. Gang: +bikes.
       </label>
       <label class="pack-option" id="pack-ride-bikes-option" data-format-text>
-        <input type="radio" name="pack-ride" id="pack-ride-bikes" value="bikes">
+        <input type="radio" name="pack-ride" id="pack-ride-bikes" data-hide-if-untaken value="bikes">
         **Bikes.** Frame: bike, massive=0, 0-armor. Gang: +bikes.
       </label>
       <label class="pack-option" id="pack-ride-cutters-option" data-format-text>
-        <input type="radio" name="pack-ride" id="pack-ride-cutters" value="cutters">
+        <input type="radio" name="pack-ride" id="pack-ride-cutters" data-hide-if-untaken value="cutters">
         **Cutters.** Frame: cutter, massive=1, 0-armor. Gang: +hovering.
       </label>
     </div>
@@ -95,26 +95,26 @@
   <div class="form-field">
     <label>They're (choose all that apply):</label>
     <div class="ride-properties">
-      <label id="ride-blazing-option"><input type="checkbox" id="ride-blazing" value="blazing"> blazing</label>
-      <label id="ride-bucking-option"><input type="checkbox" id="ride-bucking" value="bucking"> bucking</label>
-      <label id="ride-churning-option"><input type="checkbox" id="ride-churning" value="churning"> churning</label>
-      <label id="ride-crying-option"><input type="checkbox" id="ride-crying" value="crying"> crying</label>
-      <label id="ride-darting-option"><input type="checkbox" id="ride-darting" value="darting"> darting</label>
-      <label id="ride-flashing-option"><input type="checkbox" id="ride-flashing" value="flashing"> flashing</label>
-      <label id="ride-grinding-option"><input type="checkbox" id="ride-grinding" value="grinding"> grinding</label>
-      <label id="ride-groaning-option"><input type="checkbox" id="ride-groaning" value="groaning"> groaning</label>
-      <label id="ride-hissing-option"><input type="checkbox" id="ride-hissing" value="hissing"> hissing</label>
-      <label id="ride-howling-option"><input type="checkbox" id="ride-howling" value="howling"> howling</label>
-      <label id="ride-racing-option"><input type="checkbox" id="ride-racing" value="racing"> racing</label>
-      <label id="ride-raging-option"><input type="checkbox" id="ride-raging" value="raging"> raging</label>
-      <label id="ride-roaring-option"><input type="checkbox" id="ride-roaring" value="roaring"> roaring</label>
-      <label id="ride-scorching-option"><input type="checkbox" id="ride-scorching" value="scorching"> scorching</label>
-      <label id="ride-screaming-option"><input type="checkbox" id="ride-screaming" value="screaming"> screaming</label>
-      <label id="ride-smoking-option"><input type="checkbox" id="ride-smoking" value="smoking"> smoking</label>
-      <label id="ride-soaring-option"><input type="checkbox" id="ride-soaring" value="soaring"> soaring</label>
-      <label id="ride-swooping-option"><input type="checkbox" id="ride-swooping" value="swooping"> swooping</label>
-      <label id="ride-wallowing-option"><input type="checkbox" id="ride-wallowing" value="wallowing"> wallowing</label>
-      <label id="ride-whispering-option"><input type="checkbox" id="ride-whispering" value="whispering"> whispering</label>
+      <label id="ride-blazing-option" data-hide-if-untaken><input type="checkbox" id="ride-blazing" data-hide-if-untaken value="blazing"> blazing</label>
+      <label id="ride-bucking-option" data-hide-if-untaken><input type="checkbox" id="ride-bucking" data-hide-if-untaken value="bucking"> bucking</label>
+      <label id="ride-churning-option" data-hide-if-untaken><input type="checkbox" id="ride-churning" data-hide-if-untaken value="churning"> churning</label>
+      <label id="ride-crying-option" data-hide-if-untaken><input type="checkbox" id="ride-crying" data-hide-if-untaken value="crying"> crying</label>
+      <label id="ride-darting-option" data-hide-if-untaken><input type="checkbox" id="ride-darting" data-hide-if-untaken value="darting"> darting</label>
+      <label id="ride-flashing-option" data-hide-if-untaken><input type="checkbox" id="ride-flashing" data-hide-if-untaken value="flashing"> flashing</label>
+      <label id="ride-grinding-option" data-hide-if-untaken><input type="checkbox" id="ride-grinding" data-hide-if-untaken value="grinding"> grinding</label>
+      <label id="ride-groaning-option" data-hide-if-untaken><input type="checkbox" id="ride-groaning" data-hide-if-untaken value="groaning"> groaning</label>
+      <label id="ride-hissing-option" data-hide-if-untaken><input type="checkbox" id="ride-hissing" data-hide-if-untaken value="hissing"> hissing</label>
+      <label id="ride-howling-option" data-hide-if-untaken><input type="checkbox" id="ride-howling" data-hide-if-untaken value="howling"> howling</label>
+      <label id="ride-racing-option" data-hide-if-untaken><input type="checkbox" id="ride-racing" data-hide-if-untaken value="racing"> racing</label>
+      <label id="ride-raging-option" data-hide-if-untaken><input type="checkbox" id="ride-raging" data-hide-if-untaken value="raging"> raging</label>
+      <label id="ride-roaring-option" data-hide-if-untaken><input type="checkbox" id="ride-roaring" data-hide-if-untaken value="roaring"> roaring</label>
+      <label id="ride-scorching-option" data-hide-if-untaken><input type="checkbox" id="ride-scorching" data-hide-if-untaken value="scorching"> scorching</label>
+      <label id="ride-screaming-option" data-hide-if-untaken><input type="checkbox" id="ride-screaming" data-hide-if-untaken value="screaming"> screaming</label>
+      <label id="ride-smoking-option" data-hide-if-untaken><input type="checkbox" id="ride-smoking" data-hide-if-untaken value="smoking"> smoking</label>
+      <label id="ride-soaring-option" data-hide-if-untaken><input type="checkbox" id="ride-soaring" data-hide-if-untaken value="soaring"> soaring</label>
+      <label id="ride-swooping-option" data-hide-if-untaken><input type="checkbox" id="ride-swooping" data-hide-if-untaken value="swooping"> swooping</label>
+      <label id="ride-wallowing-option" data-hide-if-untaken><input type="checkbox" id="ride-wallowing" data-hide-if-untaken value="wallowing"> wallowing</label>
+      <label id="ride-whispering-option" data-hide-if-untaken><input type="checkbox" id="ride-whispering" data-hide-if-untaken value="whispering"> whispering</label>
     </div>
     <div class="ride-note" data-format-text>
       …and **wild beasts**. (Impulse: defy danger. Defiance: hurt someone).

@@ -9,10 +9,10 @@
   <div class="form-field">
     <label>They number (choose 1):</label>
     <div class="cult-numbers">
-      <label id="cn15o"><input type="radio" name="cn" id="cn15" value="15"> 15</label>
-      <label id="cn18o"><input type="radio" name="cn" id="cn18" value="18"> 18</label>
-      <label id="cn20o"><input type="radio" name="cn" id="cn20" value="20"> 20</label>
-      <label id="cn24o"><input type="radio" name="cn" id="cn24" value="24"> 24</label>
+      <label id="cn15o" data-hide-if-untaken><input type="radio" name="cn" id="cn15" value="15" data-hide-if-untaken> 15</label>
+      <label id="cn18o" data-hide-if-untaken><input type="radio" name="cn" id="cn18" value="18" data-hide-if-untaken> 18</label>
+      <label id="cn20o" data-hide-if-untaken><input type="radio" name="cn" id="cn20" value="20" data-hide-if-untaken> 20</label>
+      <label id="cn24o" data-hide-if-untaken><input type="radio" name="cn" id="cn24" value="24" data-hide-if-untaken> 24</label>
     </div>
   </div>
 
@@ -54,61 +54,61 @@
   <div class="form-field">
     <label>In addition (choose 3):</label>
     <div class="cult-options">
-      <label class="cult-option" id="cc1o" data-format-text>
-        <input type="checkbox" id="cc1" value="children">
+      <label class="cult-option" id="cc1o" data-format-text data-hide-if-untaken>
+        <input type="checkbox" id="cc1" value="children" data-hide-if-untaken>
         **Your cult includes Children** (devotion: hope, play; demands: protection)<br>
         <span class="option-detail">To them you are a parent figure.</span>
       </label>
 
-      <label class="cult-option" id="cc2o" data-format-text>
-        <input type="checkbox" id="cc2" value="elders">
+      <label class="cult-option" id="cc2o" data-format-text data-hide-if-untaken>
+        <input type="checkbox" id="cc2" value="elders" data-hide-if-untaken>
         **Your cult includes Elders** (devotion: insight; demands: obedience)<br>
         <span class="option-detail">They are your advisors. To them you are a young leader, worth their wisdom. Their devotion gives you **insight**.</span>
       </label>
 
-      <label class="cult-option" id="cc3o" data-format-text>
-        <input type="checkbox" id="cc3" value="guardians">
+      <label class="cult-option" id="cc3o" data-format-text data-hide-if-untaken>
+        <input type="checkbox" id="cc3" value="guardians" data-hide-if-untaken>
         **Your cult includes Guardians** (devotion: battle, protection; demands: discipline)<br>
         <span class="option-detail">They're a gang (2-harm, 1-armor)
-          <span class="radio-group">numbering (choose 1): <label class="inline-radio"><input type="radio" name="gn" id="gn3" value="3"> 3</label>
-          <label class="inline-radio"><input type="radio" name="gn" id="gn5" value="5"> 5</label>
-          <label class="inline-radio"><input type="radio" name="gn" id="gn7" value="7"> 7</label></span>.
+          <span class="radio-group">numbering (choose 1): <label class="inline-radio" data-hide-if-untaken><input type="radio" name="gn" id="gn3" value="3" data-hide-if-untaken> 3</label>
+          <label class="inline-radio" data-hide-if-untaken><input type="radio" name="gn" id="gn5" value="5" data-hide-if-untaken> 5</label>
+          <label class="inline-radio" data-hide-if-untaken><input type="radio" name="gn" id="gn7" value="7" data-hide-if-untaken> 7</label></span>.
           To them you are their gang boss. You also get **leadership**.
         </span>
       </label>
 
-      <label class="cult-option" id="cc4o" data-format-text>
-        <input type="checkbox" id="cc4" value="laborers">
+      <label class="cult-option" id="cc4o" data-format-text data-hide-if-untaken>
+        <input type="checkbox" id="cc4" value="laborers" data-hide-if-untaken>
         **Your cult includes Laborers** (devotion: +1Barter; demands: R&R, solidarity)<br>
         <span class="option-detail">Choose 1–3. To them you are a leader and organizer.</span>
         <div class="laborers-types">
-          <label id="l1o"><input type="checkbox" id="l1" value="farming"> farming</label>
-          <label id="l2o"><input type="checkbox" id="l2" value="hunting"> hunting</label>
-          <label id="l3o"><input type="checkbox" id="l3" value="manual"> manual labor</label>
-          <label id="l4o"><input type="checkbox" id="l4" value="scavenging"> scavenging</label>
-          <label id="l5o"><input type="checkbox" id="l5" value="skilled"> skilled labor</label>
-          <label id="l6o"><input type="checkbox" id="l6" value="trade"> trade labor</label>
+          <label id="l1o" data-hide-if-untaken><input type="checkbox" id="l1" value="farming" data-hide-if-untaken> farming</label>
+          <label id="l2o" data-hide-if-untaken><input type="checkbox" id="l2" value="hunting" data-hide-if-untaken> hunting</label>
+          <label id="l3o" data-hide-if-untaken><input type="checkbox" id="l3" value="manual" data-hide-if-untaken> manual labor</label>
+          <label id="l4o" data-hide-if-untaken><input type="checkbox" id="l4" value="scavenging" data-hide-if-untaken> scavenging</label>
+          <label id="l5o" data-hide-if-untaken><input type="checkbox" id="l5" value="skilled" data-hide-if-untaken> skilled labor</label>
+          <label id="l6o" data-hide-if-untaken><input type="checkbox" id="l6" value="trade" data-hide-if-untaken> trade labor</label>
         </div>
       </label>
 
-      <label class="cult-option" id="cc5o" data-format-text>
-        <input type="checkbox" id="cc5" value="scholars">
+      <label class="cult-option" id="cc5o" data-format-text data-hide-if-untaken>
+        <input type="checkbox" id="cc5" value="scholars" data-hide-if-untaken>
         **Your cult includes Scholars** (devotion: research; demands: books, documents, accounts)<br>
         <span class="option-detail">They are a human source of information. To them you are a student. Their devotion gives you **research**.</span>
       </label>
 
-      <label class="cult-option" id="cc6o" data-format-text>
-        <input type="checkbox" id="cc6" value="visionary">
+      <label class="cult-option" id="cc6o" data-format-text data-hide-if-untaken>
+        <input type="checkbox" id="cc6" value="visionary" data-hide-if-untaken>
         **Your cult includes a Visionary** (devotion: insight; demands: flattery)<br>
         <span class="option-detail">They are an advisor who knows weird things. To them you are a supplicant. Their devotion gives you **insight**.</span>
       </label>
 
-      <label class="cult-option" id="cc7o" data-format-text>
-        <input type="checkbox" id="cc7" value="wanderers">
+      <label class="cult-option" id="cc7o" data-format-text data-hide-if-untaken>
+        <input type="checkbox" id="cc7" value="wanderers" data-hide-if-untaken>
         **Your cult includes Wanderers** (devotion: trade; demands: provisions)<br>
         <span class="option-detail">To them you are their
-          <span class="radio-group">(choose 1): <label class="inline-radio"><input type="radio" name="wt" id="wt1" value="homebase"> home base</label>
-          <label class="inline-radio"><input type="radio" name="wt" id="wt2" value="wayfinder"> wayfinder</label></span>
+          <span class="radio-group">(choose 1): <label class="inline-radio" data-hide-if-untaken><input type="radio" name="wt" id="wt1" value="homebase" data-hide-if-untaken> home base</label>
+          <label class="inline-radio" data-hide-if-untaken><input type="radio" name="wt" id="wt2" value="wayfinder" data-hide-if-untaken> wayfinder</label></span>
         </span>
       </label>
     </div>

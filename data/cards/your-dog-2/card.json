@@ -3,11 +3,10 @@
   "title": "Your Dog 2",
   "path": "data/cards/your-dog-2",
   "description": "Track your second loyal canine companion",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "author": "Apocalypse World",
   "files": {
     "html": "card.html",
-    "css": "card.css",
-    "js": "card.js"
+    "css": "card.css"
   }
 }

@@ -3,11 +3,10 @@
   "title": "Your Dog",
   "path": "data/cards/your-dog",
   "description": "Track your loyal canine companion",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "author": "Apocalypse World",
   "files": {
     "html": "card.html",
-    "css": "card.css",
-    "js": "card.js"
+    "css": "card.css"
   }
 }
