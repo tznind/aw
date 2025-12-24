@@ -1,24 +1,37 @@
 # Cookbook
 
-This comprehensive guide covers creating roles, moves, and cards for the Rogue Trader character system.
+This comprehensive guide covers creating roles, moves, and cards for the character sheet system.
+
+All changes can be acomplished by modifying the [data](./data) directory and/or the main [cs.html](./cs.html) page.  Core javascript code of the application should not be modified.
 
 ## Table of Contents
 - [Help Buttons](#help-buttons)
 - [Customizing Stats](#customizing-stats)
+  - [Modifying Stats](#modifying-stats)
+  - [Stat Shapes](#stat-shapes)
   - [Stat Track Counters](#stat-track-counters)
   - [Clock Stats](#clock-stats)
 - [Creating Roles](#creating-roles)
+  - [Role Descriptions](#role-descriptions)
 - [Text Formatting](#text-formatting)
+  - [Bullet Lists](#bullet-lists)
+  - [Glossary Terms](#glossary-terms)
+  - [Aliases](#aliases)
+  - [Using `data-format-text` Attribute](#using-data-format-text-attribute)
 - [Basic Moves](#basic-moves)
 - [Advanced Move Types](#advanced-move-types)
   - [Pick One Moves (Radio Buttons)](#pick-one-moves-radio-buttons)
   - [Pick Multiple Moves (Checkboxes)](#pick-multiple-moves-checkboxes)
   - [Take From Other Roles](#take-from-other-roles)
   - [Move Categories](#move-categories)
+    - [Category Display Order](#category-display-order)
+  - [Hidden Checkbox Moves](#hidden-checkbox-moves)
   - [Track Counter Moves](#track-counter-moves)
   - [Submoves](#submoves)
   - [Moves That Grant Cards](#moves-that-grant-cards)
 - [Cards System](#cards-system)
+  - [Everyone System - Universal Cards and Moves](#everyone-system---universal-cards-and-moves)
+- [Validation and Error Detection](#validation-and-error-detection)
 
 ---
 
@@ -32,7 +45,9 @@ Add contextual help anywhere in your HTML with automatic popup modals:
         data-help-text="Disadvantage on Strength and Dexterity">?</button>
 ```
 
-The system automatically handles clicks, keyboard (Escape to close), and display. No additional JavaScript needed.
+The system automatically handles clicks, keyboard (Escape to close), and display.
+
+Title and help data attributes support [Text Formatting](#text-formatting) notation including [Terms](#glossary-terms),[bullet lists](#bullet-lists), italics etc.
 
 ---
 
@@ -249,6 +264,21 @@ You can start with an empty json file for the moves:
 ```
 _/data/moves/new-role.json_
 
+### Role Descriptions
+
+Add descriptive text to roles using the `description` field in `data/availability.json`:
+
+```json
+{
+  "Navigator": {
+    "_movesFile": "data/moves/navigator.json",
+    "description": "Expert in charting courses through unknown space.\n\nNavigators possess a **third eye** that allows them to perceive the warp."
+  }
+}
+```
+
+Descriptions support [text formatting](#text-formatting) including **bold**, *italic*, line breaks (`\n`), and clickable glossary terms.
+
 ---
 
 ## Text Formatting
@@ -349,6 +379,20 @@ Create alternative names for terms and moves using `data/aliases.json`. This let
 - Common abbreviations: `**XP**` → "Experience"
 
 The aliases file is optional - if it's missing or empty, the system works normally without aliases.
+
+### Using `data-format-text` Attribute
+
+While formatting is automatic for moves, help etc - you can also apply it arbitrarily through the `data-format-text` attribute to any HTML element.
+
+For example in [Cards](./README-CARDS.md) or in the main [cs.html](./cs.html) page.
+
+```html
+<div class="card mycard-card">
+  <h3>Card Title</h3>
+  <p data-format-text="Roll **Augury** to see the future. You gain **+1 forward**."></p>
+  <div data-format-text>Use **Rally the Cohort** to inspire your crew.</div>
+</div>
+```
 
 ---
 
@@ -565,6 +609,21 @@ This creates a dropdown showing all Equipment moves (Weapon, Armor, Vehicle, etc
 - Moves without `category` appear under the default "Moves" section
 - Categories appear as separate sections on the character sheet
 - Common categories: `"Advancement"`, `"Equipment"`, `"Companion"`
+
+#### Category Display Order
+
+Control the order categories appear on the character sheet using `data/categories.json`:
+
+```json
+{
+  "order": ["Moves", "Equipment", "Advancement", "Character Details"]
+}
+```
+
+**Key Features:**
+- Categories appear in the order specified in the `order` array
+- Categories not listed will appear alphabetically after the ordered categories
+- If `categories.json` is missing or has no `order` array, all categories are sorted alphabetically
 
 ### Hidden Checkbox Moves
 
@@ -822,6 +881,7 @@ Cards can also be added directly to roles (i.e. if a move is not required and ro
 - `grantsCard` references a card by its folder name
 - The card must exist in `data/cards/[card-name]/`
 - Cards appear inline when the move is selected
+- `grantsCardAllowsDuplicates: true` - Combined with `multiple`, creates separate card instances for each checkbox (e.g., `multiple: 2` creates two independent squad cards)
 
 ## Cards System
 
@@ -848,6 +908,30 @@ data/cards/mycard/
 ├── card.css      # Custom styling (optional)
 └── card.js       # Custom JavaScript (optional)
 ```
+
+#### When Do You Need JavaScript?
+
+**Most cards don't need JavaScript!** The following features work automatically with just HTML:
+
+✅ **No JavaScript needed for:**
+- Basic form inputs (text, number, checkbox, select, textarea)
+- Automatic persistence to URL
+- Dynamic tables (`data-dynamic-table`)
+- Track counters (`data-track` attributes)
+- Hide-when-untaken visibility (`data-hide-when-untaken`)
+- Form validation (HTML5 validation attributes)
+
+⚠️ **Only create `card.js` if you need:**
+- Auto-fill based on selections (e.g., ship class presets)
+- Custom validation beyond HTML5
+- Field dependencies (e.g., "void shields require plasma drive")
+- Programmatic table manipulation (add/clear rows via code)
+- Programmatic track manipulation (add/update tracks via code)
+- Custom event handlers or business logic
+
+**Examples:**
+- The `robotic-companion` card has NO JavaScript - just basic HTML form inputs
+- The `squad` card has NO JavaScript - uses dynamic tables, tracks, and hide-when-untaken, all with just HTML!
 
 #### Card Definition (card.json)
 ```json
@@ -978,6 +1062,289 @@ Edit `data/availability.json` and add a `cards` array to any role:
 }
 ```
 
+### Dynamic Tables in Cards
+
+**When to use:** For tracking arbitrary rows of data (crew members, inventory, squad rosters, etc.).
+
+#### Basic Usage (No JavaScript Required!)
+
+Dynamic tables are **automatically initialized** by the card system. Just add the HTML - no JavaScript needed unless you want programmatic manipulation.
+
+**HTML** (`card.html`):
+```html
+<table id="members" data-dynamic-table data-table-max="10">
+  <thead>
+    <tr>
+      <th data-field="name">Name</th>
+      <th data-field="role">Role</th>
+      <th data-field="hp" data-type="number">HP</th>
+      <th data-field="status" data-options="Ready,Injured,Recovering">Status</th>
+      <th></th> <!-- Empty header for delete button column -->
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+<button type="button" data-table-add="members">+ Add Row</button>
+```
+
+That's it! The table will automatically:
+- Add/delete rows via the button
+- Persist data to the URL
+- Work with duplicate cards
+
+#### Advanced: Programmatic Manipulation (Optional)
+
+**Only create a `card.js` file if you need to manipulate tables via code.** For example:
+
+**JavaScript** (`card.js`):
+```javascript
+window.CardInitializers.mycard = function(container, suffix) {
+  const helpers = window.CardHelpers.createScopedHelpers(container, suffix);
+
+  // Example: Add a quick-add button for common entries
+  helpers.addEventListener('quick_add_btn', 'click', () => {
+    helpers.addTableRow('members', {
+      name: 'New Member',
+      role: 'Soldier',
+      hp: 10,
+      status: 'Ready'
+    });
+  });
+};
+```
+
+#### Attributes
+
+- `data-dynamic-table` - Enables automatic row management
+- `data-table-max="10"` - Optional max rows (default: unlimited)
+- `data-field="name"` - Column field name (required on each `<th>`)
+- `data-type="number"` - Input type: "text" (default), "number", or "checkbox"
+- `data-options="opt1,opt2"` - Creates dropdown with comma-separated options
+- `data-readonly` - Makes column read-only (for calculated fields)
+- `data-table-add="table_id"` - Links button to table for adding rows
+
+#### Helper Methods
+
+The scoped helpers object provides methods for programmatic table manipulation:
+
+```javascript
+const helpers = window.CardHelpers.createScopedHelpers(container, suffix);
+
+// Add a row with values
+helpers.addTableRow('members', {
+  name: 'John Doe',
+  role: 'Medic',
+  hp: 12,
+  status: 'Ready'
+});
+
+// Clear all rows
+helpers.clearTable('members');
+
+// Get all table data
+const data = helpers.getTableData('members');
+// Returns: [{name: 'John', role: 'Medic', hp: 12, status: 'Ready'}, ...]
+
+// Set table data (replaces all rows)
+helpers.setTableData('members', [
+  {name: 'Alice', role: 'Scout', hp: 10, status: 'Ready'},
+  {name: 'Bob', role: 'Heavy', hp: 15, status: 'Injured'}
+]);
+```
+
+All helpers automatically handle suffix for duplicate cards - just use the base table ID.
+
+#### Features
+
+- Automatic add/delete row buttons
+- URL persistence (each cell auto-saved)
+- Re-indexing when deleting from middle
+- Works with duplicate cards (both `takeFromAllowsDuplicates` and `grantsCardAllowsDuplicates`)
+- Multiple tables per card supported
+- Programmatic manipulation via helper methods
+
+### Card Helper Functions
+
+The CardHelpers module provides utilities to make card development easier and reduce boilerplate code.
+
+#### Hide Untaken Options
+
+Automatically hide optional fields/elements when they're "untaken" (empty/unchecked) and "Hide untaken moves" is enabled.
+
+**Works with any input type:** checkbox, radio, text, select, number, date, etc.
+
+**Usage:**
+
+Add `data-hide-if-untaken` to any optional element you want to hide when untaken:
+
+**Checkboxes:**
+```html
+<div class="card initiates-card">
+  <h3 class="card-title">Initiates of Danu</h3>
+
+  <!-- These elements will auto-hide when unchecked and "Hide untaken moves" is enabled -->
+  <div class="initiate-row">
+    <input type="checkbox" id="enfys_selected" data-hide-if-untaken>
+    <label for="enfys_selected" data-hide-if-untaken>
+      <h4>Enfys, the acolyte</h4>
+      <!-- Rest of initiate content -->
+    </label>
+  </div>
+
+  <div class="initiate-row">
+    <input type="checkbox" id="afon_selected" data-hide-if-untaken>
+    <label for="afon_selected" data-hide-if-untaken>
+      <h4>Afon, a fellow initiate</h4>
+      <!-- Rest of initiate content -->
+    </label>
+  </div>
+</div>
+```
+
+**Radio buttons (hide unpicked options):**
+```html
+<div class="form-field">
+  <label>Pick a Specialty:</label>
+  <div class="specialty-options">
+    <input type="radio" id="engineering" name="specialty" value="engineering" data-hide-if-untaken>
+    <label for="engineering" data-hide-if-untaken>Engineering</label>
+
+    <input type="radio" id="fighting" name="specialty" value="fighting" data-hide-if-untaken>
+    <label for="fighting" data-hide-if-untaken>Fighting</label>
+
+    <input type="radio" id="medical" name="specialty" value="medical" data-hide-if-untaken>
+    <label for="medical" data-hide-if-untaken>Medical</label>
+  </div>
+</div>
+```
+
+**How it works:**
+- No JavaScript required in your card
+- Elements are automatically hidden when:
+  1. The element itself is "untaken" (unchecked for checkboxes, empty for text/select/etc.), AND
+  2. The global "Hide untaken moves" checkbox is enabled
+- Elements automatically show when either condition changes
+- Works with any element type (inputs, labels, divs, sections, rows, etc.)
+- Supports all input types:
+  - **Checkbox/Radio**: Hidden when unchecked
+  - **Text/Textarea**: Hidden when empty
+  - **Select**: Hidden when no value selected
+  - **Number/Date**: Hidden when empty
+
+#### Add Track Counters
+
+Track counters are **automatically initialized** from data attributes. Just add the HTML - no JavaScript needed unless you want programmatic control.
+
+**Basic Usage (No JavaScript Required!):**
+
+```html
+<div class="card mycard-card">
+  <h3>My Card</h3>
+
+  <!-- Single track with circles -->
+  <div id="loyalty_track"
+       data-track
+       data-track-name="Loyalty"
+       data-track-max="3"
+       data-track-shape="circle"></div>
+
+  <!-- Multiple tracks in separate containers -->
+  <div id="wounds_track"
+       data-track
+       data-track-name="Wounds"
+       data-track-max="6"
+       data-track-shape="square"></div>
+
+  <div id="armor_track"
+       data-track
+       data-track-name="Armor"
+       data-track-max="3"
+       data-track-shape="hexagon"></div>
+</div>
+```
+
+That's it! The tracks will automatically initialize and persist to the URL.
+
+**Advanced: Programmatic Control (Optional)**
+
+Only create a `card.js` file if you need to add tracks dynamically via code:
+
+```javascript
+window.CardInitializers.mycard = function(container, suffix) {
+  const helpers = window.CardHelpers.createScopedHelpers(container, suffix);
+
+  // Programmatically add tracks
+  helpers.addTrack('loyalty-container', [
+    {
+      name: 'Loyalty',
+      max: 3,
+      shape: 'circle'
+    }
+  ]);
+};
+```
+
+**Track Configuration:**
+
+**Data Attributes:**
+- `data-track` (required): Marks element as a track container
+- `data-track-name` (required): Display name for the track
+- `data-track-max` (optional, default 5): Maximum number of points
+- `data-track-shape` (optional, default 'square'): Shape of track points
+  - Options: `'square'`, `'circle'`, `'triangle'`, `'hexagon'`
+- `data-track-dynamic` (optional, default false): Add a "max..." button to adjust maximum
+
+**Programmatic (addTrack method):**
+- `name` (required): Display name for the track
+- `max` (optional, default 5): Maximum number of points
+- `shape` (optional, default 'square'): Shape of track points
+- `dynamic` (optional, default false): Add a "max..." button to adjust maximum
+
+**Features:**
+- Automatic click handling and persistence
+- Works with duplicate cards (automatically handles suffixes)
+- Visual feedback (filled/unfilled shapes)
+- Keyboard accessible (Tab to focus, Space/Enter to click)
+- All values persist to URL automatically
+- CSS automatically adjusted for card context (static positioning vs absolute for moves)
+
+**Example with dynamic max (data attributes):**
+
+```html
+<div id="inventory_track"
+     data-track
+     data-track-name="Inventory Slots"
+     data-track-max="5"
+     data-track-shape="square"
+     data-track-dynamic="true"></div>
+```
+
+#### Automatic Suffixing for Duplicate Cards
+
+When cards are used with `grantsCardAllowsDuplicates` or `takeFromAllowsDuplicates`, all form control attributes are **automatically suffixed** - no manual code required!
+
+**Automatically suffixed attributes:**
+- `id` - Element IDs (e.g., `sq_name` → `sq_name_1`)
+- `for` - Label associations (e.g., `for="sq_name"` → `for="sq_name_1"`)
+- `name` - Form control grouping (e.g., `name="sq_specialty"` → `name="sq_specialty_1"`)
+- `data-table-add` - Dynamic table buttons
+
+**Example - Radio buttons just work:**
+
+```html
+<!-- In your card HTML -->
+<input type="radio" id="sq_spec_engineering" name="sq_specialty" value="engineering">
+<input type="radio" id="sq_spec_fighting" name="sq_specialty" value="fighting">
+<input type="radio" id="sq_spec_medical" name="sq_specialty" value="medical">
+```
+
+**Result for duplicate instances:**
+- Card 1: `name="sq_specialty_1"` (all three radio buttons share this name)
+- Card 2: `name="sq_specialty_2"` (independent from Card 1)
+- Each card instance has its own radio button group
+
+**No JavaScript required** - the suffixing happens automatically during card rendering!
+
 ### Everyone System - Universal Cards and Moves
 
 The "Everyone" role provides universal access to cards and moves for all characters:
@@ -1070,4 +1437,60 @@ data/
 - **Persistence Compatible**: All card inputs work with URL persistence and "Copy URL"
 - **Clear Button**: The "Clear" button removes all card data along with other form data
 - **Development Mode**: Use `window.Cards.clearCache()` to reload cards during development
+
+---
+
+## Validation and Error Detection
+
+The system automatically checks for common configuration errors and displays warnings to help you catch issues during development.
+
+### Validation Warning Button
+
+When validation errors are detected, a red warning button (⚠️) appears in the top-right corner of the page:
+
+- **Click the button** to view detailed error information
+- **Error count** is displayed on the button
+- Checks run automatically every 5 seconds
+
+### What Gets Validated
+
+**1. Duplicate HTML IDs**
+- Detects when multiple elements share the same `id` attribute
+- This can break form persistence and card functionality
+- **Fix**: Ensure all input IDs are unique across your entire sheet
+
+**2. Duplicate Move IDs Across Files**
+- Detects when the same move `id` appears in different move JSON files
+- This causes unpredictable behavior when loading moves
+- **Fix**: Give each move a unique ID, even across different role files
+
+**3. Move IDs with Underscores**
+- Detects move IDs containing `_` characters (e.g., `my_move_id`)
+- Underscores break the suffix extraction system used for duplicate cards
+- **Fix**: Use hyphens instead (e.g., `my-move-id`)
+
+### Example Errors
+
+```
+VALIDATION ERRORS (2):
+══════════════════════════════════════════════════
+
+1. Duplicate ID "ship_name" found 2 times
+  1. <input.form-control> in <div>
+  2. <input.form-control> in <div>
+
+2. Move ID "acquire-ship" contains underscores
+Move IDs should use hyphens instead of underscores to ensure
+proper suffix extraction for duplicate cards.
+Change "acquire_ship" to "acquire-ship"
+
+══════════════════════════════════════════════════
+```
+
+### Best Practices
+
+- **Run validation frequently** during development
+- **Fix errors immediately** - don't ignore the warning button
+- **Test with duplicate cards** if you use `takeFromAllowsDuplicates: true`
+- **Use consistent naming** - prefer hyphens over underscores in all IDs
 

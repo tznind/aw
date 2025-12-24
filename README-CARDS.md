@@ -1,8 +1,15 @@
 # Cards System - Quick Start
 
-> **For complete documentation, see [CARDS.md](CARDS.md)**
+The cards system allows for collapsable 'subpages' within your character sheet.  These can contain
+any html, css and javascript you want.
 
-Quick guide to get started with the card system.
+Use cards when you need to preciesely model an area of the character sheet that does not fit well into the
+moves system or requires multiple/variable inputs.
+
+Cards can either be top level (i.e. roles x,y.z get the card automatically) or [granted by a move](./Cookbook.md#moves-that-grant-cards) (e.g. when
+you take this move you get a vehicle - detail it below)
+
+All input elements in a card are automatically persisted to url.
 
 ## Try the Examples
 
@@ -28,13 +35,16 @@ Quick guide to get started with the card system.
 3. **Add template** (`card.html`):
 ```html
 <div class="card mycard-card">
-  <h3 class="card-title">My Card</h3>
+  <h3 class="card-title">⚙️ My Card</h3>
   <div class="form-field">
     <label for="my_field">Field:</label>
     <input type="text" id="my_field" placeholder="Enter value">
   </div>
 </div>
 ```
+
+> [!TIP]
+> **Emoji Convention**: Card titles typically start with a unicode emoji (🤖, 🚀, ⚙️, etc.) to make them visually distinctive. This is optional but recommended for consistency.
 
 4. **Assign to role** in `data/availability.json`:
 ```json
@@ -63,33 +73,35 @@ The "Everyone" role provides universal cards and moves available to all characte
 - **Not user-selectable**: "Everyone" never appears in role dropdowns or takeFrom lists
 - **Universal access**: Perfect for basic equipment, common knowledge, etc.
 
-## Card Collapse Functionality
-
-**All cards are collapsible by default**. For proper collapse behavior:
+## Card Structure
 
 ### Required Structure
+
 ```html
 <div class="card mycard-card">
-  <h3>Card Title</h3>  <!-- Will become collapsible title -->
-  <!-- All content below title will be collapsible -->
+  <h3 class="card-title">⚙️ Card Title</h3>
+  <!-- Card content goes here -->
   <div class="form-field">
-    <!-- Card content -->
+    <label for="my_field">Field:</label>
+    <input type="text" id="my_field" placeholder="Enter value">
   </div>
 </div>
 ```
 
-### CSS Support
-```css
-.card.mycard-card .card-content.collapsed {
-  display: none;  /* Hide content when collapsed */
-}
-```
+**Requirements:**
+- ✅ **REQUIRED**: Top-level `<div class="card ...">` wrapper
+- ✅ **REQUIRED**: An `<h3>` element (typically as the first child)
+- ⚙️ **RECOMMENDED**: `class="card-title"` on the h3
+- ⚙️ **RECOMMENDED**: Unicode emoji at start of title
 
-### Key Points
+### Collapsible Cards
+
+Role-based cards (in the main cards container) are automatically made collapsible:
 - Cards start **collapsed** by default
 - Click title or +/- button to toggle
 - Collapse state is preserved during re-renders
-- Use `class="card"` for auto-collapse functionality
+
+Cards granted by moves are displayed inline without collapse functionality.
 
 ## Card JavaScript Pattern
 
@@ -100,7 +112,7 @@ For cards that need custom initialization logic:
 window.CardInitializers = window.CardInitializers || {};
 window.CardInitializers.mycard = function(container, suffix) {
     // container: DOM element containing this card instance
-    // suffix: "1", "2", "3" for duplicates (via takeFromAllowsDuplicates), null for originals
+    // suffix: "1", "2", "3", etc. when using takeFromAllowsDuplicates, null otherwise
 
     console.log('My card initialized!', { container, suffix });
 
@@ -163,33 +175,12 @@ window.CardInitializers.ship = function(container, suffix) {
 
 ## Text Formatting in Cards
 
-Card content can use **markdown-style formatting** with automatic move linking and glossary term highlighting.
-
-### Using `data-format-text` Attribute
-
-Add the `data-format-text` attribute to any element to enable automatic formatting:
-
-```html
-<div class="card mycard-card">
-  <h3>Card Title</h3>
-  <p data-format-text="Roll **Augury** to see the future. You gain **+1 forward**."></p>
-  <div data-format-text>Use **Rally the Cohort** to inspire your crew.</div>
-</div>
-```
-
-### Supported Formatting
-
-- **`**move name**`** → Clickable move reference (blue underline, navigates to move)
-- **Glossary terms** → Auto-detected, hoverable tooltips (dotted underline)
-- **`*italic*`** → Emphasized text
-- **`- bullet lists`** → Converted to HTML lists
-- **Line breaks** → Preserved as `<br>` tags
+Card content can use the [data-format-text](./Cookbook.md#using-data-format-text-attribute) attribute for **markdown-style formatting** with automatic move linking and glossary term highlighting.
 
 ## Next Steps
 
 - **Styling**: Add `card.css` for custom themes
 - **Logic**: Add `card.js` with exported initialization function
 - **Examples**: Study `data/cards/ship/` and `data/cards/robotic-companion/`
-- **Full docs**: See [CARDS.md](CARDS.md) for complete reference
 
 Happy card building! 🚀
