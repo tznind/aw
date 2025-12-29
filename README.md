@@ -46,6 +46,7 @@ Example Characters
      </td>
 </table>
 
+<img width="1141" height="703" alt="{A4712247-5383-43D6-8750-BE543F2F4B06}" src="https://github.com/user-attachments/assets/6e052eb3-77a7-4442-9b99-deb56ba87d67" />
 
 
 
