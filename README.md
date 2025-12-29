@@ -1,6 +1,6 @@
 # AW
 
-This is an [Apocalypse World Burned Over](https://www.kickstarter.com/projects/lumpleygames/apocalypse-world-burned-over) implementation of [PbtA-style](https://en.wikipedia.org/wiki/Powered_by_the_Apocalypse?utm_source=chatgpt.com) character sheets.
+This is an [Apocalypse World Burned Over](https://www.kickstarter.com/projects/lumpleygames/apocalypse-world-burned-over) implementation of [LC Character Sheets](https://github.com/tznind/lc?tab=readme-ov-file#live-character-sheet).
 
 It is online at https://tznind.github.io/aw/cs.html
 
@@ -45,11 +45,6 @@ Example Characters
           ⛑&nbsp;<a title="Ryu War Boy - A Standout" href="https://tznind.github.io/aw/cs.html?harm-value=0&role=A+Standout&weird=-1&aggro=%2B1&hard=%2B1&cool=%2B0&sharp=%2B0&name=Ryu+War+Boy&pronouns=He%2FHim&player=Thomas&first-impression=Crested+in+the+football+helmet+of+the+chosen%2C+just+another+footsoldier+on+the+outside+but+bearing+a+secret+spark.&track_stat_aggro=3&track_stat_cool=1&track_stat_sharp=3&move_s2_p6=1&move_s2_dtl=The+armor+of+the+chosen%2C+a+tattered+football+uniform+from+the+glory+days+of+Americar.++Drives+a+battered+mustang+with+airbrushed+silver+horse+astride+a+blood+moon+%28massive%3D2+Impulse%3A+tear+up+the+road+Defiance%3A+spin+out%29.&barterpsi_top=-2&move_s2_p8=1&weparm_bottom=2">Ryu&nbsp;War&nbsp;Boy</a>
      </td>
 </table>
-
-
-
-
-
 
 
 
