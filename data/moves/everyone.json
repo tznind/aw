@@ -588,5 +588,29 @@
         "description": "When you tell the MC about a project and ask if it's possible, instead of telling you \"*sure, no problem, but*...\" the MC is allowed to tell you \"*maybe, but you'll need to expand your workspace to [named workspace tag] before you can even begin.*\"\n\nWhen the MC gives you a true prerequisite like this, you can take it as an intermediate project, and use **tinkering** again to accomplish it.\n\nFor example, suppose that you have a garage (workspace: vehicles), and you want to create a Ψ-isolation helmet. The MC answers that maybe you can, but you'll need to expand your workspace to workspace: Ψ before you can even begin. You can use **tinkering** to ask back: \"cool, I'll do that. Is it possible?\" Now the MC has to answer again: \"sure, no problem, but...\""
       }
     ]
+  },
+  {
+    "id": "test-textbox",
+    "title": "Test Text Box Feature",
+    "description": "Your second in command __cmdname:Name__ is a real piece of work. The navigation officer __navname:Officer Name__ knows your secret __navsecret__.",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "You trust __allyname:Ally's Name__ with your life and would give them __gift:What you'd give__ without hesitation."
+      },
+      {
+        "range": "7-9",
+        "text": "You're not sure about __suspectname:Suspect__ anymore. They did __suspectdeed:What they did__."
+      },
+      {
+        "range": "≤ 6",
+        "text": "Your enemy __enemyname:Enemy Name__ has the upper hand and demands __demand:Their demand__."
+      }
+    ],
+    "pickOne": [
+      "You have a dark secret __ttscr__",
+      "You have a forbidden love __lov__"
+    ]
+
   }
 ]
