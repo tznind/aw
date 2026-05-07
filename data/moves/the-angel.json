@@ -107,7 +107,7 @@
     "title": "Stock",
     "hideCheckbox": true,
     "category": "❤️‍🩹Angel Kit",
-    "description": "Before you begin play, mark 20 of the above stock as *spent*.\n\n**To use your angel kit**, spend it's stock: choose 0-3 suitable supplies and mark them *spent*.  Roll + Stock spent.",
+    "description": "Before you begin play, mark 20 of the above stock as *spent*.\n\n**To use your angel kit**, spend its stock: choose 0–3 suitable supplies and mark them *spent*. Instead of rolling + a stat, roll + the stock you spend.",
     "tracks": [
       {"name": "Scissors", "max": 1, "shape": "circle"},
       {"name": "Rags", "max": 3, "shape": "circle"},
@@ -175,7 +175,7 @@
           "They don't need as much care as you expected. Restore 1 spent stock, if you spent any.",
           "They're at your complete mercy. What do you do to them?",
           "The course of their treatment and recovery teaches you something about your craft. Mark XP.",
-          "They owe you for your time, attention, and supplies, and you're going to hold it over them."
+          "They owe you for your time, attention, and supplies, and you're going to hold them to it."
         ]
       },
       {
@@ -194,7 +194,7 @@
     "title": "Restock your angel kit",
     "category": "❤️‍🩹Angel Kit",
     "hideCheckbox": true,
-    "description": " you must restock it supply by supply: by **dropping jingle** in a marketplace, if the supply you need is available there; when you **live day to day**, if the supply you need is free or easy for you to come by; or by scavenging, scrounging, or looting, at the MC's discretion."
+    "description": "To restock your angel kit, you must restock it supply by supply: by **dropping jingle** in a marketplace, if the supply you need is available there; when you **live day to day**, if the supply you need is free or easy for you to come by; or by scavenging, scrounging, or looting, at the MC's discretion."
   },
   {
     "id": "a9",
@@ -253,7 +253,7 @@
         "bullets": [
           "Clothing you detail, including at your option a piece worth 1-armor.",
           "A prosthesis or aid, if you choose.",
-          "Living space and incidentals you detail, suitable to your personal needs, scavenge, hard zone, and moves."
+          "Living space and incidentals you detail, suitable to your circumstances."
         ]
       }
     ],
