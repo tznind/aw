@@ -22,7 +22,7 @@
   {
     "id": "a3",
     "title": "Healing Touch (+Weird)",
-    "description": "Put your hands on someone injured and roll+Weird.",
+    "description": "Put your hands on someone injured — only once per patient — and roll+Weird.",
     "outcomes": [
       {
         "range": "≥ 10",
@@ -111,23 +111,23 @@
     "tracks": [
       {"name": "Scissors", "max": 1, "shape": "circle"},
       {"name": "Rags", "max": 3, "shape": "circle"},
-      {"name": "Tape", "max": 3, "shape": "circle"},
-      {"name": "Clamps", "max": 3, "shape": "circle"},
-      {"name": "Alcohol", "max": 3, "shape": "circle"},
+      {"name": "Tape", "max": 2, "shape": "circle"},
+      {"name": "Clamps", "max": 1, "shape": "circle"},
+      {"name": "Alcohol", "max": 2, "shape": "circle"},
       {"name": "Wipes", "max": 3, "shape": "circle"},
-      {"name": "Gloves", "max": 3, "shape": "circle"},
-      {"name": "Saline", "max": 3, "shape": "circle"},
-      {"name": "Biostabs", "max": 3, "shape": "circle"},
-      {"name": "Chemostabs", "max": 3, "shape": "circle"},
-      {"name": "Chem chill coils", "max": 3, "shape": "circle"},
-      {"name": "Injectable tourniquets", "max": 3, "shape": "circle"},
-      {"name": "Injectable bloodslower", "max": 3, "shape": "circle"},
-      {"name": "Chem heat packets", "max": 3, "shape": "circle"},
-      {"name": "Needles & sutures", "max": 3, "shape": "circle"},
-      {"name": "Bonepins & site injectors", "max": 3, "shape": "circle"},
-      {"name": "Heart jumpshock patches", "max": 3, "shape": "circle"},
-      {"name": "Narcostabs (chillstabs)", "max": 3, "shape": "circle"},
-      {"name": "Instant blood replacer packets (coffee reddener)", "max": 3, "shape": "circle"}
+      {"name": "Gloves", "max": 2, "shape": "circle"},
+      {"name": "Saline", "max": 2, "shape": "circle"},
+      {"name": "Needles & sutures", "max": 2, "shape": "circle"},
+      {"name": "Bonepins & site injectors", "max": 1, "shape": "circle"},
+      {"name": "Biostabs", "max": 2, "shape": "circle"},
+      {"name": "Chemostabs", "max": 1, "shape": "circle"},
+      {"name": "Chem chill coils", "max": 1, "shape": "circle"},
+      {"name": "Injectable tourniquets", "max": 1, "shape": "circle"},
+      {"name": "Injectable bloodslower", "max": 2, "shape": "circle"},
+      {"name": "Chem heat packets", "max": 2, "shape": "circle"},
+      {"name": "Heart jumpshock patches", "max": 1, "shape": "circle"},
+      {"name": "Narcostabs (chillstabs)", "max": 6, "shape": "circle"},
+      {"name": "Instant blood replacer packets (coffee reddener)", "max": 2, "shape": "circle"}
     ]
   },
   {
