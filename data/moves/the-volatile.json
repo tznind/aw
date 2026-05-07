@@ -28,7 +28,7 @@
   {
     "id": "v3",
     "title": "Dangerous Presence (+Aggro)",
-    "description": "When you enter into a nonviolent situation, roll+Aggro.",
+    "description": "When you enter into a nonviolent situation, at your choice, roll+Aggro.",
     "outcomes": [
       {
         "range": "≥ 10",
@@ -54,7 +54,7 @@
   {
     "id": "v4",
     "title": "Hold Your Own",
-    "description": "In battle, you're able to go toe-to-toe with a small gang by yourself. When you're outnumbered, count yourself as a gang of 10."
+    "description": "In battle, you're able to go toe-to-toe with a small gang by yourself. You're on equal footing with up to 10 enemies, outnumbered only by 11 or more."
   },
   {
     "id": "v5",
@@ -108,7 +108,7 @@
 "**Handmade gatling gun** (*4-harm, area, close-far, harness, loud, salvos: 3*)",
 "**Heavy shrapnel gun** (*3-harm, close-far, messy, reload*)",
 "**RPG** (*2-environ, close-far, single use: 3*)",
-"**Scoped sniper rifle** (*4-harm, far, hi-tech, loud, ammo: 6*)"
+"**Scoped sniper rifle** (*4-harm, far-extreme, hi-tech, loud, ammo: 6*)"
     ]
   },
    {
