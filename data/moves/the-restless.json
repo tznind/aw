@@ -2,7 +2,7 @@
   {
     "id": "r1",
     "title": "Best Friends",
-    "description": "You gain a dog [or another dog]. You detail.",
+    "description": "You get a dog [or another dog]. You detail.",
     "grantsCard": "your-dog-2"
   },
   {
@@ -36,7 +36,7 @@
   {
     "id": "r3",
     "title": "Monster Fighter",
-    "description": "You have the experience, discipline, and skill to take on enemies that are physically larger than you. When you **attack** or **do battle** with a larger enemy, you're not outsized, no matter how big they are."
+    "description": "You have the experience, discipline, and skill to take on enemies that are physically larger than you. When you **attack** or **do battle** with a creature larger than you, you're on equal footing up to size 10×, outsized only by size 11× or more."
   },
   {
     "id": "r4",
