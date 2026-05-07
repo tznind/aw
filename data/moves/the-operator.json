@@ -7,7 +7,7 @@
   {
     "id": "p2",
     "title": "Collector",
-    "description": "You gain a car [or another car]. You detail. (If you take this move from another playbook, you also get **behind the wheel**.)",
+    "description": "You get a car [or another car]. You detail. You also get **behind the wheel**.",
     "details": true
   },
   {
