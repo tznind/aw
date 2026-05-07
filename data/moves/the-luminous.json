@@ -29,7 +29,7 @@
   {
     "id": "u2",
     "title": "Breathtaking",
-    "description": "You get +1Ψ (max 3-Ψ). When you **reason with someone**, add your Ψ to your roll."
+    "description": "You get +1Ψ (max 3-Ψ). When you **catch someone's eye**, add your Ψ to your roll."
   },
   {
     "id": "u3",
@@ -59,7 +59,7 @@
   {
     "id": "u5",
     "title": "Subtle Scrutiny (+Cool)",
-    "description": "When you enter into a nonviolent situation, roll+Cool.",
+    "description": "When you enter into a nonviolent situation, at your choice, roll+Cool.",
     "outcomes": [
       {
         "range": "≥ 10",
