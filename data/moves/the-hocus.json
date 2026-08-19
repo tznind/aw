@@ -2,7 +2,7 @@
   {
     "id": "o1",
     "title": "Creepy Intense",
-    "description": "When you **reason with someone**, on any hit, if they flatly refuse to go along with you, you can choose to inflict Ψ-harm. You also get +1Ψ (max 3-Ψ)."
+    "description": "When you **catch someone's eye**, on any hit, if you're not satisfied with their response, you can choose to inflict Ψ-harm. You also get +1Ψ (max 3-Ψ)."
   },
   {
     "id": "o2",
@@ -46,7 +46,7 @@
   {
     "id": "o4",
     "title": "Unsettling Presence (+Weird)",
-    "description": "When you enter into a nonviolent situation, roll+Weird.",
+    "description": "When you enter into a nonviolent situation, at your choice, roll+Weird.",
     "outcomes": [
       {
         "range": "≥ 10",

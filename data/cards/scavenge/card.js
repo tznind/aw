@@ -26,28 +26,28 @@ window.CardInitializers.scavenge = function() {
       option2: "You're willing to let your cult support you and live well off their devotion to you. You have Barter+2."
     },
     "The Lawmaker": {
-      option1: "You have your population's absolute goodwill, and they'll give you and your gang everything they can spare. You have Barter-1.",
-      option2: "You squeeze your population for everything they can give you and your gang, and they have nothing left over. You have Barter+2."
+      option1: "You don't hold yourself above your holding's population, but live like them, subject to the same tides of plenty and want. You have Barter+0.",
+      option2: "No matter what changing fortunes bring to your holding and its people, you live above and you always take your share first. You have Barter+2."
     },
     "The Luminous": {
-      option1: "You have a wealthy patron who supports your art and your lifestyle. You have Barter+2.",
-      option2: "You sell your services and your art, and live on what you can get for them. You have Barter+0."
+      option1: "You're privileged, but also generous. When wealth comes into your hands, you take care to spread it around. You have Barter+1.",
+      option2: "You're privileged, but always aware of how tenuous privilege is. When wealth comes into your hands, you take care to invest it in your own security. You have Barter+2."
     },
     "The Maestro D": {
-      option1: "Your venue is more of a service to the community than a profitable business. You have Barter+0.",
-      option2: "Your venue turns a profit and supports you in comfort. You have Barter+2."
+      option1: "Your venue keeps you alive but you live for it, giving it all your work and reinvesting all its profits back into it. Barter+0.",
+      option2: "Your venue keeps you alive, and more, it keeps you in the life you demand: rich and in luxury. You have Barter+2."
     },
     "The Operator": {
-      option1: "You're a courier and a guide, you trade in secrets and gossip, and you live hand-to-mouth. You have Barter+0.",
-      option2: "You're a smuggler and a trader, you deal in contraband and black market goods. You have Barter+2."
+      option1: "You hold your reputation as precious, and you're willing to take a loss when it means making good and doing right. You have Barter+1.",
+      option2: "You weigh your reputation like any other resource, and you're willing to let it take the hit, if doing something shady will net you. You have Barter+2."
     },
     "The Restless": {
-      option1: "You live off the land and travel light, taking only what you need. You have Barter-1.",
-      option2: "You trap, hunt, and guide for others, and trade what you find in the wild. You have Barter+1."
+      option1: "You move as lightly through the Inhospitable as you can, taking nothing, leaving nothing to show you were there. You have Barter+0.",
+      option2: "You know where the Inhospitable keeps its treasures — fruit, meat, fur, and other resources — and you'll take what you want for yourself and your friends. You have Barter+2."
     },
     "The Volatile": {
-      option1: "You don't hire out your violence, you use it only when you need to. You have Barter+0.",
-      option2: "You're a mercenary, a bounty hunter, an assassin for hire. You have Barter+2."
+      option1: "You get by on jobs and trading favors. You won't straight-out rob people or murder them for their goods, even when you're down on your luck. You have Barter+0.",
+      option2: "You're never willing to suffer an empty belly or an unsatisfied want, not when you can rob and extort. You have Barter+2."
     },
     "A Standout": {
       option1: "You work for your keep, doing whatever odd jobs come your way. You have Barter+0.",

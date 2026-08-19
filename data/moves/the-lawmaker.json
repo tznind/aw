@@ -20,7 +20,7 @@
       },
       {
         "range": "≤ 6",
-        "text": "Responsibility falls to you, and you must pay the penalty yourself. You may choose to pay it in full, in reduced form, or only symbolically."
+        "text": "Or if you are unable to obey the Law's requirements, responsibility falls to you, and you must pay the penalty yourself. You may choose to pay it in full, in reduced form, or only symbolically."
       }
     ]
   },
@@ -57,7 +57,7 @@
   {
     "id": "l3",
     "title": "Forbidding Presence (+Cool)",
-    "description": "When you enter into a nonviolent situation, roll+Cool.",
+    "description": "When you enter into a nonviolent situation, at your choice, roll+Cool.",
     "outcomes": [
       {
         "range": "≥ 10",

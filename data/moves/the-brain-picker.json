@@ -28,7 +28,7 @@
   {
     "id": "b2",
     "title": "Eerie Presence (+Weird)",
-    "description": "When you enter into a nonviolent situation, roll+Weird.",
+    "description": "When you enter into a nonviolent situation, at your choice, roll+Weird.",
     "outcomes": [
       {
         "range": "≥ 10",
@@ -68,7 +68,7 @@
     "outcomes": [
       {
         "range": "≥ 10",
-        "text": "Hold 3 against them. From then on, whenever you want, you can spend 1 of your hold to whisper an order directly into their brain. If they follow it, good. If they resist, they suffer Ψ-harm, but they don't need to obey and your hold is still spent."
+        "text": "Hold 3 against them. From then on, whenever you want, you can spend 1 of your hold to whisper an order directly into their brain. If they follow it, good. If they resist, they suffer 1-harm ap loud, but then they don't need to obey and your hold is still spent."
       },
       {
         "range": "7–9",
@@ -129,9 +129,16 @@
   },
   {
     "id": "b13",
-    "title": "Psychic Crash Rig (hi-tech, valuable)",
+    "title": "Inviolate Effigy (hi-tech, valuable, repair )",
     "category": "Brainpicker Gear",
-    "description": "Wire someone up to it and you can induce them to open their brain to the world's psychic maelstrom. If a PC, they make the move; if an NPC, ask the MC what happens. While their brain's open, the crash rig acts as a technical source on their experience, and gives you **research**."
+    "description": "A complex coffin-sized device psychically linked to you. Blunts the psychic impact of others' violence and violent intentions. Whenever you suffer harm, spend 1-repair and suffer -1harm.",
+    "tracks": [
+      {
+        "name": "Repair",
+        "max": 4,
+        "shape": "circle"
+      }
+    ]
   },
   {
     "id": "b14",

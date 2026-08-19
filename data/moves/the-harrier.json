@@ -2,7 +2,7 @@
   {
     "id": "h1",
     "title": "Chaotic Presence (+Hard, Requires a Gang)",
-    "description": "When you and your gang enter into a nonviolent situation, roll+Hard.",
+    "description": "When you and your gang enter into a nonviolent situation, roll+Hard (like it or not).",
     "outcomes": [
       {
         "range": "≥ 10",
@@ -66,7 +66,7 @@
   {
     "id": "h5",
     "title": "Skirmishers (Requires a Gang)",
-    "description": "Your gang has the experience, discipline, and mobility to take on a much larger gang. When you're outnumbered in battle, count your gang as twice its number."
+    "description": "Your gang has the experience, discipline, and mobility to take on a much larger gang. Your gang's on equal footing with a gang up to twice their number."
   },
   {
     "id": "h6",
